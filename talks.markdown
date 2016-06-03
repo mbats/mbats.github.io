@@ -1,0 +1,65 @@
+---
+layout: page
+title: "Talks and Papers"
+description: "This lists all the talks I gave and the papers I wrote."
+header-img: "img/about-bg.jpg"
+---
+## 2017
+
+[Mr. Robot : The Modeling Society!](https://fr.slideshare.net/melbats/mr-robot-the-modeling-society) at Eclipse Demo Camp, Toulouse, France ([slides](https://fr.slideshare.net/melbats/mr-robot-the-modeling-society))
+
+## 2016
+
+[Let Me Sirius That for You: Properties Views!](http://www.siriuscon.org/) at SiriusCon, Paris, France ([slides](https://fr.slideshare.net/melbats/siriuscon16-let-me-sirius-that-for-you-properties-views))
+
+[Sirius 4.1: Let me Sirius that for you!](https://www.eclipsecon.org/eu2016/session/sirius-41-let-me-sirius-you) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://fr.slideshare.net/melbats/eclipsecon-europe-2016-sirius-41-let-me-sirius-that-for-you))
+
+[Sirius 4.0: Let me Sirius that for you!](https://www.eclipsecon.org/france2016/session/sirius-40-let-me-sirius-you) at EclipseCon France, Toulouse, France ([slides](https://goo.gl/cSKCok))
+
+## 2015
+
+[Breathe life into your designer!](http://www.siriuscon.org/) _with Sirius and Gemoc_ at SiriusCon, Paris, France ([slides](https://fr.slideshare.net/melbats/siriuscon-2015-breathe-life-into-your-designer))
+
+[Breathe life into your designer!](https://www.eclipsecon.org/europe2015/session/breathe-life-your-designer) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://fr.slideshare.net/melbats/eclipsecon-eu-2015-breathe-life-into-your-designer), [video](https://youtu.be/0J3NHL2Uuhs?list=PLy7t4z5SYNaR0yp9EQ9txQhO-JgCLJAga))
+
+[Arduino Designer](https://cesec2015.sciencesconf.org/resource/page/id/5) at Cesec, Toulouse ([slides](https://fr.slideshare.net/melbats/cesec2015))
+
+[Arduino Designer: the making of](https://www.eclipsecon.org/na2015/session/arduino-designer-making) at EclipseCon North America, San Francisco, United States ([slides](talks/EclipseConNA2015ArduinoDesignerTheMakingOf.pdf), [video](https://www.infoq.com/presentations/arduino-designer))
+
+## 2014
+
+[Interview](http://java.developpez.com/interview/eclipseconfrance2014/melanie-bats/) about being Program Committee Chair at EclipseCon France 2014 on developpez.com
+
+[The Arduino Designer: an Eclipse programming platform for kids](https://jaxenter.com/the-arduino-designer-an-eclipse-programming-platform-for-kids-107851.html) on Jaxenter
+
+[Sirius: build diagram, table and tree editors in 20 minutes!](http://www.rcp-vision.com/home-edf-2014/) at Eclipse Day, Florence, Italy ([slides](talks/EclipseDayFlorence2014Sirius/index.html), [video](https://www.youtube.com/watch?v=IsLXXyKzUjw&feature=player_embedded))
+
+[Turning Eclipse into an Arduino programming platform for kids](http://www.rcp-vision.com/home-edf-2014/) at Eclipse Day, Florence, Italy ([slides](talks/EclipseDayFlorence2014Arduino/index.html), [video](https://youtu.be/KHKWQKXmtUE))
+
+[Turning Eclipse into an Arduino programming platform for kids](http://eclipsecon.org/na2014/session/turning-eclipse-arduino-programming-platform-kids.html) at EclipseCon North America, San Francisco, United States ([slides](talks/EclipseConNA2014Arduino/index.html))
+
+[Living Documentation](http://eclipsecon.org/na2014/session/living-documentation.html) at EclipseCon North America, San Francisco, United States ([slides](https://fr.slideshare.net/melbats/eclipsecon-eu-2013-living-documentation))
+
+## 2013
+
+[Turning Eclipse into an Arduino programming platform for kids](https://www.parleys.com/tutorial/eclipse-en-plateforme-de-programmation-arduino-pour-les-enfants) at Eclipse Demo Camp, Toulouse, France ([video](https://www.parleys.com/tutorial/eclipse-en-plateforme-de-programmation-arduino-pour-les-enfants))
+
+[Turning Eclipse into an Arduino programming platform for kids](http://www.eclipsecon.org/europe2013/turning-eclipse-arduino-programming-platform-kids.html) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://fr.slideshare.net/melbats/econ-eu-2013siriusarduino))
+
+[Living Documentation](http://www.eclipsecon.org/europe2013/living-documentation.html) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://fr.slideshare.net/melbats/eclipsecon-eu-2013-living-documentation))
+
+[EclipseCon 2013](https://github.com/mbats/talks/tree/master/jug_16_05_13) at JUG, Toulouse, France
+
+[Buildroot Eclipse Bundle : A powerful IDE for Embedded Linux developers](http://eclipsecon.org/2013/node/1330.html) at EclipseCon North America, Boston, United States ([slides](https://fr.slideshare.net/melbats/eclipse-con-us-2013-buildroot-eclipse-bundle-a-powerful-ide-for-embedded-linux-developers))
+
+[Obeo Designer](https://www.irit.fr/ETR13/programme.html) at Ecole Temps Réel, Toulouse, France ([slides](https://fr.slideshare.net/melbats/etr2013-obeo-designersirius))
+
+[Models, Representations, Animation : The Eclipse Sirius project and Gemoc at GlobalDSL 2013](https://www.irit.fr/PMDE2013/), Montpellier, France ([slides](https://fr.slideshare.net/melbats/globaldsl-2013-models-representations-animations-the-eclipse-sirius-project-and-gemoc))
+
+## 2012
+
+[Buildroot Eclipse Bundle : A powerful IDE for Embedded Linux developers](http://www.eclipsecon.org/europe2012/sessions/buildroot-eclipse-bundle-powerful-ide-embedded-linux-developers.html) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://fr.slideshare.net/melbats/eclipsecon-eu-2012-buildroot-eclipse-bundle-a-powerful-ide-for-embedded-linux-developers))
+
+[Build your own System Engineering workbench](http://www.eclipsecon.org/europe2012/sessions/build-your-own-system-engineering-workbench.html) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://fr.slideshare.net/melbats/eclipsecon-eu-2012-build-your-own-system-engineering-workbench))
+
+[Timing Behaviors and EMF models : just married !](http://www.eclipsedaytoulouse.com/en/sessions/#timing) at Eclipse Day, Toulouse, France ([slides](https://prezi.com/-hikmiw470vc/edt2012-timing-behaviors-and-emf-models-just-married/))

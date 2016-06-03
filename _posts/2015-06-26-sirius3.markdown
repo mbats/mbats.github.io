@@ -1,0 +1,426 @@
+---
+layout:     post
+title:      "Sirius 3.0"
+subtitle:   "Harder, Better, Faster, Stronger"
+date:       2015-06-26 12:00:00
+author:     "Mélanie Bats"
+header-img: "img/post-bg-01.jpg"
+---
+Today is a great day: with the announcement of Eclipse Mars, many great projects are released, and [Sirius](http://www.eclipse.org/sirius) 3.0 is part of this release train.
+
+When I have a look at the status of the Sirius project today, one soundtrack immediately comes to mind: [Harder, Better, Faster, Stronger](https://en.wikipedia.org/wiki/File:Daft_Punk_-_Harder_Better_Faster_Stronger_(Album_Version).ogg)
+
+![](https://upload.wikimedia.org/wikipedia/en/d/d2/Hbfs_single.jpg)
+
+## Work on it harder
+
+One first fact, looking at the project’s statistics, is that the Sirius team worked hard on this release to deliver some new cool features and improve the existing ones:
+
+<table>
+
+<tbody>
+
+<tr>
+
+<th>Version</th>
+
+<th>Date</th>
+
+<th>Total Closed</th>
+
+<th>Feature Requests</th>
+
+</tr>
+
+<tr>
+
+<td>1.0.0(Luna)</td>
+
+<td>June 14</td>
+
+<td>100</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>1.0.1</td>
+
+<td>Aug 14</td>
+
+<td>20</td>
+
+<td>-</td>
+
+</tr>
+
+<tr>
+
+<td>2.0.0</td>
+
+<td>Oct 14</td>
+
+<td>113</td>
+
+<td>27</td>
+
+</tr>
+
+<tr>
+
+<td>2.0.1</td>
+
+<td>Nov 14</td>
+
+<td>2</td>
+
+<td>-</td>
+
+</tr>
+
+<tr>
+
+<td>2.0.2</td>
+
+<td>Dec 14</td>
+
+<td>15</td>
+
+<td>-</td>
+
+</tr>
+
+<tr>
+
+<td>2.0.3</td>
+
+<td>Jan 15</td>
+
+<td>16</td>
+
+<td>-</td>
+
+</tr>
+
+<tr>
+
+<td>2.0.4</td>
+
+<td>Feb 15</td>
+
+<td>8</td>
+
+<td>-</td>
+
+</tr>
+
+<tr>
+
+<td>2.0.5</td>
+
+<td>Apr 15</td>
+
+<td>8</td>
+
+<td>-</td>
+
+</tr>
+
+<tr>
+
+<td>3.0.0(Mars)</td>
+
+<td>Jun 15</td>
+
+<td>213</td>
+
+<td>35</td>
+
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td><strong>426</strong></td>
+<td><strong>64</strong></td>
+</tr>
+
+</tbody>
+
+</table>
+
+This release is the first one on which the team worked at _full speed_, so for the future you can expect the same amount of work done.
+
+## Make it better
+
+Their goal was to provide a better tooling for the end users by improving the diagram user experience. This work started with Sirius 2.0 and some of the following features are there since then.
+
+### Resizing a container
+
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/containerResize-changedBehavior_old.gif)
+
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/containerResize-changedBehavior_new.gif)
+
+### Positioning elements
+
+<table>
+
+<tbody>
+<tr>
+<td><em>Snap To Shape</em> enabled by default for new diagrams</td>
+<td><img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/snap_to_shape.png" alt="" border="0" /></td>
+</tr>
+<tr>
+<td><em>Snap To Grid</em> now used when an element is created</td>
+<td><img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/snap_to_grid.png" alt="" border="0" /></td>
+</tr>
+<tr>
+<td><em>Resize</em> no longer change ports or children’s location</td>
+<td><img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/resize_ports.png" alt="" border="0" /></td>
+</tr>
+<tr>
+<td>Actions to <em>distribute</em> shapes</td>
+<td><img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/shapes_distribution.png" alt="" border="0" /></td>
+</tr>
+<tr>
+<td>Action to <em>reset the diagram origin</em></td>
+<td><img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/reset.png" alt="" border="0" /></td>
+</tr>
+</tbody>
+</table>
+
+### Edges layouting
+
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/moveNode-edgeImpact-changedBehavior_old.gif)
+
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/moveNode-edgeImpact-changedBehavior_new.gif)
+
+### Beautiful editor
+
+The editor was also improved to provide:
+
+*   Anchor on borders: Now the edges are linked closely to the images, you just need to define images with an transparent background.
+
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/imageborder-after.png)
+
+*   Underlined and strike through style for labels
+
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/underline.png)
+
+*   Compartments: There are two new values available for a container mapping `Vertical Stack` and `Horizontal Stack`. This means that the defined container will show its children as a vertical/horizontal stack of compartments. Thanks to this new feature, you are able to define a dynamic number of compartments.
+
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/compartments.png)
+
+Compartments are just a specific setting of a full blown container mapping making it easy to create any [artificial level](http://melb.enix.org/sirius/artificial-container/) of compartments independently from the metamodel structure.
+
+Have a look at the [Sirius compartments documentation](http://www.eclipse.org/sirius/doc/specifier/diagrams/Diagrams.html#compartments) for more details.
+
+## Do it faster
+
+The goal was to get a runtime which react well with 1 million elements. Why one million? Because it is a beautiful number… but also because we noted that the modeling projects are fastly growing to 200K elements and 500K in case of in-depth analysis. Usually when you are over 500K, it means it’s time to re-think the process as you will likely need to decouple models with a clear and defined life-cycle. That is why we aim Sirius to work with 1 millions, then it will be really smoothly with the more usual 500K use case.
+
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/sirius2-bigmodel2.png)
+
+Sirius performances are in constant improvements, and this version comes with significant enhancements on heap consumption and time execution.
+
+<table>
+
+<tbody>
+
+<tr>
+
+<th>Time (sec)</th>
+
+<th>Heap (Mb)</th>
+
+<th>Time Variation</th>
+
+<th>Heap Variation</th>
+
+</tr>
+
+<tr>
+
+<td>Open Huge Project</td>
+
+<td>80</td>
+
+<td>276</td>
+
+<td>-31,00%</td>
+
+<td>-20,00%</td>
+
+</tr>
+
+<tr>
+
+<td>Open Big Class Diagram</td>
+
+<td>11</td>
+
+<td>24</td>
+
+<td>-54,00%</td>
+
+<td>+20,00%</td>
+
+</tr>
+
+<tr>
+
+<td>Refresh Big Class Diagram</td>
+
+<td>0,731</td>
+
+<td>0</td>
+
+<td>-18,00%</td>
+
+<td>0,00%</td>
+
+</tr>
+
+<tr>
+
+<td>Save After Diagram Change</td>
+
+<td>26</td>
+
+<td>0</td>
+
+<td>-23,00%</td>
+
+<td>0,00%</td>
+
+</tr>
+
+<tr>
+
+<td>Close Diagram</td>
+
+<td>0,1</td>
+
+<td>-6</td>
+
+<td>0,00%</td>
+
+<td>0,00%</td>
+
+</tr>
+
+<tr>
+
+<td>Close Project</td>
+
+<td>55</td>
+
+<td>294</td>
+
+<td>0,00%</td>
+
+<td>0,00%</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+On big operations, the model footprint is reduced by 20%. To do so, major work was done on:
+
+*   using MinimalEObject
+*   Transforming Colors from full-blown EObject into Immutable DataType
+*   Detecting and fixing leaks
+*   Reducing the usage of adapters.
+
+Then the save strategy was reviewed as well as the diagram refresh and the image cache.
+
+Another big task was to reduce the latency. First, on the UI runtime:
+
+*   model element selection dialogs must be used for big models.
+*   the right-click in the explorer was optimized.
+*   and the property views made with [EEF](https://eclipse.org/eef/) are better integrated.
+
+And then to reduce the latency on tables, SWT refreshes are now done in batch and the team also improved the table model refresh.
+
+Performance is also your matter! It really depends on your .odesign specification. You should focus on queries which will have a complexity depending on the size of the model: measure, improve and repeat! Think about using the Sirius embedded profiler:  
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/sirius-profiler.png)
+
+## Make us stronger
+
+### Definition tooling
+
+The Sirius team also worked to polish the specifier editor. They improved many different small things which will really enhance the specifier work as it will guarantee a better odesign validation and an efficient navigation.
+
+*   Workspace class loading is BACK: With Sirius 3 you can define Java services and then try them directly in your current development environment, you do not need anymore to launch another runtime just to test your services!
+*   Image path validation and selection wizard: Now, there is a selection wizard to choose an image and then validation exists on image path. You will never get a _not found_ image.
+
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/image_path_validation.png)
+
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/select_image.png)
+
+*   Quick Outline: An awesome improvement: it allows to quickly find any element in a _odesign_! Just call `Ctrl+O` and a wizard shows up to help you searching through the viewpoint specification.
+
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/quick_outline.png)
+
+*   Prioritized sub menus: Another great thing, the menus have been reordered and now the most used elements are available at the top.
+
+### Query languages
+
+If you are used to work with Sirius, you already know that writing queries can turn to a severe headache due to the lack of detailed _type_ information.  
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/queries-in-odesign.png)
+
+Actually, there are in Sirius 5 different interpreters to write your queries:
+
+*   Feature: `feature:`
+*   Service: `service:`
+*   Var: `var:`
+*   MTL: `[/]`
+*   and the legacy one: `<%%>`
+
+The `.odesign` specification is as flexible as possible, tools can be reused among mappings, mappings can be reused by other mappings, but that means one variable definition can actually have several types depending on the `.odesign` structure. If we have a look at the following query: _What is the type of var:source?_  
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/typed-edge-mapping.png) ![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/typed-edge-creation.png)
+
+Regarding our example, source can be a _Man_ or a _Woman_ but it could be _Woman_ or _Package_. Then the source variable can be of multiple types and those types may have no common ancestor other than `EObject`.
+
+Type analysis within the action language requires a stronger type information from interpreters. It is implemented in `feature:`, `var:`. We made some improvements in `[/]` and there is simply no support in legacy `<%%>` and `ocl:`. What we want is a good reference support.
+
+The [Acceleo Query Language](https://www.eclipse.org/sirius/doc/specifier/general/Writing_Queries.html#aql) also known as AQL comes to our rescue. The implementation of AQL is specifically tailored for the Sirius use case. We have many variables for a given expression and _null_ values are common. The usage is really interactive and so the context is constantly changing. I can hear you “Hoooo no, not yet _another_ language…”. Don’t be afraid! You know OCL ? Then you know AQL.
+
+The most important things to know is that:
+
+*   You will find the classic operations like `filter`, `collect`,
+*   And some convenient ones as: `eInverse()`, `eResource()`…
+*   There is **no** implicit variable:
+
+    `[name/]` is invalid becomes `self.name` 
+
+    `[self.eContents()->select(name.startsWith('A'))/]` is invalid and becomes `self.eContents()->select(i | i.name.startsWith('A')` 
+
+    `self.referenceWithNoValue.someOtherAttribute` has no evaluation error, returns `"Nothing"` 
+
+AQL is not strictly compatible with MTL but a subset of MTL works for both.
+
+We did some benchmarks with the different queries engines available in Sirius:  
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/sirius-query-bench.png)
+
+There is no good reason not to use it considering the overhead vs the flexibility and strong validation. In Sirius 3.0, it is delivered as an experimental feature but it will be available officially for the next 3.1 release.  
+![](https://raw.githubusercontent.com/mbats/sirius-blog/master/sirius3/blog/images/install-aql.png)
+
+So consider using it from now on if you are still using Acceleo 2 expressions (`<%%>`). Otherwise, if you are using MTL (`[/]`), you can prepare your queries to make the migration easier.
+
+To get more details about what is arriving in Sirius 3.0, have a look at the [release notes](http://www.eclipse.org/sirius/doc/Release_Notes.html) and to the [slides](http://cedric.brun.io/talks/) or the [video](https://youtu.be/4LzafNP5HNk?t=16445) of [Cédric Brun](http://cedric.brun.io/) EclipseCon France talk.
+
+Even if Sirius 3.0 is major version, don’t be afraid! The models are automatically migrated by Sirius, the API changes are well documented in the release notes and some projects such as [EcoreTools](http://www.eclipse.org/ecoretools/) or [UML Designer](http://www.umldesigner.org) could upgrade just by changing the version range in the plugin, no impact on the code.
+
+The 3.1 version is planned for November and the next topics of work will be: more flexibility for diagram UX, compartments feature complete, bullet-proof AQL and again more performance and scalability improvements… and your priority is our priority for the future. So don’t be shy, report what you need and want on the [bugzilla](https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sirius) and remember you can [sponsor us](http://www.obeodesigner.com/sirius) to get it done quickly!
+
+Let’s have [Daft Punk](https://en.wikipedia.org/wiki/Daft_Punk) conclude this post:
+
+> More than ever  
+> Hour after  
+> Our work is  
+> Never over

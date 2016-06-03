@@ -1,0 +1,22 @@
+# Site settings
+title: MelBlog
+header-img: img/home-bg.jpg
+email: melanie.bats@obeo.fr
+copyright_name: Mélanie Bats
+description: "Eclipse, modeling and other things"
+baseurl: ""
+url: "http://mbats.github.io"
+twitter_username: melaniebats
+github_username:  mbats
+linkedin_username: mélanie-bats-bb9a192b
+facebook_username:  
+email_username:  melanie.bats@obeo.fr
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
