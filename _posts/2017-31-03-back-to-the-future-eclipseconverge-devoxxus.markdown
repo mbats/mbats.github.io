@@ -5,8 +5,7 @@ subtitle:   "Eclipse Converge & Devoxx US "
 date:       2017-03-31 12:00:00
 author:     "Mélanie Bats"
 header-img: "img/post-bg-02.jpg"
-tags:
-- planet
+tags: [planet]
 ---
 Last week, [Obeo](https://www.obeo.fr/en/) sent me to San Jose, California to attend the 1st [Eclipse Converge](https://www.eclipseconverge.org/na2017/) and [Devoxx US](https://devoxx.us/) which was really cool of them. It makes sense to co-locate those events as both involved Java developers and open source projects. I really believe that these communities have so many things to share that this week in California would be a great occasion to learn from each other.
 
