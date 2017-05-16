@@ -10,6 +10,8 @@ header-img: "img/about-bg.jpg"
 
 ## 2016
 
+[EclipseCon Europe 2016](https://jaxenter.de/eclipse-weekly-eclipsecon-special-2-48948) on Jaxenter
+
 [Let Me Sirius That for You: Properties Views!](http://www.siriuscon.org/) at SiriusCon, Paris, France ([slides](https://fr.slideshare.net/melbats/siriuscon16-let-me-sirius-that-for-you-properties-views))
 
 [Sirius 4.1: Let me Sirius that for you!](https://www.eclipsecon.org/eu2016/session/sirius-41-let-me-sirius-you) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://fr.slideshare.net/melbats/eclipsecon-europe-2016-sirius-41-let-me-sirius-that-for-you))
