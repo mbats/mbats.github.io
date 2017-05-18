@@ -6,6 +6,8 @@ header-img: "img/about-bg.jpg"
 ---
 ## 2017
 
+[Interview about Sirius 5](https://jaxenter.com/eclipse-oxygen-sirius-interview-134128.html) on Jaxenter (available also in [German](https://jaxenter.de/eclipse-weekly-eclipse-sirius-eclipse-photon-bats-57450))
+
 [Mr. Robot : The Modeling Society!](https://fr.slideshare.net/melbats/mr-robot-the-modeling-society) at Eclipse Demo Camp, Toulouse, France ([slides](https://fr.slideshare.net/melbats/mr-robot-the-modeling-society))
 
 ## 2016
