@@ -8,7 +8,7 @@ header-img: "img/about-bg.jpg"
 
 [All about UX in Sirius](https://www.eclipsecon.org/france2017/session/all-about-ux-sirius) at Eclipse Virtual Meetup ([video](https://www.youtube.com/watch?v=EkLkhuA40zw&feature=youtu.be))
 
-[All about UX in Sirius](https://www.eclipsecon.org/france2017/session/all-about-ux-sirius) at Eclipse Con France, Toulouse, France ([slides](https://www.slideshare.net/melbats/eclipsecon-france-2017-all-about-ux-in-sirius/))
+[All about UX in Sirius](https://www.eclipsecon.org/france2017/session/all-about-ux-sirius) at Eclipse Con France, Toulouse, France ([slides](https://www.slideshare.net/melbats/eclipsecon-france-2017-all-about-ux-in-sirius/),[video](https://youtu.be/6G4uPThR4Ms?list=PLy7t4z5SYNaTkH_YABYfyG11T4VIZA6JH))
 
 [Interview about Sirius 5](https://jaxenter.com/eclipse-oxygen-sirius-interview-134128.html) on Jaxenter (available also in [German](https://jaxenter.de/eclipse-weekly-eclipse-sirius-eclipse-photon-bats-57450))
 
