@@ -54,3 +54,5 @@ Mary Poppins <br/></i>
 Thanks open source community, Eclipse Foundation and Obeo for giving me this opportunity!
 
 ![Go west](/img/zero-to-cto/obeo_north_america_en.png "Go west")
+
+Have a look also at [Cédric’s blog post](http://cedric.brun.io/obeo/north-america-here-we-come/) and [Obeo’s summary](https://blog.obeo.fr/en/post/obeo-goes-west).
