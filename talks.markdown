@@ -5,10 +5,21 @@ description: "This lists all the talks I gave and the papers I wrote."
 header-img: "img/about-bg.jpg"
 ---
 ## 2017
+[Sirius Roadmap](https://www.siriuscon.org/2017/#program) at SiriusCon ([slides](https://www.slideshare.net/melbats/siriuscon-2017-sirius-oadmap))
+
+[Let it go! or How to become a free software developer?](https://cfp.devoxx.be/2017/talk/XQN-0215/Let_it_go!_or_How_to_become_a_free_software_developer%3F) at Devoxx Be ([slides](https://www.slideshare.net/melbats/devoxx-be-2017-let-it-go-or-how-to-become-a-free-software-developer), [video](https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg))
+
+[All about UX in Sirius](https://www.eclipsecon.org/france2017/session/all-about-ux-sirius) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://www.slideshare.net/melbats/eclipsecon-eu-2017-sirius-81187300), [video](https://www.youtube.com/watch?v=hLKd93xVi-k&list=PLy7t4z5SYNaSGuPFhGykvEalf5xyb9y5m&index=83))
+
+[Sirius](https://www.eclipsecon.org/france2017/session/all-about-ux-sirius) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://www.slideshare.net/melbats/eclipsecon-eu-2017-sirius), [video](https://youtu.be/sZBxgNcbzs8?list=PLy7t4z5SYNaSGuPFhGykvEalf5xyb9y5m))
+
+[Libérée! Délivrée! ou Comment devenir développeuse open source ?](https://devfest.gdgnantes.com/schedule/day1?sessionId=2061) at DevFest, Nantes, France ([slides](https://www.slideshare.net/melbats/devfest-2017-libre-dlivre-ou-comment-devenir-dveloppeuse-open-source), [video](https://youtu.be/kLIYcIGuFjo))
+
+[Libérée! Délivrée! ou Comment devenir développeuse open source ?](https://2017.devfesttoulouse.fr/schedule/day1?sessionId=2125) at DevFest, Toulouse, France ([slides](https://www.slideshare.net/melbats/devfest-2017-libre-dlivre-ou-comment-devenir-dveloppeuse-open-source))
 
 [All about UX in Sirius](https://www.eclipsecon.org/france2017/session/all-about-ux-sirius) at Eclipse Virtual Meetup ([video](https://www.youtube.com/watch?v=EkLkhuA40zw&feature=youtu.be))
 
-[All about UX in Sirius](https://www.eclipsecon.org/france2017/session/all-about-ux-sirius) at Eclipse Con France, Toulouse, France ([slides](https://www.slideshare.net/melbats/eclipsecon-france-2017-all-about-ux-in-sirius/),[video](https://youtu.be/6G4uPThR4Ms?list=PLy7t4z5SYNaTkH_YABYfyG11T4VIZA6JH))
+[All about UX in Sirius](https://www.eclipsecon.org/france2017/session/all-about-ux-sirius) at EclipseCon France, Toulouse, France ([slides](https://www.slideshare.net/melbats/eclipsecon-france-2017-all-about-ux-in-sirius/),[video](https://youtu.be/6G4uPThR4Ms?list=PLy7t4z5SYNaTkH_YABYfyG11T4VIZA6JH))
 
 [Interview about Sirius 5](https://jaxenter.com/eclipse-oxygen-sirius-interview-134128.html) on Jaxenter (available also in [German](https://jaxenter.de/eclipse-weekly-eclipse-sirius-eclipse-photon-bats-57450))
 
