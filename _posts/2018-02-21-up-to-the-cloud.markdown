@@ -59,18 +59,18 @@ We found that inspiring and that's why we decided to start working on a [Graphic
 This initiative defines the protocol between an editor or an IDE and a graphical server that provides graphical features like tools, mappings, layout, layers…
 We based our work on what was done by Typefox in Sprotty.
 
-I am glad to reveal our first prototypes of Sirius exposing its services through the Graphical Server Protocol to render diagrams specified in a browser.
+I am glad to reveal our [first prototypes](https://www.youtube.com/watch?v=cOxQtBwKhow) of Sirius exposing its services through the Graphical Server Protocol to render diagrams specified in a browser.
 Today we can take any existing graphical workbench specified with Sirius and render it in a browser. Not only we render the graphical elements but also we interpret at runtime the creation tools available in the palette according to the one defined in the Sirius specification. And as we can see on the following video, it is possible to create new model elements thanks to those tools from the palette.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cOxQtBwKhow" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-In the next video, just by updating the Sirius specification as usual, you can see in the browser how the elements are rendered and you can work on the look and feel of your modeler iteratively.
+In the next [video](https://www.youtube.com/watch?v=S1cyefHKOjU), just by updating the Sirius specification as usual, you can see in the browser how the elements are rendered and you can work on the look and feel of your modeler iteratively.
 Here at the beginning all the edges and labels are black. One can update the Sirius specification to set the men labels and edges in blue. Immediately when the configuration is saved you see that the colors changed in the browser.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S1cyefHKOjU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-A diagram can provide different layers. This demo shows the capability to enable/disable layers.
+A diagram can provide different layers. This [demo](https://www.youtube.com/watch?v=Pms9pvdzxCY) shows the capability to enable/disable layers.
 It will filter accordingly the graphical elements visible in the diagram and the tools available in the palette. 
 You see that the layout is automatically recalculated every time a layer is enabled to provide a smart layout for the diagram at all times.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S1cyefHKOjU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pms9pvdzxCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 I believe that both desktop and web applications will continue to coexist for a long time.
 While both desktop and web applications have their pros and cons, what is important is that the application fits users needs. Users don’t care whether your app is native or web based as long as it does the job properly.
