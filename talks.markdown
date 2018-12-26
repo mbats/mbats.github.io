@@ -4,10 +4,29 @@ title: "Talks and Papers"
 description: "This lists all the talks I gave and the papers I wrote."
 header-img: "img/about-bg.jpg"
 ---
-## 2017
-[Sirius Roadmap](https://www.siriuscon.org/2017/#program) at SiriusCon ([slides](https://www.slideshare.net/melbats/siriuscon-2017-sirius-oadmap))
+## 2018
 
-[Let it go! or How to become a free software developer?](https://cfp.devoxx.be/2017/talk/XQN-0215/Let_it_go!_or_How_to_become_a_free_software_developer%3F) at Devoxx Be ([slides](https://www.slideshare.net/melbats/devoxx-be-2017-let-it-go-or-how-to-become-a-free-software-developer), [video](https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg))
+[Eclipse Sirius 6: The future of modeling tools](https://jaxenter.com/eclipse-sirius-6-future-modeling-tools-148339.html) on Jaxenter
+
+[Eclipse Sirius 6: The future of modeling tools](https://www.eclipse.org/community/eclipse_newsletter/2018/june/cloudmodeling.php) in the Eclipse Foundation newsletter
+
+[Keynote : The future of modeling tools](http://eventmall.info/ecmfa2018/program) at ECMFA, Toulouse, France ([slides](https://www.slideshare.net/melbats/ecmfa-2018-keynote-the-future-of-modeling-tools))
+
+[Modeling tools go up to the cloud…](https://www.meetup.com/fr-FR/Virtual-Eclipse-Community-MeetUp/events/250812643/) at Eclipse Virtual Meetup ([video](https://www.youtube.com/watch?v=OQRFUyBt1r4))
+
+[Modeling tools go up to the cloud…](https://www.eclipsecon.org/france2018/session/modeling-tools-go-cloud%E2%80%A6) at EclipseCon Fr, Toulouse, France ([slides](https://www.slideshare.net/melbats/eclipsecon-fr-2018-modeling-tools-go-up-to-the-cloud), [video](https://www.youtube.com/watch?v=8GaEWim3C7I&list=PLy7t4z5SYNaTSU0ccSoYBG3SxSviFw0-C&index=36&t=0s))
+
+[The Future of development tooling: The exemple of Eclipse Che, Theia and Sirius](https://www.eclipsecon.org/france2018/session/future-development-tooling-example-eclipse-che-theia-and-sirius) at EclipseCon Fr, Toulouse, France ([slides](https://www.slideshare.net/melbats/eclipsecon-fr-2018-the-future-of-development-tooling-the-example-of-eclipse-che-theia-and-sirius), [video](https://www.youtube.com/watch?v=zIniA4BGjfU&index=8&list=PLy7t4z5SYNaTSU0ccSoYBG3SxSviFw0-C&t=0s))
+
+[Extensibility & Community : Moving Che to the next level!](https://www.eclipse.org/che/checonf18/) at CheConf ([slides](https://www.slideshare.net/melbats/checonf-2018-building-extensibility-and-community-for-che), [video](https://www.youtube.com/watch?v=Nr6YPPmgLgY&index=4&list=PLWpdeL3mennY0UJVZ3lqExE_SdLXwiVdI))
+
+## 2017
+
+[Eclipse Sirius, the technology behind Capella](https://www.eclipse.org/community/eclipse_newsletter/2017/december/article2.php) in the Eclipse Foundation newsletter
+
+[Sirius Roadmap](https://www.siriuscon.org/2017/#program) at SiriusCon, Paris, France ([slides](https://www.slideshare.net/melbats/siriuscon-2017-sirius-oadmap))
+
+[Let it go! or How to become a free software developer?](https://cfp.devoxx.be/2017/talk/XQN-0215/Let_it_go!_or_How_to_become_a_free_software_developer%3F) at Devoxx Be, Antwerp, Belgium ([slides](https://www.slideshare.net/melbats/devoxx-be-2017-let-it-go-or-how-to-become-a-free-software-developer), [video](https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg))
 
 [All about UX in Sirius](https://www.eclipsecon.org/france2017/session/all-about-ux-sirius) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://www.slideshare.net/melbats/eclipsecon-eu-2017-sirius-81187300), [video](https://www.youtube.com/watch?v=hLKd93xVi-k&list=PLy7t4z5SYNaSGuPFhGykvEalf5xyb9y5m&index=83))
 
@@ -15,9 +34,9 @@ header-img: "img/about-bg.jpg"
 
 [Libérée! Délivrée! ou Comment devenir développeuse open source ?](https://devfest.gdgnantes.com/schedule/day1?sessionId=2061) at DevFest, Nantes, France ([slides](https://www.slideshare.net/melbats/devfest-2017-libre-dlivre-ou-comment-devenir-dveloppeuse-open-source), [video](https://youtu.be/kLIYcIGuFjo))
 
-[Libérée! Délivrée! ou Comment devenir développeuse open source ?](https://2017.devfesttoulouse.fr/schedule/day1?sessionId=2125) at DevFest, Toulouse, France ([slides](https://www.slideshare.net/melbats/devfest-2017-libre-dlivre-ou-comment-devenir-dveloppeuse-open-source))
+[Libérée! Délivrée! ou Comment devenir développeuse open source ?](https://2017.devfesttoulouse.fr/schedule/day1?sessionId=2125) at DevFest, Toulouse, France ([slides](https://www.slideshare.net/melbats/devfest-2017-libre-dlivre-ou-comment-devenir-dveloppeuse-open-source), [video](https://youtu.be/mx1aX_69Atw?list=PLuZ_sYdawLiWkhvpCuWV01mr1TO5etnvD))
 
-[All about UX in Sirius](https://www.eclipsecon.org/france2017/session/all-about-ux-sirius) at Eclipse Virtual Meetup ([video](https://www.youtube.com/watch?v=EkLkhuA40zw&feature=youtu.be))
+[All about UX in Sirius](https://www.meetup.com/fr-FR/Virtual-Eclipse-Community-MeetUp/events/239923903/) at Eclipse Virtual Meetup ([video](https://www.youtube.com/watch?v=EkLkhuA40zw&feature=youtu.be))
 
 [All about UX in Sirius](https://www.eclipsecon.org/france2017/session/all-about-ux-sirius) at EclipseCon France, Toulouse, France ([slides](https://www.slideshare.net/melbats/eclipsecon-france-2017-all-about-ux-in-sirius/),[video](https://youtu.be/6G4uPThR4Ms?list=PLy7t4z5SYNaTkH_YABYfyG11T4VIZA6JH))
 
