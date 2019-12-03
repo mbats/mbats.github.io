@@ -4,6 +4,11 @@ title: "Talks and Papers"
 description: "This lists all the talks I gave and the papers I wrote."
 header-img: "img/about-bg.jpg"
 ---
+
+## 2019
+
+[Your cloud-based modeling workbench in 15 minutes with Eclipse Sirius](https://www.eclipsecon.org/europe2019/sessions/your-cloud-based-modeling-workbench-15-minutes-eclipse-sirius) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://fr.slideshare.net/melbats/eclipseconeu-2019-your-cloudbased-modeling-workbench-in-15-minutes-with-eclipse-sirius), [video](https://youtu.be/7LQ7MKXKH-I?list=PLy7t4z5SYNaT_yo5Dhajb9i-Pf0LbQ3z8))
+
 ## 2018
 
 [Eclipse Sirius 6: The future of modeling tools](https://jaxenter.com/eclipse-sirius-6-future-modeling-tools-148339.html) on Jaxenter
