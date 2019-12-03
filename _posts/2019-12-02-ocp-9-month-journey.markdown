@@ -3,7 +3,7 @@ layout: post
 title: "Obeo Cloud Platform"
 subtitle: "A 9-Month Journey"
 date: 2019-12-02 10:00:00
-author: "Mélanie Bats"
+author: "Melanie Bats"
 header-img: "img/ocp-9month/post-bg.png"
 tags: [planet]
 ---
