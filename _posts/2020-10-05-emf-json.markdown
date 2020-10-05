@@ -1,0 +1,19 @@
+---
+layout: post
+title: "T-16:00 Obeo approves “load-and-go” fueling: EMF-JSON onboard!"
+subtitle: "SIRIUS-II Mission: Open sourcing Sirius Web"
+date: 2020-10-05 10:00:00
+author: "Mélanie Bats"
+header-img: "img/siriusiimission/post-bg.jpg"
+tags: [planet]
+---
+
+At Nantes Dev Force Station Launch Complex 42A, valves are open and code source is beginning to flow into Obeo’s rocket. The first open source project released by the SIRIUS-II Mission is: EMF-JSON.
+
+The EMF-JSON project will soon be part of the Eclipse Sirius project. It provides a JSON-based implementation of EMF resources which can be used as a drop-in replacement for the default XMI-based format.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BbipffAatgY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Although it is part of Sirius, this new EMF resource type can actually be used by any EMF-based application as it does not depend on the rest of the Sirius platform (neither the existing Sirius Desktop nor the upcoming Sirius Web).
+
+Liftoff on the SIRIUS-II mission to the Eclipse Foundation remains planned for an instantaneous launch window on [October 21 at 2:00 p.m CET](https://www.eclipsecon.org/2020/sessions/sirius-web-100-open-source-cloud-modeling-platform).
