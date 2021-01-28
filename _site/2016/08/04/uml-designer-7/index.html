@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Eclipse, modeling and other things">
+
+    <title>UML Designer 7.0 - MelBlog</title>
+
+    <link rel="canonical" href="http://localhost:4000/2016/08/04/uml-designer-7/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="MelBlog" />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">MelBlog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+				
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+				
+                
+				
+                <li>
+                    <a href="/talks/">Talks and Papers</a>
+                </li>
+				
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/post-bg-02.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>UML Designer 7.0</h1>
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by Mélanie Bats on August 4, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p><a href="http://umldesigner.org">UML Designer</a> 7.0 is out. This new release is based on Eclipse <a href="https://www.eclipse.org/sirius/doc/Release_Notes.html#sirius4.0.0">Sirius 4.0</a> and Eclipse <a href="https://www.eclipse.org/eclipse/news/4.6/">Neon</a>. It provides plenty of brand new features:</p>
+
+<ul>
+  <li>Bi-directional link with editor (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/523">#523</a>) <a href="https://cloud.githubusercontent.com/assets/1185863/17333487/e78d98f2-58d2-11e6-977f-329b1fa0eed1.png"><img src="https://cloud.githubusercontent.com/assets/1185863/17333487/e78d98f2-58d2-11e6-977f-329b1fa0eed1.png" alt="image" /></a></li>
+  <li>New dashboard based on the Activity Explorer from Amalgam (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/827">#827</a>) <a href="https://cloud.githubusercontent.com/assets/1185863/17333707/ab47b49e-58d3-11e6-87a0-673bf27980d7.png"><img src="https://cloud.githubusercontent.com/assets/1185863/17333707/ab47b49e-58d3-11e6-87a0-673bf27980d7.png" alt="image" /></a> <a href="https://cloud.githubusercontent.com/assets/1185863/17333694/9d0d8fb6-58d3-11e6-99ba-1ce0b91e8e08.png"><img src="https://cloud.githubusercontent.com/assets/1185863/17333694/9d0d8fb6-58d3-11e6-99ba-1ce0b91e8e08.png" alt="image" /></a></li>
+  <li>Class diagram:
+    <ul>
+      <li>represent abstract element in italic (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/758">#758</a>) <a href="https://cloud.githubusercontent.com/assets/1185863/17334951/7d2a9b80-58d8-11e6-9619-78144d8e2253.png"><img src="https://cloud.githubusercontent.com/assets/1185863/17334951/7d2a9b80-58d8-11e6-9619-78144d8e2253.png" alt="image" /></a></li>
+      <li>represent static element underlined (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/363">#363</a>) <a href="https://cloud.githubusercontent.com/assets/1185863/17335040/d60349f0-58d8-11e6-910b-bf25be8c4334.png"><img src="https://cloud.githubusercontent.com/assets/1185863/17335040/d60349f0-58d8-11e6-910b-bf25be8c4334.png" alt="image" /></a></li>
+      <li>view the qualified name of a class in the tooltip (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/851">#851</a>) <a href="https://cloud.githubusercontent.com/assets/1185863/17368966/a236cf34-5996-11e6-86de-fe9e1e3867b2.png"><img src="https://cloud.githubusercontent.com/assets/1185863/17368966/a236cf34-5996-11e6-86de-fe9e1e3867b2.png" alt="image" /></a></li>
+      <li>stabilize association class (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/856">#856</a>, <a href="https://github.com/ObeoNetwork/UML-Designer/issues/854">#854</a>, <a href="https://github.com/ObeoNetwork/UML-Designer/issues/857">#857</a>),</li>
+      <li>support N-ary association (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/850">#850</a>, <a href="https://github.com/ObeoNetwork/UML-Designer/issues/855">#855</a>, <a href="https://github.com/ObeoNetwork/UML-Designer/issues/853">#853</a>) <a href="https://cloud.githubusercontent.com/assets/1185863/17369172/85d9527a-5997-11e6-95b2-8ca33ee8733b.png"><img src="https://cloud.githubusercontent.com/assets/1185863/17369172/85d9527a-5997-11e6-95b2-8ca33ee8733b.png" alt="image" /></a></li>
+      <li>support qualifiers on association ends (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/434">#434</a>) <a href="https://cloud.githubusercontent.com/assets/1185863/17369717/aa841d1a-5999-11e6-860e-eeaa12dd01da.png"><img src="https://cloud.githubusercontent.com/assets/1185863/17369717/aa841d1a-5999-11e6-860e-eeaa12dd01da.png" alt="image" /></a></li>
+    </ul>
+  </li>
+  <li>State machine diagram: orthogonal regions re-implemented by using the Sirius compartment feature (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/125">#125</a>) <a href="https://cloud.githubusercontent.com/assets/1185863/17334050/184c1390-58d5-11e6-921f-b631a0739413.png"><img src="https://cloud.githubusercontent.com/assets/1185863/17334050/184c1390-58d5-11e6-921f-b631a0739413.png" alt="image" /></a></li>
+  <li>Activity diagram: optional body layer (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/757">#757</a>, <a href="https://github.com/ObeoNetwork/UML-Designer/issues/846">#846</a>) and some bug fixes (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/865">#865</a>)</li>
+  <li>Sequence diagram: clean &amp; reorder the palette (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/858">#858</a>)</li>
+  <li>Use case diagram: handle non human actor (<a href="https://github.com/ObeoNetwork/UML-Designer/issues/46">#46</a>)</li>
+</ul>
+
+<p>All closed issues are available on <a href="https://github.com/ObeoNetwork/UML-Designer/issues?q=milestone%3A7.0.0+is%3Aclosed">https://github.com/ObeoNetwork/UML-Designer/milestones/7.0.0</a>. Try it and download it on: <a href="http://www.umldesigner.org/download/">http://www.umldesigner.org/download/</a></p>
+
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2016/06/22/sirius4-fully-operational-battle-station/" data-toggle="tooltip" data-placement="top" title="Fully operational battle station">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2016/10/13/sirius41-ready-go/" data-toggle="tooltip" data-placement="top" title="Sirius 4.1">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/melaniebats">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/mbats">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/mélanie-bats-bb9a192b">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="mailto:melanie.bats@obeo.fr">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Mélanie Bats 2021</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+    
+</body>
+
+</html>

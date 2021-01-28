@@ -1,0 +1,30 @@
+---
+layout: post
+title: "T-4:00 OCP is ready to go"
+subtitle: "SIRIUS-II Mission: Open sourcing Sirius Web"
+date: 2020-10-17 10:00:00
+author: "Mélanie Bats"
+header-img: "img/siriusiimission/post-bg.jpg"
+tags: [planet]
+---
+
+Atop the Sirius-II Mission’s rocket is the Obeo Cloud Platform (OCP), with two flavors – OCP Modeler and OCP Publication – safely strapped inside.
+The Obeo Cloud Platform is built as an open-core product relying on the open source Eclipse Sirius project (EPL 2.0 licence) and more precisely on the Sirius Web component. As I explained in my previous post, Sirius Web is a framework from Obeo for building cloud graphical modelers for a dedicated DSL.
+
+## OCP Publication
+
+OCP Publication exposes models in a read-only mode for fast access from OSLC clients or web browsers. The first version of this product is ready to be deployed to our customers at the end of October.
+
+![](/img/sirius-web/OCP_Publication.png)
+
+One of the first use cases we developed allows us to reunite two of our chosen fields: Capella and model servers, it is Publication For Capella. Publication for Capella provides a tight integration between OSLC-compliant ALM tools (Polarion, Doors Next...) and the MBSE workbench Capella. It enables a fine grained traceability between your requirements and your system design.
+
+## OCP Modeler
+
+OCP Modeler is a unique technology to easily develop custom and state-of-the-art modeling tools to be deployed to the Cloud.
+The Obeo Cloud Platform Modeler is a Sirius Web build extended with Enterprise features, to deploy on public, private clouds or on premise and including support and upgrade guarantees.
+The Obeo Cloud Platform provides collaborative features: authentication, live collaboration, webhooks…
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wKV6ePnPwvw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+To get more details, attend the OCP Modeler's launch on [October 21 at 2:00 p.m CET](https://www.eclipsecon.org/2020/sessions/sirius-web-100-open-source-cloud-modeling-platform).

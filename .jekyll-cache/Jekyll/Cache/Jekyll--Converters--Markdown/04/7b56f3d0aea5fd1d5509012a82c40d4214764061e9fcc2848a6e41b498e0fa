@@ -1,0 +1,99 @@
+I"%<p>TLDR; at <a href="https://www.obeo.fr/en">Obeo</a>, we have done the first steps to <strong>bring Sirius to the web</strong>. Today we are ready to work with you to bring <strong>your own modeling tool up to the cloud</strong>.</p>
+
+<p>If you are curious about details, this is the longer story…</p>
+
+<p>As you know, at Obeo, we have been working on modeling tools for a long time now, and we therefore have a lot of experience developing graphical tools. Obeo is a key player in the Modeling ecosystem: we are involved in open source through numerous Eclipse projects: <a href="https://www.eclipse.org/sirius/">Sirius</a>, <a href="https://www.eclipse.org/acceleo/">Acceleo</a>, EMF/GMF, <a href="https://www.eclipse.org/ecoretools/">EcoreTools</a>, <a href="https://www.eclipse.org/emf/compare/">EMF Compare</a>…
+One of our great success is Sirius: a framework to easily and quickly create a modeling workbench dedicated to your domain.</p>
+
+<p>Today, Sirius relies on the Eclipse platform, consequently the graphical modelers based on it are desktop applications.</p>
+
+<p>You know that <strong>Desktop</strong> vs <strong>Web</strong> applications are in war since time immemorial…</p>
+
+<p>In the past, we already won some battles, by mixing both approaches, switching from one to another. 
+For instance, our Enterprise Architecture solution <a href="https://www.obeosmartea.com/en/solution">Obeo SmartEA</a>, provides :</p>
+<ul>
+  <li>light client experience to explore a model,
+<img src="https://www.obeosmartea.com/images/my_gallery/10-details-page.png" alt="Explore model with light client" /></li>
+  <li>and a rich application to edit it.
+<img src="https://www.obeosmartea.com/images/my_gallery/05-graphical-modeling-workbench.png" alt="Edit model with rich application" /></li>
+</ul>
+
+<p>Since December, you already know that we are working to reconcile the two worlds… For Sirius 6, we are developing a new solution to <strong>use Sirius definition with HTML Renderer within Eclipse workbenches</strong>. We will use an hybrid model to be able to get the best of both worlds and make them coexist in the same rich application. In collaboration with Thales, we are prototyping what would be a <a href="http://www.polarsys.org/capella/">Capella</a> graphical modeler using the dynamic visualisation capabilities offered by <a href="https://github.com/theia-ide/sprotty">Sprotty</a> and <a href="https://www.eclipse.org/elk/">Eclipse Layout Kernel</a>. I really appreciate that the <a href="https://typefox.io/">TypeFox</a> guys lent us a hand about that, this was truly in the open source spirit!</p>
+
+<p><img src="/img/dear-santa/HTMLRendererInSirius.png" alt="HTML renderer within Sirius workbenches" /></p>
+
+<p>I am really happy to announce that now we are going one step further: we are making Sirius evolve to <strong>bring modeling tools up to the cloud</strong>.</p>
+
+<p><img src="http://static.alfabetajuega.com/abj_public_files/multimedia/imagenes/201501/95918.alfabetajuega-up-10012015.jpg" alt="Up" /></p>
+
+<p>Modeling tools based on Sirius today look like this. You have a graphical editor with a palette to manage elements.
+<img src="/img/up-to-the-cloud/Today.png" alt="Modeling tool today" /></p>
+
+<p>Modeling tools based on Sirius tomorrow could look like this. You still have a graphical editor with a palette to manage elements.
+<img src="/img/up-to-the-cloud/Tomorrow.png" alt="Modeling tool tomorrow" /></p>
+
+<p>The main difference is that tomorrow Sirius applications will be based on web technologies, and therefore the graphical modelers will be cloud applications. With a cloud application :</p>
+<ul>
+  <li>you <strong>no</strong> longer <strong>need to install</strong> it, it simply do not require any installation process,</li>
+  <li>it does not occupy extra space on your hard drive,</li>
+  <li>your graphical workbench is <strong>easy to access</strong> from any browser and you can use it from any device,</li>
+  <li>it adapts to the workload increase.</li>
+</ul>
+
+<p>There is still a long way to go.
+<img src="/img/up-to-the-cloud/Architecture.png" alt="Path to go" /></p>
+
+<p>As said before, today our modeling tools are based on Eclipse RCP technologies.
+We are working on a new architecture to make this work in a client/server world. 
+Sirius will be split in different pieces providing services to clients rendering the modeling tool in the browser.</p>
+
+<p>To bring those technologies further to the web, from day 1 we were convinced that we needed a standard communication protocol.
+A few months ago, an impressive community effort was started around the Language Server Protocol to ease the integration of languages to textual editors. 
+We found that inspiring and that’s why we decided to start working on a <a href="https://github.com/ObeoNetwork/GraphicalServerProtocol">Graphical Server Protocol</a>.
+This initiative defines the protocol between an editor or an IDE and a graphical server that provides graphical features like tools, mappings, layout, layers…
+We based our work on what was done by Typefox in Sprotty.</p>
+
+<p>I am glad to reveal our <a href="https://www.youtube.com/watch?v=cOxQtBwKhow">first prototypes</a> of Sirius exposing its services through the Graphical Server Protocol to render diagrams specified in a browser.
+Today we can take any existing graphical workbench specified with Sirius and render it in a browser. Not only we render the graphical elements but also we interpret at runtime the creation tools available in the palette according to the one defined in the Sirius specification. And as we can see on the following video, it is possible to create new model elements thanks to those tools from the palette.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cOxQtBwKhow" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>In the next <a href="https://www.youtube.com/watch?v=S1cyefHKOjU">video</a>, just by updating the Sirius specification as usual, you can see in the browser how the elements are rendered and you can work on the look and feel of your modeler iteratively.
+Here at the beginning all the edges and labels are black. One can update the Sirius specification to set the men labels and edges in blue. Immediately when the configuration is saved you see that the colors changed in the browser.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S1cyefHKOjU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>A diagram can provide different layers. This <a href="https://www.youtube.com/watch?v=Pms9pvdzxCY">demo</a> shows the capability to enable/disable layers.
+It will filter accordingly the graphical elements visible in the diagram and the tools available in the palette. 
+You see that the layout is automatically recalculated every time a layer is enabled to provide a smart layout for the diagram at all times.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pms9pvdzxCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>I believe that both desktop and web applications will continue to coexist for a long time.
+While both desktop and web applications have their pros and cons, what is important is that the application fits users needs. Users don’t care whether your app is native or web based as long as it does the job properly.
+We do not give up one world for another, we are making what is needed to get the best of the two worlds.</p>
+
+<p>That’s why we are really excited by the fact that Eclipse Che decided to replace its GWT IDE by a new one relying on modern technologies: <a href="https://github.com/theia-ide/theia">Theia</a>. Pursuing the same line as Eclipse RCP, Theia is an open framework that allows users to compose their own applications. I believe that this extensibility model should foster the emergence of a new ecosystem.Thanks to the extensibility offered by Theia, we can envision in the future the development of modeling tools for both desktop and web applications equally and even going further by integrating such tools to cloud frameworks such as Che.
+<img src="/img/up-to-the-cloud/SiriusInChe.png" alt="Mockup of Sirius based modeler integrated in Che" /></p>
+
+<p>One of the expectation of the modeling community is to be able to simplify deployment, that’s one of our initial goal by going to cloud based applications.</p>
+
+<p>As you saw in our videos, we are making Sirius evolve to bring modeling tools to the cloud.</p>
+
+<p>We need you to go beyond.</p>
+
+<p>As open source is in our DNA, most of these changes will be contributed to Sirius. The actual Sirius project will evolve to a client/server architecture.
+Let’s work together to bring your tooling to this new platform !</p>
+
+<p>We would also like to invite all of you to participate to the Graphical Server Protocol initiative to make this an open collaboration providing a common protocol for graphical editors.</p>
+
+<p>Finally remember that we are available to work with other organizations to bring modeling tools to the Web, including integration with web &amp; cloud tooling such as Theia &amp; Che.</p>
+
+<p>Contact us, join us, support us!</p>
+
+<blockquote>
+  <p>We’re gonna get it, get it together
+I know, we’re gonna get it, get it together and flow
+We’re gonna get it, get it together and go
+Up, and up, and up</p>
+</blockquote>
+
+<p><a href="https://youtu.be/BPNTC7uZYrI">Coldplay up &amp; up</a></p>
+:ET

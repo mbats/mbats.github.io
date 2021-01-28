@@ -1,0 +1,20 @@
+I"»<p>We continue our exploration of the <a href="https://eclipse.org/sirius/">Eclipse Sirius</a> 4.0 new <a href="http://melb.enix.org/sirius/sirius-4-0-border-song/">features</a>. Do you remember our previous post about the <a href="http://melb.enix.org/sirius/svg/">Scalable Girl</a>? We further improved the SVG rendering to make her even more powerful.</p>
+
+<p><strong>Better SVG rendering</strong></p>
+
+<p><a href="http://orig02.deviantart.net/c26b/f/2014/335/e/f/starmie_by_weaponix-d88e6i3.png"><img src="https://github.com/mbats/sirius-blog/blob/master/sirius4/blog/images/starmie.png?raw=true" alt="starmie_by_weaponix-d88e6i3.png" /></a></p>
+
+<p>This is a significant improvement. With Sirius 4.0, on a diagram when the user uses the zoom, the rendering of a SVG file has a much higher quality.</p>
+
+<p><img src="https://github.com/mbats/sirius-blog/blob/master/sirius4/blog/images/zoom.gif?raw=true" alt="svg-zoom.gif" /></p>
+
+<p><strong>Contribute SVG shapes</strong></p>
+
+<p><a href="http://orig08.deviantart.net/d80a/f/2014/365/1/f/mew_by_weaponix-d8bzqze.png"><img src="https://github.com/mbats/sirius-blog/blob/master/sirius4/blog/images/mew.png?raw=true" alt="mew_by_weaponix-d8bzqze.png" /></a></p>
+
+<p><span style="font-weight: 300;">Sirius provides a basic image style for node mappings, which offers a selection of five different shapes. The new bundledImageShape extension point allows specifiers to provide their own shapes defined in a SVG file like a stencil pack.</span></p>
+
+<p><img src="https://github.com/mbats/sirius-blog/blob/master/sirius4/blog/images/basicshapes.gif?raw=true" alt="stencilpack.gif" /><img src="https://github.com/mbats/sirius-blog/blob/master/sirius4/blog/images/emotes.png?raw=true" alt="emotes - Gestionnaire de fichiers_101.png" /></p>
+
+<p>To <a href="https://en.wikipedia.org/wiki/Gotta_catch_%27em_all">catch all</a> the new features coming with Sirius 4.0 have a look at the slides of <a href="https://www.eclipsecon.org/france2016/session/sirius-40-let-me-sirius-you">our talk</a> at EclipseCon France! Another chance for you to join the Sirius community, <a href="http://www.siriuscon.org/">SiriusCon</a> will occur in Paris the 15th November 2016. Be sure to save the date!</p>
+:ET

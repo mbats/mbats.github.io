@@ -1,0 +1,74 @@
+I"<p>Last time in the <a href="http://www.eclipse.org/sirius/">Sirius</a> blog <a href="http://melb.enix.org/category/sirius/">post series</a>, you learned how to create an <a href="http://melb.enix.org/sirius/artificial-container/">artificial container</a>, today we will see how to create an infinite hierarchy of containers.</p>
+
+<p>As an example we will represent the different dream levels featured in <a href="http://en.wikipedia.org/wiki/Inception">Inception</a> :</p>
+
+<p><a href="http://minimalmovieposters.tumblr.com/post/32154330691/inception-by-ojasvi-mohanty"><img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/inception_poster.jpg" alt="" /></a></p>
+
+<p>We need to model dream levels and that levels can refer to other sub levels :<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/metamodel.png" alt="" /></p>
+
+<p>We develop a first <code class="language-plaintext highlighter-rouge">Flat</code> representation to show all the levels at the same stage :<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/flat_vsm.png" alt="" /></p>
+
+<p>A <code class="language-plaintext highlighter-rouge">Flat</code> diagram is created and a <code class="language-plaintext highlighter-rouge">Level</code> container is defined to represent all the levels defined in the model :<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/flat.png" alt="" /></p>
+
+<p>Thanks to this representation we see all the different dreams but it is not possible to understand how they are interlinked.</p>
+
+<p>Next step we create a <code class="language-plaintext highlighter-rouge">SubLevel</code> diagram to represent the first three dream levels :<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/sublevel_vsm.png" alt="" /><br />
+A first container <code class="language-plaintext highlighter-rouge">Level</code> represents the reality, then we represent the second dream level thanks to the <code class="language-plaintext highlighter-rouge">SubLevel</code> container and finally the third level with another container named <code class="language-plaintext highlighter-rouge">SubSubLevel</code>.<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/new_container_menu.png" alt="" /></p>
+
+<p>For each container we retrieve the child level thanks to the <code class="language-plaintext highlighter-rouge">levels</code> feature defined in the metamodel. For each level container we define a new style.</p>
+
+<p>The following <code class="language-plaintext highlighter-rouge">SubLevel</code> diagram results:<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/sublevel.png" alt="" /></p>
+
+<p>Defining for each level a new mapping and a new style is really painful and it determines the number of levels you can create. Fortunately, Sirius can help us to define an infinite hierarchy of elements.</p>
+
+<h2 id="reuse-mappings">Reuse mappings</h2>
+
+<p>We create a new <code class="language-plaintext highlighter-rouge">Inception</code> diagram as we did before, we define again a <code class="language-plaintext highlighter-rouge">Level</code> container to represent the initial level and then a <code class="language-plaintext highlighter-rouge">SubLevel</code> mapping models the second level.<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/inception_vsm_level.png" alt="" /><br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/inception_vsm_sublevel.png" alt="" /></p>
+
+<p>At this point we are able to represent only the first two levels. To get an infinite hierarchy of levels, we need to set in the <code class="language-plaintext highlighter-rouge">Import</code> tab, the <code class="language-plaintext highlighter-rouge">Reused Container Mappings</code> field and select the <code class="language-plaintext highlighter-rouge">SubLevel</code> mapping. This means that the <em>SubLevel</em> mapping could define as descendant other <em>SubLevel</em> mappings. Here we reuse a mapping defined elsewhere in the VSM using the <a href="http://www.eclipse.org/sirius/doc/specifier/diagrams/Diagrams.html#containers">Reused Mappings property</a> in the Import category. The effect at runtime is the same as if you had created an equivalent mapping inside the parent mapping.</p>
+
+<p><img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/inception_vsm_sublevel_import.png" alt="" /></p>
+
+<p>We create a new <em>Inception</em> diagram and…It’s working like a dream! We see all the levels hierarchy.<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/inception.png" alt="" /></p>
+
+<p>Pay attention, as this method uses recursion, if you set the semantic candidates expression to <em>eAllContents</em> a stack overflow exception will occur.</p>
+
+<p>Last point, using this method we need to define the style for the first level and then we set the same style values to the sublevel mapping in order that all the levels appears with the same look.<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/inception_vsm_styles.png" alt="" /></p>
+
+<p>With Sirius you can define the level style just once.</p>
+
+<h2 id="import-mappings">Import mappings</h2>
+
+<p>A last <code class="language-plaintext highlighter-rouge">Inception2</code> diagram is defined, with a <code class="language-plaintext highlighter-rouge">Level2</code> mapping which is an exact copy of the previous <code class="language-plaintext highlighter-rouge">Level</code> mapping. We define also a style for this mapping.<br />
+Then instead of creating a <em>New Diagram Element</em> as we did in the previous diagram definition, this time we create a <em>New Import Element</em>.</p>
+
+<p><img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/new_container_import_menu.png" alt="" /></p>
+
+<p>The <em>Semantic Candidates Expression</em> is set to <code class="language-plaintext highlighter-rouge">feature:levels</code><br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/inception2_vsm_sublevel.png" alt="" /></p>
+
+<p>And in the <em>Import</em> tab, we set the <code class="language-plaintext highlighter-rouge">Imported Mapping</code> to Level2. This means that this new mapping reuses the style defined by the imported mapping.<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/inception2_vsm_sublevel_import.png" alt="" /><br />
+The <a href="http://www.eclipse.org/sirius/doc/specifier/diagrams/Diagrams.html#mapping_imports">mapping imports</a> are used to specialize an already defined mapping. In our example we override the <em>Semantic Candidates Expression</em>.<br />
+To get an infinite hierarchy of levels, we set again the <code class="language-plaintext highlighter-rouge">Reused Container Mapping</code> field to SubLevel2.</p>
+
+<p>Then in this diagram definition the level style is defined just once:<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/inception2_vsm_style.png" alt="" /></p>
+
+<p>If we create an <code class="language-plaintext highlighter-rouge">Inception2</code> diagram we obtain exactly the same result as before :<br />
+<img src="https://raw.githubusercontent.com/mbats/sirius-blog/master/reimport/blog/images/inception2.png" alt="" /></p>
+
+<p>With Sirius, make your dreaming designer come true!</p>
+
+<p>The sample code from this example is available on github: <a href="https://github.com/mbats/sirius-blog/tree/master/reimport">https://github.com/mbats/sirius-blog/tree/master/reimport</a></p>
+:ET

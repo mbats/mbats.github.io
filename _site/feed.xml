@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-28T10:29:20+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">MelBlog</title><subtitle>Eclipse, modeling and other things</subtitle><entry><title type="html">Behind the Scene</title><link href="http://localhost:4000/2021/01/27/behind-the-scene-diag/" rel="alternate" type="text/html" title="Behind the Scene" /><published>2021-01-27T11:00:00+01:00</published><updated>2021-01-27T11:00:00+01:00</updated><id>http://localhost:4000/2021/01/27/behind-the-scene-diag</id><content type="html" xml:base="http://localhost:4000/2021/01/27/behind-the-scene-diag/">&lt;p&gt;At the end of last year Obeo open sourced a new project at the Eclipse Foundation : &lt;a href=&quot;https://www.eclipse.org/sirius/sirius-web.html&quot;&gt;Sirius Web&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sirius web is a framework to easily create and deploy modeling studios to the web.
+Sirius web is evolving a lot and we would like to share with the community on what we are working on.
+I am pleased to introduce a new regular series of videos: &lt;em&gt;“Behind the scene of Sirius Web”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The goal is to show you in 1-2 minutes each month what we are working on in the Sirius Web project.
+For this first session, I invited Stéphane Begaudeau, Software Architect of Sirius Web to present his work on the Diagramming Component that aims at making this component easier to reuse in any web environment.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NcHkfSwPqzw&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;See you next month for another “Behind the scene”!&lt;/p&gt;</content><author><name>Mélanie Bats</name></author><category term="planet" /><summary type="html">At the end of last year Obeo open sourced a new project at the Eclipse Foundation : Sirius Web.</summary></entry><entry><title type="html">T-4:00 OCP is ready to go</title><link href="http://localhost:4000/2020/10/17/ocp/" rel="alternate" type="text/html" title="T-4:00 OCP is ready to go" /><published>2020-10-17T12:00:00+02:00</published><updated>2020-10-17T12:00:00+02:00</updated><id>http://localhost:4000/2020/10/17/ocp</id><content type="html" xml:base="http://localhost:4000/2020/10/17/ocp/">&lt;p&gt;Atop the Sirius-II Mission’s rocket is the Obeo Cloud Platform (OCP), with two flavors – OCP Modeler and OCP Publication – safely strapped inside.
+The Obeo Cloud Platform is built as an open-core product relying on the open source Eclipse Sirius project (EPL 2.0 licence) and more precisely on the Sirius Web component. As I explained in my previous post, Sirius Web is a framework from Obeo for building cloud graphical modelers for a dedicated DSL.&lt;/p&gt;
+
+&lt;h2 id=&quot;ocp-publication&quot;&gt;OCP Publication&lt;/h2&gt;
+
+&lt;p&gt;OCP Publication exposes models in a read-only mode for fast access from OSLC clients or web browsers. The first version of this product is ready to be deployed to our customers at the end of October.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/sirius-web/OCP_Publication.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the first use cases we developed allows us to reunite two of our chosen fields: Capella and model servers, it is Publication For Capella. Publication for Capella provides a tight integration between OSLC-compliant ALM tools (Polarion, Doors Next…) and the MBSE workbench Capella. It enables a fine grained traceability between your requirements and your system design.&lt;/p&gt;
+
+&lt;h2 id=&quot;ocp-modeler&quot;&gt;OCP Modeler&lt;/h2&gt;
+
+&lt;p&gt;OCP Modeler is a unique technology to easily develop custom and state-of-the-art modeling tools to be deployed to the Cloud.
+The Obeo Cloud Platform Modeler is a Sirius Web build extended with Enterprise features, to deploy on public, private clouds or on premise and including support and upgrade guarantees.
+The Obeo Cloud Platform provides collaborative features: authentication, live collaboration, webhooks…&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wKV6ePnPwvw&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;To get more details, attend the OCP Modeler’s launch on &lt;a href=&quot;https://www.eclipsecon.org/2020/sessions/sirius-web-100-open-source-cloud-modeling-platform&quot;&gt;October 21 at 2:00 p.m CET&lt;/a&gt;.&lt;/p&gt;</content><author><name>Mélanie Bats</name></author><category term="planet" /><summary type="html">Atop the Sirius-II Mission’s rocket is the Obeo Cloud Platform (OCP), with two flavors – OCP Modeler and OCP Publication – safely strapped inside. The Obeo Cloud Platform is built as an open-core product relying on the open source Eclipse Sirius project (EPL 2.0 licence) and more precisely on the Sirius Web component. As I explained in my previous post, Sirius Web is a framework from Obeo for building cloud graphical modelers for a dedicated DSL.</summary></entry><entry><title type="html">T-8:00 1st stage Sirius Web loading begins</title><link href="http://localhost:4000/2020/10/13/sirius-web/" rel="alternate" type="text/html" title="T-8:00 1st stage Sirius Web loading begins" /><published>2020-10-13T12:00:00+02:00</published><updated>2020-10-13T12:00:00+02:00</updated><id>http://localhost:4000/2020/10/13/sirius-web</id><content type="html" xml:base="http://localhost:4000/2020/10/13/sirius-web/">&lt;p&gt;Source code is flowing into the first stage of the Obeo rocket. Our goal is to bring the spirit of Sirius into a new technological space : Sirius Web is the Cloud-based evolution of Sirius, 100% Open Source.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/sirius-web/SiriusWebTimeline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Sirius Web engine combines the open source components EMF-JSON &amp;amp; Sirius Components. These components will be available under the Sirius project : &lt;a href=&quot;http://eclipse.org/sirius&quot;&gt;http://eclipse.org/sirius&lt;/a&gt;, with the source code on Github :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;EMF-JSON&lt;/strong&gt; is a small library to serialize EMF models to JSON,&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;Sirius Components&lt;/strong&gt; repository provides backend and frontend components&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;Sirius Web&lt;/strong&gt; repository combines the open source Sirius components to provide a graphical modeler sample application.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/sirius-web/SiriusWebArchitecture.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-you-create-a-cloud-ready-modeler-based-on-sirius-web&quot;&gt;How do you create a cloud-ready modeler based on Sirius Web?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Define your metamodel thanks to EMF.&lt;/li&gt;
+  &lt;li&gt;Provide a Sirius configuration to specify the mapping between the different concepts of your DSL and how they should be represented graphically.&lt;/li&gt;
+  &lt;li&gt;Register the metamodel &amp;amp; the Sirius specification in the Sirius Web application.&lt;/li&gt;
+  &lt;li&gt;Build and launch the application!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/sirius-web/SiriusWebServer.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a result, you get a graphical modeler dedicated to your DSL rendered in your browser.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IXXxOCbEjE4&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;To get more details about Sirius Web and how to run it for your own DSL, attend Obeo’s rocket liftoff.
+Launch remains on schedule for &lt;a href=&quot;https://www.eclipsecon.org/2020/sessions/sirius-web-100-open-source-cloud-modeling-platform&quot;&gt;October 21 at 2:00 p.m CET&lt;/a&gt;.&lt;/p&gt;</content><author><name>Mélanie Bats</name></author><category term="planet" /><summary type="html">Source code is flowing into the first stage of the Obeo rocket. Our goal is to bring the spirit of Sirius into a new technological space : Sirius Web is the Cloud-based evolution of Sirius, 100% Open Source.</summary></entry><entry><title type="html">T-16:00 Obeo approves “load-and-go” fueling: EMF-JSON onboard!</title><link href="http://localhost:4000/2020/10/05/emf-json/" rel="alternate" type="text/html" title="T-16:00 Obeo approves “load-and-go” fueling: EMF-JSON onboard!" /><published>2020-10-05T12:00:00+02:00</published><updated>2020-10-05T12:00:00+02:00</updated><id>http://localhost:4000/2020/10/05/emf-json</id><content type="html" xml:base="http://localhost:4000/2020/10/05/emf-json/">&lt;p&gt;At Nantes Dev Force Station Launch Complex 42A, valves are open and code source is beginning to flow into Obeo’s rocket. The first open source project released by the SIRIUS-II Mission is: EMF-JSON.&lt;/p&gt;
+
+&lt;p&gt;The EMF-JSON project will soon be part of the Eclipse Sirius project. It provides a JSON-based implementation of EMF resources which can be used as a drop-in replacement for the default XMI-based format.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BbipffAatgY&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Although it is part of Sirius, this new EMF resource type can actually be used by any EMF-based application as it does not depend on the rest of the Sirius platform (neither the existing Sirius Desktop nor the upcoming Sirius Web).&lt;/p&gt;
+
+&lt;p&gt;Liftoff on the SIRIUS-II mission to the Eclipse Foundation remains planned for an instantaneous launch window on &lt;a href=&quot;https://www.eclipsecon.org/2020/sessions/sirius-web-100-open-source-cloud-modeling-platform&quot;&gt;October 21 at 2:00 p.m CET&lt;/a&gt;.&lt;/p&gt;</content><author><name>Mélanie Bats</name></author><category term="planet" /><summary type="html">At Nantes Dev Force Station Launch Complex 42A, valves are open and code source is beginning to flow into Obeo’s rocket. The first open source project released by the SIRIUS-II Mission is: EMF-JSON.</summary></entry><entry><title type="html">SIRIUS-II Mission</title><link href="http://localhost:4000/2020/08/18/siriusiimission/" rel="alternate" type="text/html" title="SIRIUS-II Mission" /><published>2020-08-18T12:00:00+02:00</published><updated>2020-08-18T12:00:00+02:00</updated><id>http://localhost:4000/2020/08/18/siriusiimission</id><content type="html" xml:base="http://localhost:4000/2020/08/18/siriusiimission/">&lt;p&gt;On &lt;strong&gt;Wednesday, October 21 at 2:00 p.m. CEST&lt;/strong&gt;, Obeo’s Spacecraft 42 will launch the SIRIUS-II mission from Code Launch Complex 42 (CLC-42) at Nantes Dev Force Station in France. SIRIUS-I mission previously launched &lt;a href=&quot;https://www.eclipse.org/sirius/&quot;&gt;Sirius&lt;/a&gt; to the Eclipse Foundation with Obeo’s &amp;amp; Thales astronauts on board back in 2013. The first mission was a success with the adoption of Sirius Desktop, based on the Eclipse platform, by a large community.&lt;/p&gt;
+
+&lt;p&gt;SIRIUS-II Mission aims to &lt;strong&gt;release Sirius Web&lt;/strong&gt;, the Cloud-based evolution of Sirius, 100% Open Source. This mission is also in charge of &lt;strong&gt;the launch of the &lt;a href=&quot;https://www.obeo.fr/en/products/obeo-cloud-platform&quot;&gt;Obeo Cloud Platform&lt;/a&gt; (OCP)&lt;/strong&gt;, the solution offered by Obeo for deploying modeling tools to the web.
+With Sirius Web, modeling tools developed with Sirius can be installed on a web server and are rendered in a browser. Our goal is to carry the spirit of Sirius into a new technological space.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for the Sirius Web/OCP countdown by following &lt;a href=&quot;https://twitter.com/melaniebats&quot;&gt;@melaniebats&lt;/a&gt; twitter account:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;All Times Are Approximate&lt;/em&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;DAY:MIN&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;EVENT&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T-64:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Sirius-II Mission announcement&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T-32:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Crew access arm retracts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T-24:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Obeo Launch Director verifies “go” for code load&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T-16:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;EMF-JSON loading begins&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T-08:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1st stage Sirius Web loading begins&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T-04:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2nd stage OCP loading begins&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T-02:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Obeo begins engine chill prior to launch&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T-01:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Command flight computer to begin final prelaunch checks&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T-00:42&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Obeo Launch Director verifies “go” for launch&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T-00:03&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Engine controller commands engine ignition sequence to start&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T-00:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Sirius Web and OCP liftoff&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T+00:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;SIRIUS-II deployment&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Following stage separation, Obeo will land Spacecraft 42’s first stage on the Eclipse Foundation codeship, which will be stationed in the Atlantic Ocean. The SIRIUS-II spacecraft will be deployed about 30 minutes after liftoff.&lt;/p&gt;
+
+&lt;p&gt;You can attend a live of the launch by &lt;a href=&quot;https://www.eclipsecon.org/2020/registration&quot;&gt;registering to EclipseCon 2020&lt;/a&gt; and choosing &lt;a href=&quot;https://www.eclipsecon.org/2020/sessions/sirius-web-100-open-source-cloud-modeling-platform&quot;&gt;Sirius Web: 100% open source cloud modeling platform&lt;/a&gt;.&lt;/p&gt;</content><author><name>Mélanie Bats</name></author><category term="planet" /><summary type="html">On Wednesday, October 21 at 2:00 p.m. CEST, Obeo’s Spacecraft 42 will launch the SIRIUS-II mission from Code Launch Complex 42 (CLC-42) at Nantes Dev Force Station in France. SIRIUS-I mission previously launched Sirius to the Eclipse Foundation with Obeo’s &amp;amp; Thales astronauts on board back in 2013. The first mission was a success with the adoption of Sirius Desktop, based on the Eclipse platform, by a large community.</summary></entry><entry><title type="html">SiriusCon 2020: Sirius to the Web with Obeo Cloud Platform</title><link href="http://localhost:4000/2020/06/10/siriuscon/" rel="alternate" type="text/html" title="SiriusCon 2020: Sirius to the Web with Obeo Cloud Platform" /><published>2020-06-10T12:00:00+02:00</published><updated>2020-06-10T12:00:00+02:00</updated><id>http://localhost:4000/2020/06/10/siriuscon</id><content type="html" xml:base="http://localhost:4000/2020/06/10/siriuscon/">&lt;p&gt;&lt;em&gt;TLDR; On June 18th connect to @SiriusCon Live 2020 to watch a demo of the Obeo Cloud Platform.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/siriuscon2020/announcement.png&quot; alt=&quot;Here we go again&quot; title=&quot;Here we go again&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;“Mamma mia, does it show again &lt;br /&gt;
+My my, just how much I’ve missed you?“ &lt;br /&gt;
+&lt;a href=&quot;https://youtu.be/unfzfe8f9NI&quot;&gt;Mamma Mia&lt;/a&gt; &lt;br /&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;On the 18th of June, I will have the pleasure of presenting the Obeo Cloud Platform, with my co-speaker &lt;a href=&quot;https://twitter.com/sbegaudeau&quot;&gt;Stéphane Bégaudeau&lt;/a&gt;, at &lt;a href=&quot;https://www.siriuscon.org/&quot;&gt;SiriusCon Live 2020&lt;/a&gt;.
+During SiriusCon 2020, we will not only demonstrate OCP, but also make a big announcement about its future. So, attend SiriusCon and be in for a huge surprise!&lt;/p&gt;
+
+&lt;p&gt;After such a long time, it is great to be able to connect with the &lt;a href=&quot;http://eclipse.org/sirius&quot;&gt;Eclipse Sirius&lt;/a&gt; community.&lt;/p&gt;
+
+&lt;p&gt;If you have to create a graphical modeling workbench for your own DSL, then you know how powerful Sirius is to help you design your own modeler based on EMF. In just a few hours, you get a modeling studio dedicated to your &lt;a href=&quot;https://www.eclipse.org/sirius/gallery.html&quot;&gt;own domain&lt;/a&gt;.
+The main issue faced by our customers arises when they need to distribute the bundle to their end users. A truly effective deployment is difficult to come by. Many struggle to either deploy or maintain their solution. And their team are feeling the pinch.&lt;/p&gt;
+
+&lt;p&gt;To solve these challenges, I am excited to demonstrate the Obeo Cloud Platform (OCP), the Cloud-based solution developed by Obeo for deploying modeling tools to the web. With OCP Modeler, modeling tools developed with Sirius can be installed on a Cloud server and are rendered in a web browser. Our purpose is to carry the spirit of Sirius.
+What our users typically love in Sirius is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the ability to define your modeling workbench in a configuration file,&lt;/li&gt;
+  &lt;li&gt;no code generation involved as everything is interpreted at runtime,&lt;/li&gt;
+  &lt;li&gt;flexible even for complex models.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So we kept all those principles and now allow you to easily define workbenches running in the cloud.
+We rebuilt the Sirius runtime from the ground up, for the long haul.&lt;/p&gt;
+
+&lt;p&gt;I’ve been talking about it for a long time now! And we’re really proud to show that OCP is available and working today, so our talk will be purely a live demo: no slides (almost), no bullet points, not feature lists. Just us, showing the capabilities of this modeling environment!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/siriuscon2020/ocp.png&quot; alt=&quot;OCP Modeler&quot; title=&quot;OCP Modeler&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We will give you as well an overview of the context, the roadmap and how OCP Modeler positions with Sirius.&lt;/p&gt;
+
+&lt;p&gt;Referring to ABBA’s words, take a chance on OCP!&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;“Honey I’m still free &lt;br /&gt;
+Take a chance on me &lt;br /&gt;
+Gonna do my very best, baby can’t you see &lt;br /&gt;
+Gotta put me to the test, take a chance on me“ &lt;br /&gt;
+&lt;a href=&quot;https://youtu.be/-crgQGdpZR0&quot;&gt;Take a chance on me&lt;/a&gt; &lt;br /&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;In the meantime, as a preparation, &lt;a href=&quot;https://youtu.be/xFrGuyw1V8s&quot;&gt;you can dance, you can djibe&lt;/a&gt; and most importantly you have to &lt;a href=&quot;https://bit.ly/Register_SiriusCon2020&quot;&gt;register&lt;/a&gt;. And no, even if I am a big #ABBAFan the surprise is not that I will do my talk in a fancy glittering costume… neither Stéphane even if it could be very memorable :).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/siriuscon2020/dancing.jpg&quot; alt=&quot;Dancing&quot; title=&quot;Dancing&quot; /&gt;&lt;/p&gt;</content><author><name>Mélanie Bats</name></author><category term="planet" /><summary type="html">TLDR; On June 18th connect to @SiriusCon Live 2020 to watch a demo of the Obeo Cloud Platform.</summary></entry><entry><title type="html">Obeo Cloud Platform</title><link href="http://localhost:4000/2019/12/02/ocp-9-month-journey/" rel="alternate" type="text/html" title="Obeo Cloud Platform" /><published>2019-12-02T11:00:00+01:00</published><updated>2019-12-02T11:00:00+01:00</updated><id>http://localhost:4000/2019/12/02/ocp-9-month-journey</id><content type="html" xml:base="http://localhost:4000/2019/12/02/ocp-9-month-journey/">&lt;p&gt;&lt;em&gt;TLDR; This is almost the story of my first CTO pregnancy experience, organizational stuff inside.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s been almost 2 years since I started operating as Obeo’s CTO, 2 years since I accepted the challenge to take the lead of our R&amp;amp;D. As part of this, almost 1 year ago I started to organize the development of our new generation modeling tool solution. And for the past 9 months my team has been busy working full time on this new product.&lt;/p&gt;
+
+&lt;p&gt;When you become &lt;del&gt;pregnant&lt;/del&gt; a product manager, you are basically a story trigger for everyone around you: people love to tell their failure-project and their stupid-leader story. It is scary to be at the place where you are the one who decides. It is even more frightening when you are at the point where you redesign your products with a completely different technological layer. This is where I was one year ago. At Obeo, we have been developing for years modeling workbenches based on the Eclipse Platform. Today our customers want more and asked us to modernize the modeling stack by making it cloud compliant. So how do we go from this statement to a first software release?&lt;/p&gt;
+
+&lt;p&gt;If you’re a product manager or affiliate, you’re probably aware that the first nine months of a new software product are always a big adventure.
+CTOs-to-be may have a lot of questions about what they can expect and the changes they’ll go through.
+Do you know when to expect to feel your product move? When to look for a UI/UX designer or a continuous deployment pipeline? Customer interest on what you are developing? Is that the signs of preterm labor?&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-month---your-imagination-has-no-limit&quot;&gt;1st month - Your imagination has no limit&lt;/h2&gt;
+
+&lt;p&gt;The beginning of a new product is not easy. Where should we start?
+Should we rely on the prototypes we already have? Should we built a completely new project? How will you build your team? Who will be in? When? What will be the first scenario that will be supported in your software? How should you be organized?
+These are all the first questions you will come across.&lt;/p&gt;
+
+&lt;p&gt;What I will remember from that first month is that at some point you have to take decision: that is why you are here, that’s your job, and that will remind you why there is a C in CTO. You have the power of choice.
+There is not a unique good solution for everything. When every other person has a piece of advice for you, you start to understand that not everything works for everyone. I found what I believe works best for me. Of course, what works for me may not work for you: it depends on your company technological background but also on how you want to get your collaborators engaged as well. Each project, team and context is different.&lt;/p&gt;
+
+&lt;p&gt;Take the time to discuss this with others in your company, take the time to find what they need but also what are they dreaming about this new product. I developed my product vision for example by asking people to fill in a survey with questions such as in 1, 2, 5 years what is the final goal, the business needs, the users expectations, the success factor, etc. See the &lt;a href=&quot;/img/ocp-9month/ProductVision.png&quot;&gt;product vision template&lt;/a&gt; available on my github for details.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/ocp-9month/ProductVision.png&quot;&gt;&lt;img src=&quot;/img/ocp-9month/ProductVision.png&quot; alt=&quot;Product Vision Template&quot; title=&quot;Product Vision&quot; class=&quot;center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Write a summary of all this.
+And in the end, find your own voice in the ocean of opinions.
+Build your team, define your first scenario, share with everyone what you decided and do not hesitate to fail! Your first organisation might not be the best one: try, learn, update, reorganize, try something else… You are not alone in this task, this is a collective effort. The entire team cares about its organization and discusses it regularly by making retrospectives, having a dedicated moment during regular meetings, defining process to improve their collaboration, selecting tools…&lt;/p&gt;
+
+&lt;p&gt;The questional period you just went through, your team will go through the same. Which technical bricks will they rely on? Which part of our existing code will integrate this new project? Should we start by building the simplest scenario, this without taking into account the whole complexity of the end product you are trying to build? What should in the end be the software architecture?&lt;/p&gt;
+
+&lt;p&gt;Important point, give some time to your team to discuss all those things. But ask them to produce something even during that period. In our case, we wrote documents (AsciiDoc rocks!) and decided to keep a trace of all our decisions. For that, we used ADR - Architectural Decision Record: it is like reading the pocket reference of your project. After several months of use, it has turned out to be really useful. It helps people who are working part time on the project to get what we decided and why and help remember why we took a given decision. It forces us to discuss and validate all the important decisions together.
+You also need to stop this questioning period by just pushing your team to contribute &lt;em&gt;code&lt;/em&gt; and not just loosing them in the limbs of the imaginative product.&lt;/p&gt;
+
+&lt;h2 id=&quot;mid-months---scared-believe-realize&quot;&gt;Mid months - Scared! Believe! Realize!&lt;/h2&gt;
+
+&lt;p&gt;Pregnancy, giving software birth and the first 3 months is such an emotional roller coaster with so many changes. As you move forward on your development journey, it is amazing to discover all the things your sweety-software can do before he’s born. We went through different themes during these months: Persistence, CRUD, Diagram, Properties views, Edition, Concurrence, Authentication…
+Then everything is on track, you are organized as a team, code is being produced, your scenarios are more and more rich. And at some point, we realized we were actually growing life within us. It did not come right when we started the project.&lt;/p&gt;
+
+&lt;p&gt;I felt it in 3 specific moments —&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;When we chose the name - Obeo Cloud Platform,&lt;/li&gt;
+  &lt;li&gt;When I had a first &lt;del&gt;ultrasound scan&lt;/del&gt; preview of the UI - fortunately we have a Design team to work with,&lt;/li&gt;
+  &lt;li&gt;And when he kicked for the first time - I mean his first public live demo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_hx3lfRETI&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;We will also never forget our baby shower celebration at EclipseCon Europe! This was an amazing moment for us. We were so happy to present our new work to the Sirius community.
+That day I was feeling the kicks in my belly.
+As Steve Jobs puts it, “A lot of times, people don’t know what they want until you show it to them.” That’s why we decided to give a preview of our new product even before it is polished, and why we launched a beta testing team. The idea is to give them a preview access and organize live remote testing sessions to grow the feedback river with real end-users. &lt;a href=&quot;https://t.co/Zgh3KMxtUU?amp=1&quot;&gt;Join us now and share your needs&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h2 id=&quot;8-9th-months---you-are-almost-releasing&quot;&gt;8-9th months - You are (almost) releasing!&lt;/h2&gt;
+
+&lt;p&gt;Today, I do not even realise it is already the last months of pregnancy: we are getting closer and closer to our due date. I have this mixed feeling of excitement and nervousness and want our software product to come as soon as possible.&lt;/p&gt;
+
+&lt;p&gt;Our product is getting ready for birth, and the whole Obeo family is preparing to welcome a new member. You are also invited to join us, stay tuned for the upcoming SiriusCon Live Q1 2020.&lt;/p&gt;
+
+&lt;p&gt;At the end of this year, on his first days, our software product will be tiny and little. It will know only a few things but will do them well. Next we will continue to feed him: baby bottles first and then we will go through the diversification phase introducing new kind of food.
+My team will help him to grow, you, our users, our customers will be part of its education. We have many projects and plans, but we need you to turn true customers problems into product features.&lt;/p&gt;
+
+&lt;p&gt;Sometimes it’s important to stop and look back. It really made me appreciate and comprehend what an amazing experience I and my company went through ❤ and still are.&lt;/p&gt;
+
+&lt;p&gt;Hope you had a good read.&lt;/p&gt;</content><author><name>Mélanie Bats</name></author><category term="planet" /><summary type="html">TLDR; This is almost the story of my first CTO pregnancy experience, organizational stuff inside.</summary></entry><entry><title type="html">Sirius 6</title><link href="http://localhost:4000/2018/07/02/futur-of-modeling-tools/" rel="alternate" type="text/html" title="Sirius 6" /><published>2018-07-02T12:00:00+02:00</published><updated>2018-07-02T12:00:00+02:00</updated><id>http://localhost:4000/2018/07/02/futur-of-modeling-tools</id><content type="html" xml:base="http://localhost:4000/2018/07/02/futur-of-modeling-tools/">&lt;p&gt;&lt;a href=&quot;https://www.eclipse.org/sirius/&quot;&gt;Eclipse Sirius&lt;/a&gt; is a framework to easily and quickly create a graphical modeling workbench dedicated to your domain specific language.&lt;/p&gt;
+
+&lt;p&gt;This year at &lt;a href=&quot;https://www.obeo.fr/en&quot;&gt;Obeo&lt;/a&gt;, we started working on two aspects: &lt;strong&gt;prepare the future of Sirius&lt;/strong&gt; &amp;amp; provide &lt;strong&gt;new features for the upcoming 6.0&lt;/strong&gt; release which is part of the Photon release train.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ready for Photon? Sirius 6.0 is there for you!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We have added several new features:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Support for background color on diagrams&lt;/strong&gt;: it is now possible to dynamically compute the color of the diagram according to the state of the model. This is a small feature, but it continues to expand the visual customization capabilities available to specifiers.
+&lt;img src=&quot;/img/futur-of-modeling-tools/diagram_background.png&quot; alt=&quot;Background color on diagrams&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;New “magic” edge creation tool&lt;/strong&gt;: All diagrams will now benefit for free from a new smart edge creation tool. Thanks to this end users no longer have to chase for the appropriate tool in the palette (which can contain many entries): just click on the source and target of the edge to create and Sirius will automatically detect which tools can be applied to them. If there is only one, the edge is created immediately. If several tools are possible as is the case of the animation, a menu opens to choose among the candidate tools.
+&lt;img src=&quot;/img/futur-of-modeling-tools/runtime_sirius_demo2.gif&quot; alt=&quot;New “magic” edge creation tool&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Quick navigation to service method implementation&lt;/strong&gt;: Real-world modelers often need to call into Java code to perform complex operations on models or call into Sirius and Eclipse APIs. This is very straightforward to do in Sirius with the notion of Java services that can be transparently invoked from AQL expressions. It is now possible to navigate from the expressions in the Sirius specification which invoke a service method directly into the corresponding Java code with a single keystroke.
+&lt;img src=&quot;/img/futur-of-modeling-tools/runtime_sirius_demo.gif&quot; alt=&quot;Quick navigation to service method implementation&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Integration with ELK for improved diagram layouts&lt;/strong&gt;: Sirius has always proposed an automatic layout algorithm. Specifiers can now leverage the high-quality layout algorithms provided by the Eclipse ELK project. You can choose any of the algorithms proposed by ELK and tweak all their configuration parameters in the Sirius specification. The end users will transparently get a nicer layout when using the existing “Arrange All” action. This is experimental in Sirius 6.0. Give us feedback on which aspects to focus on for the future.
+&lt;img src=&quot;/img/futur-of-modeling-tools/runtime_sirius_sm.png&quot; alt=&quot;Integration with ELK for improved diagram layouts&quot; /&gt;
+&lt;img src=&quot;/img/futur-of-modeling-tools/override_options.png&quot; alt=&quot;Override ELK options&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;What’s next&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;We are working on what would be the future of modeling tools. We already gathered 
+some feedback from the community. You expect that modeling in the future would be: &lt;strong&gt;fast, simple, easy, beautiful, cloud &amp;amp; collaborative&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We believe that the concept of IDE is evolving. In the future, we will have more accessible tools and better tool integration. In the end, we think that tools should become IDE agnostic.  We will have more and more tools dedicated to specific domains. These tools would be available more broadly, for various kind of users on any kind of platforms. We need frameworks to ease the creation of such specific tools dedicated to one usage. That’s why we believe in frameworks such as Sirius.&lt;/p&gt;
+
+&lt;p&gt;Sirius is a really nice framework to create dedicated desktop workbenches based today on the Eclipse platform. Our purpose is to bring the spirit of Sirius to the cloud: easily develop modeling workbenches but rendered in a browser and integrable in any web application.&lt;/p&gt;
+
+&lt;p&gt;So where are we today? We are going step by step and work on different aspects.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Introduce web technologies in existing Eclipse views&lt;/strong&gt;: Our first step is to introduce web technologies in existing Eclipse views. This approach is used to provide a brand new feature in Sirius 6.0 called Workflow which allows specifiers to guide users through the usage of their workbench. On the left of the following screenshot, we see a Sirius configuration file which defines a workflow with different actions using this new DSL. To the end-user, these are rendered as web elements inside the Eclipse view. Note that this new feature is still experimental in 6.0, and will be improved for version 6.1 this fall.
+&lt;img src=&quot;/img/futur-of-modeling-tools/webcomponents_sm.png&quot; alt=&quot;Web components in Eclipse view&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make Sirius independent from Eclipse platform&lt;/strong&gt;: The idea is to make the Sirius code base more modular, isolating the core business concerns from the current Eclipse-based technology stack: the Eclipse UI, GMF, the workspace, and even the Eclipse Runtime itself. We will work on this progressively over several versions, making sure Sirius always keeps working even in the classical Eclipse-based context. The end goal is to get a set of core components that can be reused both in Eclipse and, more to the point, inside a web server exposing its services to any web client through a well-defined protocol.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/Ua3-93O3TRs&quot;&gt;Render Sirius diagrams in a browser&lt;/a&gt;&lt;/strong&gt;: Based on a classical Sirius configuration, we can render in a browser the graphical elements of a diagram. As usual, the specifier can work on the look and feel of his modeler iteratively. This prototype is based on Sprotty. Sprotty is a new project proposed to the Eclipse Foundation by TypeFox. It is a small, lightweight, open source &amp;amp; well architectured JavaScript graphical library providing rendering in SVG &amp;amp; well integrated with Eclipse ELK which provides auto-layout.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sirius integrated with Cloud IDEs&lt;/strong&gt;: Sirius in a near future will be IDE-agnostic. Then you will be able to integrate Sirius based workbenches in any web application or any IDE. Have a look at the prototypes we already have of Sirius integrated in Eclipse Theia and of Sirius integrated in Eclipse Che.
+&lt;img src=&quot;/img/futur-of-modeling-tools/sirius_components_sm.png&quot; alt=&quot;Sirius integrated with Cloud IDEs&quot; /&gt;
+To sum up, we will keep working on the existing Sirius project and we will reintegrate the new web-related features and components. This summer we will continue our work on the modularization of the architecture. And for the 6.1 this fall, we will contribute a first version of web based diagrams based on the Graphical Server Protocol. 
+&lt;img src=&quot;/img/futur-of-modeling-tools/diagram_workflow.png&quot; alt=&quot;Sirius timeline&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;At Obeo, we’re taking a community-first approach to influence the development of the next generation of modeling tools. Please tell us what you want! We have lots of ideas for the future of Sirius. But what we need is to know what YOU need. So please Speak Up!&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OQRFUyBt1r4&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Mélanie Bats</name></author><category term="planet" /><summary type="html">Eclipse Sirius is a framework to easily and quickly create a graphical modeling workbench dedicated to your domain specific language.</summary></entry><entry><title type="html">Modeling tools go up to the cloud</title><link href="http://localhost:4000/2018/02/22/up-to-the-cloud/" rel="alternate" type="text/html" title="Modeling tools go up to the cloud" /><published>2018-02-22T11:00:00+01:00</published><updated>2018-02-22T11:00:00+01:00</updated><id>http://localhost:4000/2018/02/22/up-to-the-cloud</id><content type="html" xml:base="http://localhost:4000/2018/02/22/up-to-the-cloud/">&lt;p&gt;TLDR; at &lt;a href=&quot;https://www.obeo.fr/en&quot;&gt;Obeo&lt;/a&gt;, we have done the first steps to &lt;strong&gt;bring Sirius to the web&lt;/strong&gt;. Today we are ready to work with you to bring &lt;strong&gt;your own modeling tool up to the cloud&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you are curious about details, this is the longer story…&lt;/p&gt;
+
+&lt;p&gt;As you know, at Obeo, we have been working on modeling tools for a long time now, and we therefore have a lot of experience developing graphical tools. Obeo is a key player in the Modeling ecosystem: we are involved in open source through numerous Eclipse projects: &lt;a href=&quot;https://www.eclipse.org/sirius/&quot;&gt;Sirius&lt;/a&gt;, &lt;a href=&quot;https://www.eclipse.org/acceleo/&quot;&gt;Acceleo&lt;/a&gt;, EMF/GMF, &lt;a href=&quot;https://www.eclipse.org/ecoretools/&quot;&gt;EcoreTools&lt;/a&gt;, &lt;a href=&quot;https://www.eclipse.org/emf/compare/&quot;&gt;EMF Compare&lt;/a&gt;…
+One of our great success is Sirius: a framework to easily and quickly create a modeling workbench dedicated to your domain.&lt;/p&gt;
+
+&lt;p&gt;Today, Sirius relies on the Eclipse platform, consequently the graphical modelers based on it are desktop applications.&lt;/p&gt;
+
+&lt;p&gt;You know that &lt;strong&gt;Desktop&lt;/strong&gt; vs &lt;strong&gt;Web&lt;/strong&gt; applications are in war since time immemorial…&lt;/p&gt;
+
+&lt;p&gt;In the past, we already won some battles, by mixing both approaches, switching from one to another. 
+For instance, our Enterprise Architecture solution &lt;a href=&quot;https://www.obeosmartea.com/en/solution&quot;&gt;Obeo SmartEA&lt;/a&gt;, provides :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;light client experience to explore a model,
+&lt;img src=&quot;https://www.obeosmartea.com/images/my_gallery/10-details-page.png&quot; alt=&quot;Explore model with light client&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;and a rich application to edit it.
+&lt;img src=&quot;https://www.obeosmartea.com/images/my_gallery/05-graphical-modeling-workbench.png&quot; alt=&quot;Edit model with rich application&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since December, you already know that we are working to reconcile the two worlds… For Sirius 6, we are developing a new solution to &lt;strong&gt;use Sirius definition with HTML Renderer within Eclipse workbenches&lt;/strong&gt;. We will use an hybrid model to be able to get the best of both worlds and make them coexist in the same rich application. In collaboration with Thales, we are prototyping what would be a &lt;a href=&quot;http://www.polarsys.org/capella/&quot;&gt;Capella&lt;/a&gt; graphical modeler using the dynamic visualisation capabilities offered by &lt;a href=&quot;https://github.com/theia-ide/sprotty&quot;&gt;Sprotty&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/elk/&quot;&gt;Eclipse Layout Kernel&lt;/a&gt;. I really appreciate that the &lt;a href=&quot;https://typefox.io/&quot;&gt;TypeFox&lt;/a&gt; guys lent us a hand about that, this was truly in the open source spirit!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/dear-santa/HTMLRendererInSirius.png&quot; alt=&quot;HTML renderer within Sirius workbenches&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am really happy to announce that now we are going one step further: we are making Sirius evolve to &lt;strong&gt;bring modeling tools up to the cloud&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://static.alfabetajuega.com/abj_public_files/multimedia/imagenes/201501/95918.alfabetajuega-up-10012015.jpg&quot; alt=&quot;Up&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Modeling tools based on Sirius today look like this. You have a graphical editor with a palette to manage elements.
+&lt;img src=&quot;/img/up-to-the-cloud/Today.png&quot; alt=&quot;Modeling tool today&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Modeling tools based on Sirius tomorrow could look like this. You still have a graphical editor with a palette to manage elements.
+&lt;img src=&quot;/img/up-to-the-cloud/Tomorrow.png&quot; alt=&quot;Modeling tool tomorrow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The main difference is that tomorrow Sirius applications will be based on web technologies, and therefore the graphical modelers will be cloud applications. With a cloud application :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;you &lt;strong&gt;no&lt;/strong&gt; longer &lt;strong&gt;need to install&lt;/strong&gt; it, it simply do not require any installation process,&lt;/li&gt;
+  &lt;li&gt;it does not occupy extra space on your hard drive,&lt;/li&gt;
+  &lt;li&gt;your graphical workbench is &lt;strong&gt;easy to access&lt;/strong&gt; from any browser and you can use it from any device,&lt;/li&gt;
+  &lt;li&gt;it adapts to the workload increase.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is still a long way to go.
+&lt;img src=&quot;/img/up-to-the-cloud/Architecture.png&quot; alt=&quot;Path to go&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As said before, today our modeling tools are based on Eclipse RCP technologies.
+We are working on a new architecture to make this work in a client/server world. 
+Sirius will be split in different pieces providing services to clients rendering the modeling tool in the browser.&lt;/p&gt;
+
+&lt;p&gt;To bring those technologies further to the web, from day 1 we were convinced that we needed a standard communication protocol.
+A few months ago, an impressive community effort was started around the Language Server Protocol to ease the integration of languages to textual editors. 
+We found that inspiring and that’s why we decided to start working on a &lt;a href=&quot;https://github.com/ObeoNetwork/GraphicalServerProtocol&quot;&gt;Graphical Server Protocol&lt;/a&gt;.
+This initiative defines the protocol between an editor or an IDE and a graphical server that provides graphical features like tools, mappings, layout, layers…
+We based our work on what was done by Typefox in Sprotty.&lt;/p&gt;
+
+&lt;p&gt;I am glad to reveal our &lt;a href=&quot;https://www.youtube.com/watch?v=cOxQtBwKhow&quot;&gt;first prototypes&lt;/a&gt; of Sirius exposing its services through the Graphical Server Protocol to render diagrams specified in a browser.
+Today we can take any existing graphical workbench specified with Sirius and render it in a browser. Not only we render the graphical elements but also we interpret at runtime the creation tools available in the palette according to the one defined in the Sirius specification. And as we can see on the following video, it is possible to create new model elements thanks to those tools from the palette.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cOxQtBwKhow&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;In the next &lt;a href=&quot;https://www.youtube.com/watch?v=S1cyefHKOjU&quot;&gt;video&lt;/a&gt;, just by updating the Sirius specification as usual, you can see in the browser how the elements are rendered and you can work on the look and feel of your modeler iteratively.
+Here at the beginning all the edges and labels are black. One can update the Sirius specification to set the men labels and edges in blue. Immediately when the configuration is saved you see that the colors changed in the browser.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S1cyefHKOjU&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;A diagram can provide different layers. This &lt;a href=&quot;https://www.youtube.com/watch?v=Pms9pvdzxCY&quot;&gt;demo&lt;/a&gt; shows the capability to enable/disable layers.
+It will filter accordingly the graphical elements visible in the diagram and the tools available in the palette. 
+You see that the layout is automatically recalculated every time a layer is enabled to provide a smart layout for the diagram at all times.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Pms9pvdzxCY&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I believe that both desktop and web applications will continue to coexist for a long time.
+While both desktop and web applications have their pros and cons, what is important is that the application fits users needs. Users don’t care whether your app is native or web based as long as it does the job properly.
+We do not give up one world for another, we are making what is needed to get the best of the two worlds.&lt;/p&gt;
+
+&lt;p&gt;That’s why we are really excited by the fact that Eclipse Che decided to replace its GWT IDE by a new one relying on modern technologies: &lt;a href=&quot;https://github.com/theia-ide/theia&quot;&gt;Theia&lt;/a&gt;. Pursuing the same line as Eclipse RCP, Theia is an open framework that allows users to compose their own applications. I believe that this extensibility model should foster the emergence of a new ecosystem.Thanks to the extensibility offered by Theia, we can envision in the future the development of modeling tools for both desktop and web applications equally and even going further by integrating such tools to cloud frameworks such as Che.
+&lt;img src=&quot;/img/up-to-the-cloud/SiriusInChe.png&quot; alt=&quot;Mockup of Sirius based modeler integrated in Che&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the expectation of the modeling community is to be able to simplify deployment, that’s one of our initial goal by going to cloud based applications.&lt;/p&gt;
+
+&lt;p&gt;As you saw in our videos, we are making Sirius evolve to bring modeling tools to the cloud.&lt;/p&gt;
+
+&lt;p&gt;We need you to go beyond.&lt;/p&gt;
+
+&lt;p&gt;As open source is in our DNA, most of these changes will be contributed to Sirius. The actual Sirius project will evolve to a client/server architecture.
+Let’s work together to bring your tooling to this new platform !&lt;/p&gt;
+
+&lt;p&gt;We would also like to invite all of you to participate to the Graphical Server Protocol initiative to make this an open collaboration providing a common protocol for graphical editors.&lt;/p&gt;
+
+&lt;p&gt;Finally remember that we are available to work with other organizations to bring modeling tools to the Web, including integration with web &amp;amp; cloud tooling such as Theia &amp;amp; Che.&lt;/p&gt;
+
+&lt;p&gt;Contact us, join us, support us!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We’re gonna get it, get it together
+I know, we’re gonna get it, get it together and flow
+We’re gonna get it, get it together and go
+Up, and up, and up&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/BPNTC7uZYrI&quot;&gt;Coldplay up &amp;amp; up&lt;/a&gt;&lt;/p&gt;</content><author><name>Mélanie Bats</name></author><category term="planet" /><summary type="html">TLDR; at Obeo, we have done the first steps to bring Sirius to the web. Today we are ready to work with you to bring your own modeling tool up to the cloud.</summary></entry><entry><title type="html">CheConf18</title><link href="http://localhost:4000/2018/02/16/che-conf/" rel="alternate" type="text/html" title="CheConf18" /><published>2018-02-16T13:00:00+01:00</published><updated>2018-02-16T13:00:00+01:00</updated><id>http://localhost:4000/2018/02/16/che-conf</id><content type="html" xml:base="http://localhost:4000/2018/02/16/che-conf/">&lt;p&gt;A small post to announce that I will be speaking at &lt;a href=&quot;https://www.eclipse.org/che/checonf18/index.html&quot;&gt;CheConf18&lt;/a&gt;, a one day conference dedicated to &lt;a href=&quot;https://eclipse.org/che/&quot;&gt;Eclipse Che&lt;/a&gt; an extensible cloud development platform. I am really excited to participate to this event! I will co speak with Stevan Le Meur, Che maintainer from RedHat about &lt;strong&gt;Building Extensibility and Community for Che&lt;/strong&gt;. During our session, you’ll get a preview of the work we prototyped at &lt;a href=&quot;https://www.obeo.fr/en&quot;&gt;Obeo&lt;/a&gt; to bring the modeling stack to the web and what class of tools one can envision.&lt;/p&gt;
+
+&lt;p&gt;Perhaps you hadn’t hear about CheConf so far ? No problem: it’s not too late to participate. Indeed, there’s no need to negotiate with your boss, no need to book a flight and an hotel: this conference happens entirely online and is free!&lt;/p&gt;
+
+&lt;p&gt;You just need to &lt;a href=&quot;https://visitor.r20.constantcontact.com/d.jsp?llr=7kv7dn9ab&amp;amp;p=oi&amp;amp;m=1127869207900&amp;amp;sit=dqf8xmplb&amp;amp;f=ab2389bc-9888-4ff7-978e-f922c1210d52&quot;&gt;subscribe&lt;/a&gt; on the web site, and you’ll be able to join the conference when you want.
+Have a look at the great &lt;a href=&quot;https://www.eclipse.org/che/checonf18/sessions.html&quot;&gt;schedule&lt;/a&gt;.
+And do not forget our session &lt;strong&gt;Wednesday February 21, 2018 17:30-18:00 Paris Time&lt;/strong&gt; or &lt;strong&gt;wherever you are&lt;/strong&gt; in the world!&lt;/p&gt;
+
+&lt;p&gt;Stay tuned!&lt;/p&gt;</content><author><name>Mélanie Bats</name></author><category term="planet" /><summary type="html">A small post to announce that I will be speaking at CheConf18, a one day conference dedicated to Eclipse Che an extensible cloud development platform. I am really excited to participate to this event! I will co speak with Stevan Le Meur, Che maintainer from RedHat about Building Extensibility and Community for Che. During our session, you’ll get a preview of the work we prototyped at Obeo to bring the modeling stack to the web and what class of tools one can envision.</summary></entry></feed>
