@@ -5,12 +5,56 @@
   <description>Posts tagged as 'planet'</description>
      <atom:link href="http://localhost:4000/feeds/feed.planet.xml" rel="self" type="application/rss+xml" />
   <link>http://localhost:4000/tag/planet/</link>
-  <updated>2021-04-29T15:29:12+02:00</updated>
+  <updated>2021-10-13T15:30:42+02:00</updated>
   <author>
    <name></name>
    <email></email>
   </author>
 
+  
+   <item>
+    <title>Alice’s adventures in Sirius Web Land</title>
+    <description>&lt;p&gt;Since my early childhood I have loved stories, listening to books read by my mum, then reading by myself comics or classical literature for school and now, as I dedicate not so much time to reading, mostly blog posts and news on the internet.
+One of my favorite novels remains “Alice’s Adventures in Wonderland”.
+&lt;img src=&quot;/img/econ21/alice.jpg&quot; alt=&quot;Alice's Adventures in Wonderland&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A young girl named Alice falls through a rabbit hole into a fantastic world of weird creatures. She meets people, she experiences, she tastes, she has to make decisions, sometimes she’s scared, and the minute after she’s happy. This book is like a roller coaster full of events and emotions.&lt;/p&gt;
+
+&lt;p&gt;When I think about our job at Obeo, when we have to create a tool dedicated to a specific domain for one of our customers, I feel like we are all small Alices experiencing the Sirius Land.
+We start by meeting people, trying to understand their jobs, their needs, we make decisions about what concepts we will specify, how they will be represented… Sometimes it works “Yes! I did it!” and sometimes the user’s feedback is not so good and we rework the tool “Oh, no, try again ;(“…&lt;/p&gt;
+
+&lt;p&gt;One year ago, we at Obeo released a fist version of the &lt;a href=&quot;https://www.eclipse.org/sirius/sirius-web.html&quot;&gt;Sirius Web&lt;/a&gt; project and I had this little Alice in mind…&lt;/p&gt;
+
+&lt;p&gt;Alice was beginning to get very tired of creating DSL graphical editors and of having too many things to do: start Eclipse, describe her domain with Ecore, generate the EMF code, launch another Eclipse runtime, specify her graphical mappings with Sirius Desktop, test with another Eclipse runtime, package everything to an update site, send it to Bob so that he can install it, help Bob who can’t find how to install the modeler, reiterate from the beginning to update the tool according to Bob feedbacks and needs…&lt;/p&gt;
+
+&lt;p&gt;“Oh dear! Would you tell me, please, which way I ought to go from here?” she asked,&lt;/p&gt;
+
+&lt;p&gt;“That depends a good deal on where you want to get to,” said the Cat.&lt;/p&gt;
+
+&lt;p&gt;Alice prayed for a framework to easily create and deploy her studios to the web!&lt;/p&gt;
+
+&lt;p&gt;Curiouser and curiouser! This exists!&lt;/p&gt;
+
+&lt;p&gt;I have a talk at EclipseCon 2021 to tell you about Alice in Sirius Web Land!
+In this session, I will introduce and demonstrate:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;how to &lt;strong&gt;describe your domain&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;how to &lt;strong&gt;specify your graphical editor&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;how to &lt;strong&gt;deploy&lt;/strong&gt; your studio to your end-users
+… everything &lt;strong&gt;from your browser&lt;/strong&gt;, &lt;strong&gt;thanks to Sirius Web&lt;/strong&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is not a dream, this is really happening!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/econ21/mm.gif&quot; alt=&quot;Sirius Web Domain and View definitions&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I will demonstrate all examples using 100% open-source software. Come and join me! You have no excuse, &lt;a href=&quot;https://www.eclipsecon.org/2021/registration&quot;&gt;register at EclipseCon&lt;/a&gt;. As it is a virtual event you can attend from anywhere, even from Wonderland!&lt;/p&gt;
+</description>
+    <link>http://localhost:4000/2021/10/11/econ21/ </link>
+    <pubDate>2021-10-11T12:00:00+02:00</pubDate>
+    <guid isPermaLink="true">http://localhost:4000/2021/10/11/econ21/</guid>
+   </item>
   
    <item>
     <title>Behind the Scene #4</title>
@@ -293,77 +337,6 @@ Gotta put me to the test, take a chance on me“ &lt;br /&gt;
     <link>http://localhost:4000/2020/06/10/siriuscon/ </link>
     <pubDate>2020-06-10T12:00:00+02:00</pubDate>
     <guid isPermaLink="true">http://localhost:4000/2020/06/10/siriuscon/</guid>
-   </item>
-  
-   <item>
-    <title>Obeo Cloud Platform</title>
-    <description>&lt;p&gt;&lt;em&gt;TLDR; This is almost the story of my first CTO pregnancy experience, organizational stuff inside.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s been almost 2 years since I started operating as Obeo’s CTO, 2 years since I accepted the challenge to take the lead of our R&amp;amp;D. As part of this, almost 1 year ago I started to organize the development of our new generation modeling tool solution. And for the past 9 months my team has been busy working full time on this new product.&lt;/p&gt;
-
-&lt;p&gt;When you become &lt;del&gt;pregnant&lt;/del&gt; a product manager, you are basically a story trigger for everyone around you: people love to tell their failure-project and their stupid-leader story. It is scary to be at the place where you are the one who decides. It is even more frightening when you are at the point where you redesign your products with a completely different technological layer. This is where I was one year ago. At Obeo, we have been developing for years modeling workbenches based on the Eclipse Platform. Today our customers want more and asked us to modernize the modeling stack by making it cloud compliant. So how do we go from this statement to a first software release?&lt;/p&gt;
-
-&lt;p&gt;If you’re a product manager or affiliate, you’re probably aware that the first nine months of a new software product are always a big adventure.
-CTOs-to-be may have a lot of questions about what they can expect and the changes they’ll go through.
-Do you know when to expect to feel your product move? When to look for a UI/UX designer or a continuous deployment pipeline? Customer interest on what you are developing? Is that the signs of preterm labor?&lt;/p&gt;
-
-&lt;h2 id=&quot;1st-month---your-imagination-has-no-limit&quot;&gt;1st month - Your imagination has no limit&lt;/h2&gt;
-
-&lt;p&gt;The beginning of a new product is not easy. Where should we start?
-Should we rely on the prototypes we already have? Should we built a completely new project? How will you build your team? Who will be in? When? What will be the first scenario that will be supported in your software? How should you be organized?
-These are all the first questions you will come across.&lt;/p&gt;
-
-&lt;p&gt;What I will remember from that first month is that at some point you have to take decision: that is why you are here, that’s your job, and that will remind you why there is a C in CTO. You have the power of choice.
-There is not a unique good solution for everything. When every other person has a piece of advice for you, you start to understand that not everything works for everyone. I found what I believe works best for me. Of course, what works for me may not work for you: it depends on your company technological background but also on how you want to get your collaborators engaged as well. Each project, team and context is different.&lt;/p&gt;
-
-&lt;p&gt;Take the time to discuss this with others in your company, take the time to find what they need but also what are they dreaming about this new product. I developed my product vision for example by asking people to fill in a survey with questions such as in 1, 2, 5 years what is the final goal, the business needs, the users expectations, the success factor, etc. See the &lt;a href=&quot;/img/ocp-9month/ProductVision.png&quot;&gt;product vision template&lt;/a&gt; available on my github for details.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/ocp-9month/ProductVision.png&quot;&gt;&lt;img src=&quot;/img/ocp-9month/ProductVision.png&quot; alt=&quot;Product Vision Template&quot; title=&quot;Product Vision&quot; class=&quot;center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Write a summary of all this.
-And in the end, find your own voice in the ocean of opinions.
-Build your team, define your first scenario, share with everyone what you decided and do not hesitate to fail! Your first organisation might not be the best one: try, learn, update, reorganize, try something else… You are not alone in this task, this is a collective effort. The entire team cares about its organization and discusses it regularly by making retrospectives, having a dedicated moment during regular meetings, defining process to improve their collaboration, selecting tools…&lt;/p&gt;
-
-&lt;p&gt;The questional period you just went through, your team will go through the same. Which technical bricks will they rely on? Which part of our existing code will integrate this new project? Should we start by building the simplest scenario, this without taking into account the whole complexity of the end product you are trying to build? What should in the end be the software architecture?&lt;/p&gt;
-
-&lt;p&gt;Important point, give some time to your team to discuss all those things. But ask them to produce something even during that period. In our case, we wrote documents (AsciiDoc rocks!) and decided to keep a trace of all our decisions. For that, we used ADR - Architectural Decision Record: it is like reading the pocket reference of your project. After several months of use, it has turned out to be really useful. It helps people who are working part time on the project to get what we decided and why and help remember why we took a given decision. It forces us to discuss and validate all the important decisions together.
-You also need to stop this questioning period by just pushing your team to contribute &lt;em&gt;code&lt;/em&gt; and not just loosing them in the limbs of the imaginative product.&lt;/p&gt;
-
-&lt;h2 id=&quot;mid-months---scared-believe-realize&quot;&gt;Mid months - Scared! Believe! Realize!&lt;/h2&gt;
-
-&lt;p&gt;Pregnancy, giving software birth and the first 3 months is such an emotional roller coaster with so many changes. As you move forward on your development journey, it is amazing to discover all the things your sweety-software can do before he’s born. We went through different themes during these months: Persistence, CRUD, Diagram, Properties views, Edition, Concurrence, Authentication…
-Then everything is on track, you are organized as a team, code is being produced, your scenarios are more and more rich. And at some point, we realized we were actually growing life within us. It did not come right when we started the project.&lt;/p&gt;
-
-&lt;p&gt;I felt it in 3 specific moments —&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;When we chose the name - Obeo Cloud Platform,&lt;/li&gt;
-  &lt;li&gt;When I had a first &lt;del&gt;ultrasound scan&lt;/del&gt; preview of the UI - fortunately we have a Design team to work with,&lt;/li&gt;
-  &lt;li&gt;And when he kicked for the first time - I mean his first public live demo.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_hx3lfRETI&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;We will also never forget our baby shower celebration at EclipseCon Europe! This was an amazing moment for us. We were so happy to present our new work to the Sirius community.
-That day I was feeling the kicks in my belly.
-As Steve Jobs puts it, “A lot of times, people don’t know what they want until you show it to them.” That’s why we decided to give a preview of our new product even before it is polished, and why we launched a beta testing team. The idea is to give them a preview access and organize live remote testing sessions to grow the feedback river with real end-users. &lt;a href=&quot;https://t.co/Zgh3KMxtUU?amp=1&quot;&gt;Join us now and share your needs&lt;/a&gt;!&lt;/p&gt;
-
-&lt;h2 id=&quot;8-9th-months---you-are-almost-releasing&quot;&gt;8-9th months - You are (almost) releasing!&lt;/h2&gt;
-
-&lt;p&gt;Today, I do not even realise it is already the last months of pregnancy: we are getting closer and closer to our due date. I have this mixed feeling of excitement and nervousness and want our software product to come as soon as possible.&lt;/p&gt;
-
-&lt;p&gt;Our product is getting ready for birth, and the whole Obeo family is preparing to welcome a new member. You are also invited to join us, stay tuned for the upcoming SiriusCon Live Q1 2020.&lt;/p&gt;
-
-&lt;p&gt;At the end of this year, on his first days, our software product will be tiny and little. It will know only a few things but will do them well. Next we will continue to feed him: baby bottles first and then we will go through the diversification phase introducing new kind of food.
-My team will help him to grow, you, our users, our customers will be part of its education. We have many projects and plans, but we need you to turn true customers problems into product features.&lt;/p&gt;
-
-&lt;p&gt;Sometimes it’s important to stop and look back. It really made me appreciate and comprehend what an amazing experience I and my company went through ❤ and still are.&lt;/p&gt;
-
-&lt;p&gt;Hope you had a good read.&lt;/p&gt;
-</description>
-    <link>http://localhost:4000/2019/12/02/ocp-9-month-journey/ </link>
-    <pubDate>2019-12-02T11:00:00+01:00</pubDate>
-    <guid isPermaLink="true">http://localhost:4000/2019/12/02/ocp-9-month-journey/</guid>
    </item>
   
  </channel>

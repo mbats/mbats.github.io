@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Alice’s adventures in Sirius Web Land"
+subtitle: "EclipseCon 2021"
+date: 2021-10-11 10:00:00
+author: "Mélanie Bats"
+header-img: "img/post-bg-01.jpg"
+tags: [planet]
+---
+
+Since my early childhood I have loved stories, listening to books read by my mum, then reading by myself comics or classical literature for school and now, as I dedicate not so much time to reading, mostly blog posts and news on the internet.
+One of my favorite novels remains “Alice's Adventures in Wonderland”.
+<img src="/img/econ21/alice.jpg" alt="Alice's Adventures in Wonderland" width="200"/>
+
+A young girl named Alice falls through a rabbit hole into a fantastic world of weird creatures. She meets people, she experiences, she tastes, she has to make decisions, sometimes she’s scared, and the minute after she’s happy. This book is like a roller coaster full of events and emotions.
+
+When I think about our job at Obeo, when we have to create a tool dedicated to a specific domain for one of our customers, I feel like we are all small Alices experiencing the Sirius Land.
+We start by meeting people, trying to understand their jobs, their needs, we make decisions about what concepts we will specify, how they will be represented... Sometimes it works “Yes! I did it!” and sometimes the user's feedback is not so good and we rework the tool “Oh, no, try again ;(“...
+
+One year ago, we at Obeo released a fist version of the [Sirius Web](https://www.eclipse.org/sirius/sirius-web.html) project and I had this little Alice in mind...
+
+Alice was beginning to get very tired of creating DSL graphical editors and of having too many things to do: start Eclipse, describe her domain with Ecore, generate the EMF code, launch another Eclipse runtime, specify her graphical mappings with Sirius Desktop, test with another Eclipse runtime, package everything to an update site, send it to Bob so that he can install it, help Bob who can’t find how to install the modeler, reiterate from the beginning to update the tool according to Bob feedbacks and needs…
+
+“Oh dear! Would you tell me, please, which way I ought to go from here?” she asked,
+
+“That depends a good deal on where you want to get to,” said the Cat.
+
+Alice prayed for a framework to easily create and deploy her studios to the web!
+
+Curiouser and curiouser! This exists!
+
+I have a talk at EclipseCon 2021 to tell you about Alice in Sirius Web Land!
+In this session, I will introduce and demonstrate:
+
+- how to **describe your domain**
+- how to **specify your graphical editor**
+- how to **deploy** your studio to your end-users
+  … everything **from your browser**, **thanks to Sirius Web**!
+
+This is not a dream, this is really happening!
+
+![Sirius Web Domain and View definitions](/img/econ21/mm.gif)
+
+I will demonstrate all examples using 100% open-source software. Come and join me! You have no excuse, [register at EclipseCon](https://www.eclipsecon.org/2021/registration). As it is a virtual event you can attend from anywhere, even from Wonderland!
