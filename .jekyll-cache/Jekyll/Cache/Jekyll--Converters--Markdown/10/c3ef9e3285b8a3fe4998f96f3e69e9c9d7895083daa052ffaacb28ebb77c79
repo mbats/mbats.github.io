@@ -1,0 +1,104 @@
+I"f<p>TLDR; This post is for you if you want to build web-based graphical modeling tools.
+Eclipse Sirius is an open source project to create domain-specific modeling workbenches.</p>
+
+<p>At this point, if you are not aware of “modeling and domain specific blablabla”, you might wonder <em>“What does she mean and why should I care about this?”</em>.</p>
+
+<p><strong>Give semantics to your drawing…</strong></p>
+
+<p>That is simple, you have <strong>data</strong> (and I am pretty sure you have some, everyone has data nowadays :)).</p>
+
+<p><img src="https://imgs.xkcd.com/comics/data_pipeline.png" alt="Data Pipeline" /></p>
+
+<p>And you want to <strong>represent</strong> and <strong>edit</strong> them in a visual way: diagram, table, forms, dashboard… You have so many ideas! You can visualize it already in your head! But you also want to <strong>exploit</strong> the information stored in your dataset…</p>
+
+<ul>
+  <li>First option, you can use sheets, databases, low code platforms to represent and store your data and you can map your data to charts, forms… This is what you do with tools like Excel, Google Sheets, Airtable, and many low code tools… but but there is no way to represent them on a diagram ;(</li>
+  <li>Second option, you can represent your data graphically… thanks to tools like Miro or draw.io… but but then you are stuck! It is just a drawing, you cannot exploit the semantics of your data ;(</li>
+</ul>
+
+<p>“Holy crap… what could I do ?”</p>
+
+<p>Come here… I have a secret to share with you: you should use Sirius!</p>
+
+<p>Sirius allows you to <strong>represent your data</strong>, <strong>map them to graphical representations</strong> and <strong>take advantage of your data’s semantic</strong>!</p>
+
+<p><strong>What is Sirius Web? And OCP?</strong></p>
+
+<p>Sirius has two flavors:</p>
+
+<ul>
+  <li>Sirius Desktop: to create modeling workbenches based on the Eclipse platform,</li>
+  <li>Sirius Web: to create cloud-ready modeling workbenches.</li>
+</ul>
+
+<p><img src="/img/siriusweb/architecture.png" alt="image" /></p>
+
+<p>Furthermore, as we are very greedy, we provide the Obeo Cloud Platform (OCP) as Sirius Web topping. OCP is a set of Cloud-based products for easily building and deploying modeling studios to the web for enterprise use cases. We offer the Obeo Studio to create graphical modeling solutions that can be used collaboratively from a web browser.
+It is built as an open-core product relying on Sirius Web. It is a Sirius Web build extended with Enterprise features, to deploy on public, private clouds or on premise and including support and upgrade guarantees.
+One more option for you is to use the components from Sirius Web and OCP to integrate in your own application.</p>
+
+<p>So you are asking yourself <em>“Ok, I got it but what can I do concretely?”</em></p>
+
+<p><strong>Define your domain</strong></p>
+
+<p>The first thing to do is to describe your data. You can use Sirius Web to define your concepts and how they are related to each other.</p>
+
+<p>For instance, I need a tool to represent all the things I have to do.</p>
+
+<p>I create a new <code class="language-plaintext highlighter-rouge">Domain</code> with the following concepts:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">TodoList</code>: contains all I want to get out of my head :)</li>
+  <li><code class="language-plaintext highlighter-rouge">Objective</code>: my end goal</li>
+  <li><code class="language-plaintext highlighter-rouge">KeyResult</code>: how I know that my goal is achieved</li>
+</ul>
+
+<p><img src="/img/siriusweb/domain.png" alt="image" /></p>
+
+<p>An objective is associated with one or more key results. They are all describes thanks to</p>
+
+<p><strong>Map to visual representation</strong></p>
+
+<p>The next step is to decide how you want to represent your data, for that you have to create a <code class="language-plaintext highlighter-rouge">View</code>. For my to-do list tooling, I decide to represent it with a <strong>diagram</strong>:</p>
+
+<ul>
+  <li>a graphical <em>node</em> for each concept I have: <code class="language-plaintext highlighter-rouge">Objective</code> and <code class="language-plaintext highlighter-rouge">KeyResult</code></li>
+  <li>an <em>edge</em> <code class="language-plaintext highlighter-rouge">ObjectiveToKeyResult</code> to show which key results are associated with which objectives.</li>
+</ul>
+
+<p><img src="/img/siriusweb/view.png" alt="image" /></p>
+
+<p><strong>Semantics forever!</strong></p>
+
+<p>One last point (and I promise after that you can go back to normal activity), with Sirius Web you can also specify behaviors associated with your data. For instance, in my diagram I want to see what are the objectives I have checked and the one still to work on.
+I describe a conditional style on my <code class="language-plaintext highlighter-rouge">Objective</code>:</p>
+
+<ul>
+  <li>red while is not yet completed,</li>
+  <li>green when all the key results are set to <code class="language-plaintext highlighter-rouge">Done</code>.</li>
+</ul>
+
+<p><img src="/img/siriusweb/studio.png" alt="image" /></p>
+
+<p><strong>Your studio is alive!</strong></p>
+
+<p>And what do you have to do next? Nothing! Just try your new dedicated tool! Sirius Web manages everything for you.
+Without doing anything to deploy, I can use my new diagram by creating a new <code class="language-plaintext highlighter-rouge">TodoList</code> and opening the associated representation.
+I can create new objectives and new key results, set their attributes and so on.</p>
+
+<p><img src="/img/siriusweb/studio.gif" alt="image" /></p>
+
+<p>If I go back to my tooling’s expectations, using Sirius Web I can:</p>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><strong>represent</strong> and edit my <strong>data graphically</strong></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><strong>enhance my dataset</strong> thanks to <strong>semantics</strong>!</li>
+</ul>
+
+<p><strong>Give it a try!</strong></p>
+
+<p>You want to try it by yourself, this is possible, just create an account on our online demo: <a href="https://demo.obeostudio.com">https://demo.obeostudio.com</a>.
+You have any questions about Sirius Web or OCP, contact me!</p>
+
+<p>And as usual I am thankful to all our customers for their support of Sirius Web!</p>
+:ET

@@ -3,14 +3,254 @@
  <channel>
   <title>MelBlog - planet</title>
   <description>Posts tagged as 'planet'</description>
-     <atom:link href="http://localhost:4000/feeds/feed.planet.xml" rel="self" type="application/rss+xml" />
-  <link>http://localhost:4000/tag/planet/</link>
-  <updated>2021-10-13T15:30:42+02:00</updated>
+     <atom:link href="http://melb.enix.org/feeds/feed.planet.xml" rel="self" type="application/rss+xml" />
+  <link>http://melb.enix.org/tag/planet/</link>
+  <updated>2022-02-09T14:49:16+01:00</updated>
   <author>
    <name></name>
    <email></email>
   </author>
 
+  
+   <item>
+    <title>Meet Sirius in the browser</title>
+    <description>&lt;p&gt;TLDR; This post is for you if you want to build web-based graphical modeling tools.
+Eclipse Sirius is an open source project to create domain-specific modeling workbenches.&lt;/p&gt;
+
+&lt;p&gt;At this point, if you are not aware of “modeling and domain specific blablabla”, you might wonder &lt;em&gt;“What does she mean and why should I care about this?”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Give semantics to your drawing…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;That is simple, you have &lt;strong&gt;data&lt;/strong&gt; (and I am pretty sure you have some, everyone has data nowadays :)).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgs.xkcd.com/comics/data_pipeline.png&quot; alt=&quot;Data Pipeline&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And you want to &lt;strong&gt;represent&lt;/strong&gt; and &lt;strong&gt;edit&lt;/strong&gt; them in a visual way: diagram, table, forms, dashboard… You have so many ideas! You can visualize it already in your head! But you also want to &lt;strong&gt;exploit&lt;/strong&gt; the information stored in your dataset…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First option, you can use sheets, databases, low code platforms to represent and store your data and you can map your data to charts, forms… This is what you do with tools like Excel, Google Sheets, Airtable, and many low code tools… but but there is no way to represent them on a diagram ;(&lt;/li&gt;
+  &lt;li&gt;Second option, you can represent your data graphically… thanks to tools like Miro or draw.io… but but then you are stuck! It is just a drawing, you cannot exploit the semantics of your data ;(&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;“Holy crap… what could I do ?”&lt;/p&gt;
+
+&lt;p&gt;Come here… I have a secret to share with you: you should use Sirius!&lt;/p&gt;
+
+&lt;p&gt;Sirius allows you to &lt;strong&gt;represent your data&lt;/strong&gt;, &lt;strong&gt;map them to graphical representations&lt;/strong&gt; and &lt;strong&gt;take advantage of your data’s semantic&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is Sirius Web? And OCP?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sirius has two flavors:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sirius Desktop: to create modeling workbenches based on the Eclipse platform,&lt;/li&gt;
+  &lt;li&gt;Sirius Web: to create cloud-ready modeling workbenches.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/siriusweb/architecture.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Furthermore, as we are very greedy, we provide the Obeo Cloud Platform (OCP) as Sirius Web topping. OCP is a set of Cloud-based products for easily building and deploying modeling studios to the web for enterprise use cases. We offer the Obeo Studio to create graphical modeling solutions that can be used collaboratively from a web browser.
+It is built as an open-core product relying on Sirius Web. It is a Sirius Web build extended with Enterprise features, to deploy on public, private clouds or on premise and including support and upgrade guarantees.
+One more option for you is to use the components from Sirius Web and OCP to integrate in your own application.&lt;/p&gt;
+
+&lt;p&gt;So you are asking yourself &lt;em&gt;“Ok, I got it but what can I do concretely?”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Define your domain&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The first thing to do is to describe your data. You can use Sirius Web to define your concepts and how they are related to each other.&lt;/p&gt;
+
+&lt;p&gt;For instance, I need a tool to represent all the things I have to do.&lt;/p&gt;
+
+&lt;p&gt;I create a new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Domain&lt;/code&gt; with the following concepts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TodoList&lt;/code&gt;: contains all I want to get out of my head :)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Objective&lt;/code&gt;: my end goal&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KeyResult&lt;/code&gt;: how I know that my goal is achieved&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/siriusweb/domain.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An objective is associated with one or more key results. They are all describes thanks to&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Map to visual representation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The next step is to decide how you want to represent your data, for that you have to create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;View&lt;/code&gt;. For my to-do list tooling, I decide to represent it with a &lt;strong&gt;diagram&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a graphical &lt;em&gt;node&lt;/em&gt; for each concept I have: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Objective&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KeyResult&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;an &lt;em&gt;edge&lt;/em&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ObjectiveToKeyResult&lt;/code&gt; to show which key results are associated with which objectives.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/siriusweb/view.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Semantics forever!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One last point (and I promise after that you can go back to normal activity), with Sirius Web you can also specify behaviors associated with your data. For instance, in my diagram I want to see what are the objectives I have checked and the one still to work on.
+I describe a conditional style on my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Objective&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;red while is not yet completed,&lt;/li&gt;
+  &lt;li&gt;green when all the key results are set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Done&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/siriusweb/studio.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Your studio is alive!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And what do you have to do next? Nothing! Just try your new dedicated tool! Sirius Web manages everything for you.
+Without doing anything to deploy, I can use my new diagram by creating a new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TodoList&lt;/code&gt; and opening the associated representation.
+I can create new objectives and new key results, set their attributes and so on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/siriusweb/studio.gif&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If I go back to my tooling’s expectations, using Sirius Web I can:&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;strong&gt;represent&lt;/strong&gt; and edit my &lt;strong&gt;data graphically&lt;/strong&gt;&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;strong&gt;enhance my dataset&lt;/strong&gt; thanks to &lt;strong&gt;semantics&lt;/strong&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Give it a try!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You want to try it by yourself, this is possible, just create an account on our online demo: &lt;a href=&quot;https://demo.obeostudio.com&quot;&gt;https://demo.obeostudio.com&lt;/a&gt;.
+You have any questions about Sirius Web or OCP, contact me!&lt;/p&gt;
+
+&lt;p&gt;And as usual I am thankful to all our customers for their support of Sirius Web!&lt;/p&gt;
+</description>
+    <link>http://melb.enix.org/2022/02/09/siriusweb/ </link>
+    <pubDate>2022-02-09T11:00:00+01:00</pubDate>
+    <guid isPermaLink="true">http://melb.enix.org/2022/02/09/siriusweb/</guid>
+   </item>
+  
+   <item>
+    <title>Happy New 2022.01.0!</title>
+    <description>&lt;p&gt;I know… I am late for an happy new year but I am not for an Happy New &lt;a href=&quot;https://docs.obeostudio.com/#_version_2022_01_0&quot;&gt;2022.01.0&lt;/a&gt;!
+I’m in a dancing mood while I’m writing this… (and poor you) an idea comes to my mind: &lt;em&gt;“Why not associating a song to each new features?”&lt;/em&gt;
+It could be &lt;em&gt;funny&lt;/em&gt; and you’ll result with a (terrible) soundtrack to play with this new version.
+Follow me for a &lt;em&gt;musical&lt;/em&gt; ride through the new Sirius Web and OCP features!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calendar versioning&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;blockquote cite=&quot;https://youtu.be/EIbuf0iZKq8&quot;&gt;
+January, February, March, April, May&lt;br /&gt;
+June, July&lt;br /&gt;
+January, February, March, April, May&lt;br /&gt;
+June, July
+&lt;/blockquote&gt;
+&lt;figcaption&gt;—Boney M., &lt;cite&gt;&lt;a href=&quot;https://youtu.be/EIbuf0iZKq8&quot;&gt;Calendar song&lt;/a&gt;&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Since two years now, we are working hard on &lt;a href=&quot;http://melb.enix.org/2020/10/13/sirius-web/&quot;&gt;Sirius Web in the open&lt;/a&gt;. Since the last 2021.12.0 version, Sirius Web released its first stable version. Since that point, we will take care about not breaking (too much) APIs for our &lt;a href=&quot;https://github.com/eclipse-sirius/sirius-components&quot;&gt;Sirius Components&lt;/a&gt; consumers. We decided to &lt;a href=&quot;https://github.com/eclipse-sirius/sirius-components/blob/master/doc/adrs/034_switch_from_semver_to_calver.adoc&quot;&gt;switch from semantic versioning to calendar versioning&lt;/a&gt; to reflect the maturity of the project.
+We will keep our development cycle with six weeks of work and two weeks for various minor improvements for each releases.
+Once a stable release “YEAR.MONTH.0” is done, we will start working on the next one “YEAR.MONTH+2.0”. During the preparation of the next release, we will improve the current branch to prepare for that release. As a result, we will have multiple intermediate releases with a YEAR.MONTH.1, YEAR.MONTH.2… YEAR.MONTH.42, etc. Those releases should be considered as milestones for the next stable one.&lt;/p&gt;
+
+&lt;p&gt;The changes made are tracked in the &lt;a href=&quot;https://github.com/eclipse-sirius/sirius-components/blob/master/CHANGELOG.adoc&quot;&gt;CHANGELOG&lt;/a&gt; where you can find a fine grain list of all the API breaks, new features, bug fixes and various improvements.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Magic connector&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;blockquote cite=&quot;https://www.youtube.com/watch?v=0p_1QSUsbsM&quot;&gt;
+It's a kind of magic&lt;br /&gt;
+It's a kind of magic&lt;br /&gt;
+A kind of magic (No way)&lt;br /&gt;
+One dream, one &lt;b&gt;CONNECTOR&lt;/b&gt;&lt;br /&gt;
+&lt;/blockquote&gt;
+&lt;figcaption&gt;—&lt;i&gt;Almost&lt;/i&gt; Queen, &lt;cite&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=0p_1QSUsbsM&quot;&gt;A Kind of Magic&lt;/a&gt;&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://docs.obeostudio.com/2022.01.0/img/MagicConnector.gif&quot; alt=&quot;Connector&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A new &lt;em&gt;“Magic Connector”&lt;/em&gt; tool is available on diagrams. It provides an alternative way to create edges between diagram elements:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;choose the generic &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Connector&lt;/code&gt; tool from the source node’s palette&lt;/li&gt;
+  &lt;li&gt;select the target node&lt;/li&gt;
+  &lt;li&gt;choose which of the compatible tools to apply in the menu appears. If there only one compatible tool, it will be applied automatically.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;DnD for Unsync diagram&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;blockquote cite=&quot;https://youtu.be/ALanRqbNSvI?t=895&quot;&gt;
+Accepts she's out of sync&lt;br /&gt;
+She's out of sync (sync)&lt;br /&gt;
+She's out of sync (sync)&lt;br /&gt;
+She's out of sync&lt;br /&gt;
+&lt;/blockquote&gt;
+&lt;figcaption&gt;—Devo, &lt;cite&gt;&lt;a href=&quot;https://youtu.be/ALanRqbNSvI?t=895&quot;&gt;Out of sync&lt;/a&gt;&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Since the &lt;a href=&quot;https://docs.obeostudio.com/#_version_2021_10_0&quot;&gt;2021.10.0&lt;/a&gt; release, it is possible to create unsynchronized diagram with Sirius Web. It means a diagram which may not display all elements provided by the studio, but only the elements that the user selected.
+At that time we added support for deleting view without deleting the corresponding semantic element (aka “Delete from Diagram”) for unsynchronized diagrams.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2022.01.0/deletefromdiagram.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is now also possible to drag semantic elements from the explorer on a diagram. The concrete effect depends on how the target diagram is defined, but a typical case is to add a graphical representation of the dropped element on the diagram.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://docs.obeostudio.com/2022.01.0/img/DropFromExplorer.gif&quot; alt=&quot;DnD&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fit to Screen&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;blockquote cite=&quot;https://youtu.be/PzilYDj2b9k&quot;&gt;
+Now it fits you good&lt;br /&gt;
+Oh fits you good&lt;br /&gt;
+Yeah fits you good&lt;br /&gt;
+Oh fits you good&lt;br /&gt;
+&lt;/blockquote&gt;
+&lt;figcaption&gt;—Bryan Adams, &lt;cite&gt;&lt;a href=&quot;https://youtu.be/PzilYDj2b9k&quot;&gt;Fits Ya good&lt;/a&gt;&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When a diagram is opened, a “Fit to screen” is automatically performed to ensure all its content is visible. Previously, depending on the coordinates of the elements it could happen that not all of them where visible on open.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://docs.obeostudio.com/2022.01.0/img/FitToScreenOnOpen.gif&quot; alt=&quot;Fit to screen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stylish studios!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;blockquote cite=&quot;https://youtu.be/-CmadmM5cOk&quot;&gt;
+'Cause we never go out of style,
+we never go out of style
+&lt;/blockquote&gt;
+&lt;figcaption&gt;—Taylor Swift, &lt;cite&gt;&lt;a href=&quot;https://youtu.be/-CmadmM5cOk&quot;&gt;Style&lt;/a&gt;&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Release after release we continue to improve the web studio definition capabilities.&lt;/p&gt;
+
+&lt;p&gt;Nodes can now have a dynamically computed size (using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Size Expression&lt;/code&gt;) which depends on the current state of the semantic model. If the expression is present and produces a positive integer, it will be used as both the width and height of the node, in pixels. Currently it is not possible to compute different values for width and height.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2022.01.0/sizenodedef.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;/img/2022.01.0/sizenode.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is now possible to define border nodes in web studio definition.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2022.01.0/bordernode.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And finally, it is possible to configure text style on labels: &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, &lt;u&gt;underline&lt;/u&gt;, &lt;del&gt;strike-through&lt;/del&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2022.01.0/style.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Obeo team has started a new iteration to preprare 2022.03.0, we focus on three topics:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Support of &lt;strong&gt;Component-like diagrams&lt;/strong&gt; with ports and bendpoints for edges,&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Diagram user experience&lt;/strong&gt; to smoothly edit, move, reconnect and layout diagrams,&lt;/li&gt;
+  &lt;li&gt;And…(drum roll)… &lt;strong&gt;Tables&lt;/strong&gt;! I am really enthusiastic about this one, we are cooking something really cool!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A detailed release notes for &lt;a href=&quot;https://docs.obeostudio.com/#_version_2022_01_0&quot;&gt;2022.01.0&lt;/a&gt; is available in our online documentation: &lt;a href=&quot;http://docs.obeostudio.com&quot;&gt;http://docs.obeostudio.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As usual, all these changes are made available thanks to our loved customers sponsoring the Sirius Web open source project! Do not hesitate to join the party and become a Sirius Web supporter, it is as easy as sending me an email.&lt;/p&gt;
+
+&lt;p&gt;See you soon for the next Sirius Web and OCP &lt;del&gt;soundtrack&lt;/del&gt; release!&lt;/p&gt;
+</description>
+    <link>http://melb.enix.org/2022/02/04/happy-new-year/ </link>
+    <pubDate>2022-02-04T11:00:00+01:00</pubDate>
+    <guid isPermaLink="true">http://melb.enix.org/2022/02/04/happy-new-year/</guid>
+   </item>
   
    <item>
     <title>Alice’s adventures in Sirius Web Land</title>
@@ -51,9 +291,9 @@ In this session, I will introduce and demonstrate:&lt;/p&gt;
 
 &lt;p&gt;I will demonstrate all examples using 100% open-source software. Come and join me! You have no excuse, &lt;a href=&quot;https://www.eclipsecon.org/2021/registration&quot;&gt;register at EclipseCon&lt;/a&gt;. As it is a virtual event you can attend from anywhere, even from Wonderland!&lt;/p&gt;
 </description>
-    <link>http://localhost:4000/2021/10/11/econ21/ </link>
+    <link>http://melb.enix.org/2021/10/11/econ21/ </link>
     <pubDate>2021-10-11T12:00:00+02:00</pubDate>
-    <guid isPermaLink="true">http://localhost:4000/2021/10/11/econ21/</guid>
+    <guid isPermaLink="true">http://melb.enix.org/2021/10/11/econ21/</guid>
    </item>
   
    <item>
@@ -66,9 +306,9 @@ Here and now, Guillaume Coutable, Consultant at Obeo, gives a demonstration of t
 &lt;p&gt;We are thankful to all our customers for their support to Sirius Web!
 See you next month for another &lt;a href=&quot;https://www.youtube.com/watch?v=NcHkfSwPqzw&amp;amp;list=PLRWQgLDUlJCj-Ri4hWkfyHaYWxW7LurBf&quot;&gt;“Behind the scene”&lt;/a&gt; session!&lt;/p&gt;
 </description>
-    <link>http://localhost:4000/2021/04/29/behind-the-scene-list-container/ </link>
+    <link>http://melb.enix.org/2021/04/29/behind-the-scene-list-container/ </link>
     <pubDate>2021-04-29T12:00:00+02:00</pubDate>
-    <guid isPermaLink="true">http://localhost:4000/2021/04/29/behind-the-scene-list-container/</guid>
+    <guid isPermaLink="true">http://melb.enix.org/2021/04/29/behind-the-scene-list-container/</guid>
    </item>
   
    <item>
@@ -82,9 +322,9 @@ We are very grateful to our customers for contributing to Sirius Web!&lt;/p&gt;
 
 &lt;p&gt;See you next month for another &lt;a href=&quot;https://www.youtube.com/watch?v=NcHkfSwPqzw&amp;amp;list=PLRWQgLDUlJCj-Ri4hWkfyHaYWxW7LurBf&quot;&gt;“Behind the scene”&lt;/a&gt;!&lt;/p&gt;
 </description>
-    <link>http://localhost:4000/2021/03/31/behind-the-scene-layout/ </link>
+    <link>http://melb.enix.org/2021/03/31/behind-the-scene-layout/ </link>
     <pubDate>2021-03-31T12:00:00+02:00</pubDate>
-    <guid isPermaLink="true">http://localhost:4000/2021/03/31/behind-the-scene-layout/</guid>
+    <guid isPermaLink="true">http://melb.enix.org/2021/03/31/behind-the-scene-layout/</guid>
    </item>
   
    <item>
@@ -97,9 +337,9 @@ For this second session, I invited Axel Richard, Consultant at Obeo to present h
 &lt;p&gt;Thanks to all our customers for helping in financing this development around Sirius Web.
 See you next month for another &lt;a href=&quot;https://www.youtube.com/watch?v=NcHkfSwPqzw&amp;amp;list=PLRWQgLDUlJCj-Ri4hWkfyHaYWxW7LurBf&quot;&gt;“Behind the scene”&lt;/a&gt;!&lt;/p&gt;
 </description>
-    <link>http://localhost:4000/2021/02/19/behind-the-scene-ide/ </link>
+    <link>http://melb.enix.org/2021/02/19/behind-the-scene-ide/ </link>
     <pubDate>2021-02-19T11:00:00+01:00</pubDate>
-    <guid isPermaLink="true">http://localhost:4000/2021/02/19/behind-the-scene-ide/</guid>
+    <guid isPermaLink="true">http://melb.enix.org/2021/02/19/behind-the-scene-ide/</guid>
    </item>
   
    <item>
@@ -118,9 +358,9 @@ For this first session, I invited Stéphane Begaudeau, Software Architect of Sir
 &lt;p&gt;Thanks to all our customers for helping in financing this development around Sirius Web.
 See you next month for another “Behind the scene”!&lt;/p&gt;
 </description>
-    <link>http://localhost:4000/2021/01/27/behind-the-scene-diag/ </link>
+    <link>http://melb.enix.org/2021/01/27/behind-the-scene-diag/ </link>
     <pubDate>2021-01-27T11:00:00+01:00</pubDate>
-    <guid isPermaLink="true">http://localhost:4000/2021/01/27/behind-the-scene-diag/</guid>
+    <guid isPermaLink="true">http://melb.enix.org/2021/01/27/behind-the-scene-diag/</guid>
    </item>
   
    <item>
@@ -146,9 +386,9 @@ The Obeo Cloud Platform provides collaborative features: authentication, live co
 
 &lt;p&gt;To get more details, attend the OCP Modeler’s launch on &lt;a href=&quot;https://www.eclipsecon.org/2020/sessions/sirius-web-100-open-source-cloud-modeling-platform&quot;&gt;October 21 at 2:00 p.m CET&lt;/a&gt;.&lt;/p&gt;
 </description>
-    <link>http://localhost:4000/2020/10/17/ocp/ </link>
+    <link>http://melb.enix.org/2020/10/17/ocp/ </link>
     <pubDate>2020-10-17T12:00:00+02:00</pubDate>
-    <guid isPermaLink="true">http://localhost:4000/2020/10/17/ocp/</guid>
+    <guid isPermaLink="true">http://melb.enix.org/2020/10/17/ocp/</guid>
    </item>
   
    <item>
@@ -185,9 +425,9 @@ The Obeo Cloud Platform provides collaborative features: authentication, live co
 &lt;p&gt;To get more details about Sirius Web and how to run it for your own DSL, attend Obeo’s rocket liftoff.
 Launch remains on schedule for &lt;a href=&quot;https://www.eclipsecon.org/2020/sessions/sirius-web-100-open-source-cloud-modeling-platform&quot;&gt;October 21 at 2:00 p.m CET&lt;/a&gt;.&lt;/p&gt;
 </description>
-    <link>http://localhost:4000/2020/10/13/sirius-web/ </link>
+    <link>http://melb.enix.org/2020/10/13/sirius-web/ </link>
     <pubDate>2020-10-13T12:00:00+02:00</pubDate>
-    <guid isPermaLink="true">http://localhost:4000/2020/10/13/sirius-web/</guid>
+    <guid isPermaLink="true">http://melb.enix.org/2020/10/13/sirius-web/</guid>
    </item>
   
    <item>
@@ -202,141 +442,9 @@ Launch remains on schedule for &lt;a href=&quot;https://www.eclipsecon.org/2020/
 
 &lt;p&gt;Liftoff on the SIRIUS-II mission to the Eclipse Foundation remains planned for an instantaneous launch window on &lt;a href=&quot;https://www.eclipsecon.org/2020/sessions/sirius-web-100-open-source-cloud-modeling-platform&quot;&gt;October 21 at 2:00 p.m CET&lt;/a&gt;.&lt;/p&gt;
 </description>
-    <link>http://localhost:4000/2020/10/05/emf-json/ </link>
+    <link>http://melb.enix.org/2020/10/05/emf-json/ </link>
     <pubDate>2020-10-05T12:00:00+02:00</pubDate>
-    <guid isPermaLink="true">http://localhost:4000/2020/10/05/emf-json/</guid>
-   </item>
-  
-   <item>
-    <title>SIRIUS-II Mission</title>
-    <description>&lt;p&gt;On &lt;strong&gt;Wednesday, October 21 at 2:00 p.m. CEST&lt;/strong&gt;, Obeo’s Spacecraft 42 will launch the SIRIUS-II mission from Code Launch Complex 42 (CLC-42) at Nantes Dev Force Station in France. SIRIUS-I mission previously launched &lt;a href=&quot;https://www.eclipse.org/sirius/&quot;&gt;Sirius&lt;/a&gt; to the Eclipse Foundation with Obeo’s &amp;amp; Thales astronauts on board back in 2013. The first mission was a success with the adoption of Sirius Desktop, based on the Eclipse platform, by a large community.&lt;/p&gt;
-
-&lt;p&gt;SIRIUS-II Mission aims to &lt;strong&gt;release Sirius Web&lt;/strong&gt;, the Cloud-based evolution of Sirius, 100% Open Source. This mission is also in charge of &lt;strong&gt;the launch of the &lt;a href=&quot;https://www.obeo.fr/en/products/obeo-cloud-platform&quot;&gt;Obeo Cloud Platform&lt;/a&gt; (OCP)&lt;/strong&gt;, the solution offered by Obeo for deploying modeling tools to the web.
-With Sirius Web, modeling tools developed with Sirius can be installed on a web server and are rendered in a browser. Our goal is to carry the spirit of Sirius into a new technological space.&lt;/p&gt;
-
-&lt;p&gt;Stay tuned for the Sirius Web/OCP countdown by following &lt;a href=&quot;https://twitter.com/melaniebats&quot;&gt;@melaniebats&lt;/a&gt; twitter account:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;All Times Are Approximate&lt;/em&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;DAY:MIN&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;EVENT&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-64:00&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Sirius-II Mission announcement&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-32:00&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Crew access arm retracts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-24:00&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Obeo Launch Director verifies “go” for code load&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-16:00&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;EMF-JSON loading begins&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-08:00&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1st stage Sirius Web loading begins&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-04:00&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2nd stage OCP loading begins&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-02:00&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Obeo begins engine chill prior to launch&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-01:00&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Command flight computer to begin final prelaunch checks&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-00:42&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Obeo Launch Director verifies “go” for launch&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-00:03&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Engine controller commands engine ignition sequence to start&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-00:00&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Sirius Web and OCP liftoff&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T+00:30&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;SIRIUS-II deployment&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Following stage separation, Obeo will land Spacecraft 42’s first stage on the Eclipse Foundation codeship, which will be stationed in the Atlantic Ocean. The SIRIUS-II spacecraft will be deployed about 30 minutes after liftoff.&lt;/p&gt;
-
-&lt;p&gt;You can attend a live of the launch by &lt;a href=&quot;https://www.eclipsecon.org/2020/registration&quot;&gt;registering to EclipseCon 2020&lt;/a&gt; and choosing &lt;a href=&quot;https://www.eclipsecon.org/2020/sessions/sirius-web-100-open-source-cloud-modeling-platform&quot;&gt;Sirius Web: 100% open source cloud modeling platform&lt;/a&gt;.&lt;/p&gt;
-</description>
-    <link>http://localhost:4000/2020/08/18/siriusiimission/ </link>
-    <pubDate>2020-08-18T12:00:00+02:00</pubDate>
-    <guid isPermaLink="true">http://localhost:4000/2020/08/18/siriusiimission/</guid>
-   </item>
-  
-   <item>
-    <title>SiriusCon 2020: Sirius to the Web with Obeo Cloud Platform</title>
-    <description>&lt;p&gt;&lt;em&gt;TLDR; On June 18th connect to @SiriusCon Live 2020 to watch a demo of the Obeo Cloud Platform.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/siriuscon2020/announcement.png&quot; alt=&quot;Here we go again&quot; title=&quot;Here we go again&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;“Mamma mia, does it show again &lt;br /&gt;
-My my, just how much I’ve missed you?“ &lt;br /&gt;
-&lt;a href=&quot;https://youtu.be/unfzfe8f9NI&quot;&gt;Mamma Mia&lt;/a&gt; &lt;br /&gt;&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;On the 18th of June, I will have the pleasure of presenting the Obeo Cloud Platform, with my co-speaker &lt;a href=&quot;https://twitter.com/sbegaudeau&quot;&gt;Stéphane Bégaudeau&lt;/a&gt;, at &lt;a href=&quot;https://www.siriuscon.org/&quot;&gt;SiriusCon Live 2020&lt;/a&gt;.
-During SiriusCon 2020, we will not only demonstrate OCP, but also make a big announcement about its future. So, attend SiriusCon and be in for a huge surprise!&lt;/p&gt;
-
-&lt;p&gt;After such a long time, it is great to be able to connect with the &lt;a href=&quot;http://eclipse.org/sirius&quot;&gt;Eclipse Sirius&lt;/a&gt; community.&lt;/p&gt;
-
-&lt;p&gt;If you have to create a graphical modeling workbench for your own DSL, then you know how powerful Sirius is to help you design your own modeler based on EMF. In just a few hours, you get a modeling studio dedicated to your &lt;a href=&quot;https://www.eclipse.org/sirius/gallery.html&quot;&gt;own domain&lt;/a&gt;.
-The main issue faced by our customers arises when they need to distribute the bundle to their end users. A truly effective deployment is difficult to come by. Many struggle to either deploy or maintain their solution. And their team are feeling the pinch.&lt;/p&gt;
-
-&lt;p&gt;To solve these challenges, I am excited to demonstrate the Obeo Cloud Platform (OCP), the Cloud-based solution developed by Obeo for deploying modeling tools to the web. With OCP Modeler, modeling tools developed with Sirius can be installed on a Cloud server and are rendered in a web browser. Our purpose is to carry the spirit of Sirius.
-What our users typically love in Sirius is:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;the ability to define your modeling workbench in a configuration file,&lt;/li&gt;
-  &lt;li&gt;no code generation involved as everything is interpreted at runtime,&lt;/li&gt;
-  &lt;li&gt;flexible even for complex models.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So we kept all those principles and now allow you to easily define workbenches running in the cloud.
-We rebuilt the Sirius runtime from the ground up, for the long haul.&lt;/p&gt;
-
-&lt;p&gt;I’ve been talking about it for a long time now! And we’re really proud to show that OCP is available and working today, so our talk will be purely a live demo: no slides (almost), no bullet points, not feature lists. Just us, showing the capabilities of this modeling environment!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/siriuscon2020/ocp.png&quot; alt=&quot;OCP Modeler&quot; title=&quot;OCP Modeler&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We will give you as well an overview of the context, the roadmap and how OCP Modeler positions with Sirius.&lt;/p&gt;
-
-&lt;p&gt;Referring to ABBA’s words, take a chance on OCP!&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;“Honey I’m still free &lt;br /&gt;
-Take a chance on me &lt;br /&gt;
-Gonna do my very best, baby can’t you see &lt;br /&gt;
-Gotta put me to the test, take a chance on me“ &lt;br /&gt;
-&lt;a href=&quot;https://youtu.be/-crgQGdpZR0&quot;&gt;Take a chance on me&lt;/a&gt; &lt;br /&gt;&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;In the meantime, as a preparation, &lt;a href=&quot;https://youtu.be/xFrGuyw1V8s&quot;&gt;you can dance, you can djibe&lt;/a&gt; and most importantly you have to &lt;a href=&quot;https://bit.ly/Register_SiriusCon2020&quot;&gt;register&lt;/a&gt;. And no, even if I am a big #ABBAFan the surprise is not that I will do my talk in a fancy glittering costume… neither Stéphane even if it could be very memorable :).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/siriuscon2020/dancing.jpg&quot; alt=&quot;Dancing&quot; title=&quot;Dancing&quot; /&gt;&lt;/p&gt;
-</description>
-    <link>http://localhost:4000/2020/06/10/siriuscon/ </link>
-    <pubDate>2020-06-10T12:00:00+02:00</pubDate>
-    <guid isPermaLink="true">http://localhost:4000/2020/06/10/siriuscon/</guid>
+    <guid isPermaLink="true">http://melb.enix.org/2020/10/05/emf-json/</guid>
    </item>
   
  </channel>

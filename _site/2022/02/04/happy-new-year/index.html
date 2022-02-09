@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Eclipse, modeling and other things">
+
+    <title>Happy New 2022.01.0! - MelBlog</title>
+
+    <link rel="canonical" href="http://melb.enix.org/2022/02/04/happy-new-year/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link type="application/atom+xml" rel="alternate" href="http://melb.enix.org/feed.xml" title="MelBlog" />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">MelBlog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+				
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+				
+                
+				
+                <li>
+                    <a href="/talks/">Talks and Papers</a>
+                </li>
+				
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/post-bg-04.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Happy New 2022.01.0!</h1>
+                    
+                    <h2 class="subheading">What's new in Sirius Web</h2>
+                    
+                    <span class="meta">Posted by Mélanie Bats on February 4, 2022</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p>I know… I am late for an happy new year but I am not for an Happy New <a href="https://docs.obeostudio.com/#_version_2022_01_0">2022.01.0</a>!
+I’m in a dancing mood while I’m writing this… (and poor you) an idea comes to my mind: <em>“Why not associating a song to each new features?”</em>
+It could be <em>funny</em> and you’ll result with a (terrible) soundtrack to play with this new version.
+Follow me for a <em>musical</em> ride through the new Sirius Web and OCP features!</p>
+
+<p><strong>Calendar versioning</strong></p>
+
+<figure>
+<blockquote cite="https://youtu.be/EIbuf0iZKq8">
+January, February, March, April, May<br />
+June, July<br />
+January, February, March, April, May<br />
+June, July
+</blockquote>
+<figcaption>—Boney M., <cite><a href="https://youtu.be/EIbuf0iZKq8">Calendar song</a></cite></figcaption>
+</figure>
+<p>Since two years now, we are working hard on <a href="http://melb.enix.org/2020/10/13/sirius-web/">Sirius Web in the open</a>. Since the last 2021.12.0 version, Sirius Web released its first stable version. Since that point, we will take care about not breaking (too much) APIs for our <a href="https://github.com/eclipse-sirius/sirius-components">Sirius Components</a> consumers. We decided to <a href="https://github.com/eclipse-sirius/sirius-components/blob/master/doc/adrs/034_switch_from_semver_to_calver.adoc">switch from semantic versioning to calendar versioning</a> to reflect the maturity of the project.
+We will keep our development cycle with six weeks of work and two weeks for various minor improvements for each releases.
+Once a stable release “YEAR.MONTH.0” is done, we will start working on the next one “YEAR.MONTH+2.0”. During the preparation of the next release, we will improve the current branch to prepare for that release. As a result, we will have multiple intermediate releases with a YEAR.MONTH.1, YEAR.MONTH.2… YEAR.MONTH.42, etc. Those releases should be considered as milestones for the next stable one.</p>
+
+<p>The changes made are tracked in the <a href="https://github.com/eclipse-sirius/sirius-components/blob/master/CHANGELOG.adoc">CHANGELOG</a> where you can find a fine grain list of all the API breaks, new features, bug fixes and various improvements.</p>
+
+<p><strong>Magic connector</strong></p>
+
+<figure>
+<blockquote cite="https://www.youtube.com/watch?v=0p_1QSUsbsM">
+It's a kind of magic<br />
+It's a kind of magic<br />
+A kind of magic (No way)<br />
+One dream, one <b>CONNECTOR</b><br />
+</blockquote>
+<figcaption>—<i>Almost</i> Queen, <cite><a href="https://www.youtube.com/watch?v=0p_1QSUsbsM">A Kind of Magic</a></cite></figcaption>
+</figure>
+
+<p><img src="https://docs.obeostudio.com/2022.01.0/img/MagicConnector.gif" alt="Connector" /></p>
+
+<p>A new <em>“Magic Connector”</em> tool is available on diagrams. It provides an alternative way to create edges between diagram elements:</p>
+
+<ol>
+  <li>choose the generic <code class="language-plaintext highlighter-rouge">Connector</code> tool from the source node’s palette</li>
+  <li>select the target node</li>
+  <li>choose which of the compatible tools to apply in the menu appears. If there only one compatible tool, it will be applied automatically.</li>
+</ol>
+
+<p><strong>DnD for Unsync diagram</strong></p>
+
+<figure>
+<blockquote cite="https://youtu.be/ALanRqbNSvI?t=895">
+Accepts she's out of sync<br />
+She's out of sync (sync)<br />
+She's out of sync (sync)<br />
+She's out of sync<br />
+</blockquote>
+<figcaption>—Devo, <cite><a href="https://youtu.be/ALanRqbNSvI?t=895">Out of sync</a></cite></figcaption>
+</figure>
+
+<p>Since the <a href="https://docs.obeostudio.com/#_version_2021_10_0">2021.10.0</a> release, it is possible to create unsynchronized diagram with Sirius Web. It means a diagram which may not display all elements provided by the studio, but only the elements that the user selected.
+At that time we added support for deleting view without deleting the corresponding semantic element (aka “Delete from Diagram”) for unsynchronized diagrams.</p>
+
+<p><img src="/img/2022.01.0/deletefromdiagram.png" alt="image" /></p>
+
+<p>It is now also possible to drag semantic elements from the explorer on a diagram. The concrete effect depends on how the target diagram is defined, but a typical case is to add a graphical representation of the dropped element on the diagram.</p>
+
+<p><img src="https://docs.obeostudio.com/2022.01.0/img/DropFromExplorer.gif" alt="DnD" /></p>
+
+<p><strong>Fit to Screen</strong></p>
+
+<figure>
+<blockquote cite="https://youtu.be/PzilYDj2b9k">
+Now it fits you good<br />
+Oh fits you good<br />
+Yeah fits you good<br />
+Oh fits you good<br />
+</blockquote>
+<figcaption>—Bryan Adams, <cite><a href="https://youtu.be/PzilYDj2b9k">Fits Ya good</a></cite></figcaption>
+</figure>
+
+<p>When a diagram is opened, a “Fit to screen” is automatically performed to ensure all its content is visible. Previously, depending on the coordinates of the elements it could happen that not all of them where visible on open.</p>
+
+<p><img src="https://docs.obeostudio.com/2022.01.0/img/FitToScreenOnOpen.gif" alt="Fit to screen" /></p>
+
+<p><strong>Stylish studios!</strong></p>
+
+<figure>
+<blockquote cite="https://youtu.be/-CmadmM5cOk">
+'Cause we never go out of style,
+we never go out of style
+</blockquote>
+<figcaption>—Taylor Swift, <cite><a href="https://youtu.be/-CmadmM5cOk">Style</a></cite></figcaption>
+</figure>
+
+<p>Release after release we continue to improve the web studio definition capabilities.</p>
+
+<p>Nodes can now have a dynamically computed size (using <code class="language-plaintext highlighter-rouge">Size Expression</code>) which depends on the current state of the semantic model. If the expression is present and produces a positive integer, it will be used as both the width and height of the node, in pixels. Currently it is not possible to compute different values for width and height.</p>
+
+<p><img src="/img/2022.01.0/sizenodedef.png" alt="image" />
+<img src="/img/2022.01.0/sizenode.png" alt="image" /></p>
+
+<p>It is now possible to define border nodes in web studio definition.</p>
+
+<p><img src="/img/2022.01.0/bordernode.png" alt="image" /></p>
+
+<p>And finally, it is possible to configure text style on labels: <strong>bold</strong>, <em>italic</em>, <u>underline</u>, <del>strike-through</del>.</p>
+
+<p><img src="/img/2022.01.0/style.png" alt="image" /></p>
+
+<p><strong>Next</strong></p>
+
+<p>The Obeo team has started a new iteration to preprare 2022.03.0, we focus on three topics:</p>
+
+<ul>
+  <li>Support of <strong>Component-like diagrams</strong> with ports and bendpoints for edges,</li>
+  <li><strong>Diagram user experience</strong> to smoothly edit, move, reconnect and layout diagrams,</li>
+  <li>And…(drum roll)… <strong>Tables</strong>! I am really enthusiastic about this one, we are cooking something really cool!</li>
+</ul>
+
+<p>A detailed release notes for <a href="https://docs.obeostudio.com/#_version_2022_01_0">2022.01.0</a> is available in our online documentation: <a href="http://docs.obeostudio.com">http://docs.obeostudio.com</a>.</p>
+
+<p>As usual, all these changes are made available thanks to our loved customers sponsoring the Sirius Web open source project! Do not hesitate to join the party and become a Sirius Web supporter, it is as easy as sending me an email.</p>
+
+<p>See you soon for the next Sirius Web and OCP <del>soundtrack</del> release!</p>
+
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2021/10/11/econ21/" data-toggle="tooltip" data-placement="top" title="Alice’s adventures in Sirius Web Land">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2022/02/09/siriusweb/" data-toggle="tooltip" data-placement="top" title="Meet Sirius in the browser">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/melaniebats">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/mbats">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/mélanie-bats-bb9a192b">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="mailto:melanie.bats@obeo.fr">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Mélanie Bats 2022</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+    
+</body>
+
+</html>
