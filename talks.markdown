@@ -5,6 +5,21 @@ description: "This lists all the talks I gave and the papers I wrote."
 header-img: "img/about-bg.jpg"
 ---
 
+## 2021
+
+[Alice's Adventures in Sirius Web land](https://www.eclipsecon.org/2021/sessions/alices-adventures-sirius-web-land) at EclipseCon, ([slides](https://www.slideshare.net/melbats/eclipsecon21-alices-adventures-in-sirius-web-land), [video](https://youtu.be/rmFEUU3Qmo8?list=PLy7t4z5SYNaRXTpMGCTjbUtSwBnTtFa0U))
+
+[Sirius Web, simplifier l'édition graphique de données dans le web](https://www.opensource-experience.com/event/) at Open Source Experience, Paris, France ([slides](https://www.slideshare.net/melbats/sirius-web-simplifier-ldition-graphique-de-donnes-dans-le-web), [video](https://youtu.be/Ws6jkL1Kar8))
+
+[What's new in Sirius?](https://www.siriuscon.org/2021/) at SiriusCon ([slides](https://www.slideshare.net/melbats/siriuscon-2021-keynote), [video](https://youtu.be/CmDmCW5LwxM))
+
+
+## 2020
+
+[Sirius Web](https://www.eclipsecon.org/2020/sessions/sirius-web-100-open-source-cloud-modeling-platform) at EclipseCon, ([slides](https://www.slideshare.net/melbats/eclipsecon-2020-sirius-web), [video](https://youtu.be/RS2_90146Io))
+
+[Sirius to the Web with Obeo Cloud Platform](https://www.siriuscon.org/2020/) at SiriusCon, ([slides](https://www.slideshare.net/melbats/siriuscon-2020-sirius-to-the-web-with-obeo-cloud-platform), [video](https://youtu.be/SEquVX8i0OA))
+
 ## 2019
 
 [Your cloud-based modeling workbench in 15 minutes with Eclipse Sirius](https://www.eclipsecon.org/europe2019/sessions/your-cloud-based-modeling-workbench-15-minutes-eclipse-sirius) at EclipseCon Europe, Ludwigsburg, Germany ([slides](https://fr.slideshare.net/melbats/eclipseconeu-2019-your-cloudbased-modeling-workbench-in-15-minutes-with-eclipse-sirius), [video](https://youtu.be/7LQ7MKXKH-I?list=PLy7t4z5SYNaT_yo5Dhajb9i-Pf0LbQ3z8))
