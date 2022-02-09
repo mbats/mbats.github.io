@@ -5,7 +5,7 @@
   <description>Posts tagged as 'planet'</description>
      <atom:link href="http://melb.enix.org/feeds/feed.planet.xml" rel="self" type="application/rss+xml" />
   <link>http://melb.enix.org/tag/planet/</link>
-  <updated>2022-02-09T14:49:16+01:00</updated>
+  <updated>2022-02-09T14:53:57+01:00</updated>
   <author>
    <name></name>
    <email></email>
@@ -141,8 +141,8 @@ June, July
 &lt;/blockquote&gt;
 &lt;figcaption&gt;—Boney M., &lt;cite&gt;&lt;a href=&quot;https://youtu.be/EIbuf0iZKq8&quot;&gt;Calendar song&lt;/a&gt;&lt;/cite&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Since two years now, we are working hard on &lt;a href=&quot;http://melb.enix.org/2020/10/13/sirius-web/&quot;&gt;Sirius Web in the open&lt;/a&gt;. Since the last 2021.12.0 version, Sirius Web released its first stable version. Since that point, we will take care about not breaking (too much) APIs for our &lt;a href=&quot;https://github.com/eclipse-sirius/sirius-components&quot;&gt;Sirius Components&lt;/a&gt; consumers. We decided to &lt;a href=&quot;https://github.com/eclipse-sirius/sirius-components/blob/master/doc/adrs/034_switch_from_semver_to_calver.adoc&quot;&gt;switch from semantic versioning to calendar versioning&lt;/a&gt; to reflect the maturity of the project.
-We will keep our development cycle with six weeks of work and two weeks for various minor improvements for each releases.
+&lt;p&gt;For two years now, we have been working hard on &lt;a href=&quot;http://melb.enix.org/2020/10/13/sirius-web/&quot;&gt;Sirius Web in the open&lt;/a&gt;. Since the last 2021.12.0 version, Sirius Web released its first stable version. Since that point, we will take care not to break (too much) APIs for our &lt;a href=&quot;https://github.com/eclipse-sirius/sirius-components&quot;&gt;Sirius Components&lt;/a&gt; consumers. We decided to &lt;a href=&quot;https://github.com/eclipse-sirius/sirius-components/blob/master/doc/adrs/034_switch_from_semver_to_calver.adoc&quot;&gt;switch from semantic versioning to calendar versioning&lt;/a&gt; to reflect the maturity of the project.
+We will keep our development cycle with six weeks of work and two weeks for various minor improvements for each release.
 Once a stable release “YEAR.MONTH.0” is done, we will start working on the next one “YEAR.MONTH+2.0”. During the preparation of the next release, we will improve the current branch to prepare for that release. As a result, we will have multiple intermediate releases with a YEAR.MONTH.1, YEAR.MONTH.2… YEAR.MONTH.42, etc. Those releases should be considered as milestones for the next stable one.&lt;/p&gt;
 
 &lt;p&gt;The changes made are tracked in the &lt;a href=&quot;https://github.com/eclipse-sirius/sirius-components/blob/master/CHANGELOG.adoc&quot;&gt;CHANGELOG&lt;/a&gt; where you can find a fine grain list of all the API breaks, new features, bug fixes and various improvements.&lt;/p&gt;
@@ -166,7 +166,7 @@ One dream, one &lt;b&gt;CONNECTOR&lt;/b&gt;&lt;br /&gt;
 &lt;ol&gt;
   &lt;li&gt;choose the generic &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Connector&lt;/code&gt; tool from the source node’s palette&lt;/li&gt;
   &lt;li&gt;select the target node&lt;/li&gt;
-  &lt;li&gt;choose which of the compatible tools to apply in the menu appears. If there only one compatible tool, it will be applied automatically.&lt;/li&gt;
+  &lt;li&gt;choose which of the compatible tools to apply in the menu appears. If there is only one compatible tool, it will be applied automatically.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;DnD for Unsync diagram&lt;/strong&gt;&lt;/p&gt;
@@ -202,7 +202,7 @@ Oh fits you good&lt;br /&gt;
 &lt;figcaption&gt;—Bryan Adams, &lt;cite&gt;&lt;a href=&quot;https://youtu.be/PzilYDj2b9k&quot;&gt;Fits Ya good&lt;/a&gt;&lt;/cite&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;When a diagram is opened, a “Fit to screen” is automatically performed to ensure all its content is visible. Previously, depending on the coordinates of the elements it could happen that not all of them where visible on open.&lt;/p&gt;
+&lt;p&gt;When a diagram is opened, a “Fit to screen” is automatically performed to ensure all its content is visible. Previously, depending on the coordinates of the elements it could happen that not all of them were visible on open.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://docs.obeostudio.com/2022.01.0/img/FitToScreenOnOpen.gif&quot; alt=&quot;Fit to screen&quot; /&gt;&lt;/p&gt;
 

@@ -24,8 +24,8 @@ June, July
 </blockquote>
 <figcaption>—Boney M., <cite><a href="https://youtu.be/EIbuf0iZKq8">Calendar song</a></cite></figcaption>
 </figure>
-Since two years now, we are working hard on [Sirius Web in the open](http://melb.enix.org/2020/10/13/sirius-web/). Since the last 2021.12.0 version, Sirius Web released its first stable version. Since that point, we will take care about not breaking (too much) APIs for our [Sirius Components](https://github.com/eclipse-sirius/sirius-components) consumers. We decided to [switch from semantic versioning to calendar versioning](https://github.com/eclipse-sirius/sirius-components/blob/master/doc/adrs/034_switch_from_semver_to_calver.adoc) to reflect the maturity of the project.
-We will keep our development cycle with six weeks of work and two weeks for various minor improvements for each releases.
+For two years now, we have been working hard on [Sirius Web in the open](http://melb.enix.org/2020/10/13/sirius-web/). Since the last 2021.12.0 version, Sirius Web released its first stable version. Since that point, we will take care not to break (too much) APIs for our [Sirius Components](https://github.com/eclipse-sirius/sirius-components) consumers. We decided to [switch from semantic versioning to calendar versioning](https://github.com/eclipse-sirius/sirius-components/blob/master/doc/adrs/034_switch_from_semver_to_calver.adoc) to reflect the maturity of the project.
+We will keep our development cycle with six weeks of work and two weeks for various minor improvements for each release.
 Once a stable release "YEAR.MONTH.0" is done, we will start working on the next one "YEAR.MONTH+2.0". During the preparation of the next release, we will improve the current branch to prepare for that release. As a result, we will have multiple intermediate releases with a YEAR.MONTH.1, YEAR.MONTH.2... YEAR.MONTH.42, etc. Those releases should be considered as milestones for the next stable one.
 
 The changes made are tracked in the [CHANGELOG](https://github.com/eclipse-sirius/sirius-components/blob/master/CHANGELOG.adoc) where you can find a fine grain list of all the API breaks, new features, bug fixes and various improvements.
@@ -48,7 +48,7 @@ A new _"Magic Connector"_ tool is available on diagrams. It provides an alternat
 
 1. choose the generic `Connector` tool from the source node’s palette
 2. select the target node
-3. choose which of the compatible tools to apply in the menu appears. If there only one compatible tool, it will be applied automatically.
+3. choose which of the compatible tools to apply in the menu appears. If there is only one compatible tool, it will be applied automatically.
 
 **DnD for Unsync diagram**
 
@@ -83,7 +83,7 @@ Oh fits you good<br/>
 <figcaption>—Bryan Adams, <cite><a href="https://youtu.be/PzilYDj2b9k">Fits Ya good</a></cite></figcaption>
 </figure>
 
-When a diagram is opened, a "Fit to screen" is automatically performed to ensure all its content is visible. Previously, depending on the coordinates of the elements it could happen that not all of them where visible on open.
+When a diagram is opened, a "Fit to screen" is automatically performed to ensure all its content is visible. Previously, depending on the coordinates of the elements it could happen that not all of them were visible on open.
 
 ![Fit to screen](https://docs.obeostudio.com/2022.01.0/img/FitToScreenOnOpen.gif)
 
