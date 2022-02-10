@@ -9,7 +9,7 @@
 
     <title>Meet Sirius in the browser - MelBlog</title>
 
-    <link rel="canonical" href="http://melb.enix.org/2022/02/09/siriusweb/">
+    <link rel="canonical" href="http://melb.enix.org/2022/02/08/siriusweb/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -90,7 +90,7 @@
                     
                     <h2 class="subheading">Your web modeling tools best friend</h2>
                     
-                    <span class="meta">Posted by Mélanie Bats on February 9, 2022</span>
+                    <span class="meta">Posted by Mélanie Bats on February 8, 2022</span>
                 </div>
             </div>
         </div>
@@ -106,7 +106,7 @@
 				<p>TLDR; This post is for you if you want to build web-based graphical modeling tools.
 Eclipse Sirius is an open source project to create domain-specific modeling workbenches.</p>
 
-<p>At this point, if you are not aware of “modeling and domain specific blablabla”, you might wonder <em>“What does she mean and why should I care about this?”</em>.</p>
+<p>At this point, if you are not aware of “modeling and domain specific blablabla”, you might wonder <em>“What does it mean and why should I care?”</em>.</p>
 
 <p><strong>Give semantics to your drawing…</strong></p>
 
@@ -114,11 +114,11 @@ Eclipse Sirius is an open source project to create domain-specific modeling work
 
 <p><img src="https://imgs.xkcd.com/comics/data_pipeline.png" alt="Data Pipeline" /></p>
 
-<p>And you want to <strong>represent</strong> and <strong>edit</strong> them in a visual way: diagram, table, forms, dashboard… You have so many ideas! You can visualize it already in your head! But you also want to <strong>exploit</strong> the information stored in your dataset…</p>
+<p>And you want to <strong>represent</strong> and <strong>edit</strong> them in a visual way: diagram, table, forms, dashboard… You have so many ideas! You can already visualize them in your head! But you also want to <strong>utilize</strong> the information stored in your dataset…</p>
 
 <ul>
-  <li>First option, you can use sheets, databases, low code platforms to represent and store your data and you can map your data to charts, forms… This is what you do with tools like Excel, Google Sheets, Airtable, and many low code tools… but but there is no way to represent them on a diagram ;(</li>
-  <li>Second option, you can represent your data graphically… thanks to tools like Miro or draw.io… but but then you are stuck! It is just a drawing, you cannot exploit the semantics of your data ;(</li>
+  <li>First option, you can use sheets, databases, low code platforms to represent and store your data and you can map your data to charts, forms… This is what you do with tools like Excel, Google Sheets, Airtable, and many low code tools… but there is no way to represent them on a diagram ;(</li>
+  <li>Second option, you can represent your data graphically… thanks to tools like Miro or draw.io… but then you are stuck! It is just a drawing, you cannot leverage the semantics of your data ;(</li>
 </ul>
 
 <p>“Holy crap… what could I do ?”</p>
@@ -138,8 +138,8 @@ Eclipse Sirius is an open source project to create domain-specific modeling work
 
 <p><img src="/img/siriusweb/architecture.png" alt="image" /></p>
 
-<p>Furthermore, as we are very greedy, we provide the Obeo Cloud Platform (OCP) as Sirius Web topping. OCP is a set of Cloud-based products for easily building and deploying modeling studios to the web for enterprise use cases. We offer the Obeo Studio to create graphical modeling solutions that can be used collaboratively from a web browser.
-It is built as an open-core product relying on Sirius Web. It is a Sirius Web build extended with Enterprise features, to deploy on public, private clouds or on premise and including support and upgrade guarantees.
+<p>Furthermore, as we are very greedy, we provide the Obeo Cloud Platform (OCP) as Sirius Web topping. OCP is a set of Cloud-based products to easily build and deploy modeling studios to the web for enterprise use cases. We offer Obeo Studio to create graphical modeling solutions that can be used collaboratively from a web browser.
+Obeo Studio is built as an open-core product relying on Sirius Web: it is a Sirius Web build extended with Enterprise features, to deploy on public, private clouds or on premise and including support and upgrade guarantees.
 One more option for you is to use the components from Sirius Web and OCP to integrate in your own application.</p>
 
 <p>So you are asking yourself <em>“Ok, I got it but what can I do concretely?”</em></p>
@@ -160,11 +160,11 @@ One more option for you is to use the components from Sirius Web and OCP to inte
 
 <p><img src="/img/siriusweb/domain.png" alt="image" /></p>
 
-<p>An objective is associated with one or more key results. They are all describes thanks to</p>
+<p>An objective is associated with one or more key results.</p>
 
 <p><strong>Map to visual representation</strong></p>
 
-<p>The next step is to decide how you want to represent your data, for that you have to create a <code class="language-plaintext highlighter-rouge">View</code>. For my to-do list tooling, I decide to represent it with a <strong>diagram</strong>:</p>
+<p>The next step is to decide how you want to represent your data: you have to create a <code class="language-plaintext highlighter-rouge">View</code>. For my to-do list tooling, I decide to represent it with a <strong>diagram</strong>:</p>
 
 <ul>
   <li>a graphical <em>node</em> for each concept I have: <code class="language-plaintext highlighter-rouge">Objective</code> and <code class="language-plaintext highlighter-rouge">KeyResult</code></li>
@@ -175,11 +175,11 @@ One more option for you is to use the components from Sirius Web and OCP to inte
 
 <p><strong>Semantics forever!</strong></p>
 
-<p>One last point (and I promise after that you can go back to normal activity), with Sirius Web you can also specify behaviors associated with your data. For instance, in my diagram I want to see what are the objectives I have checked and the one still to work on.
-I describe a conditional style on my <code class="language-plaintext highlighter-rouge">Objective</code>:</p>
+<p>One last point (and I promise after that you can go back to normal activity), with Sirius Web you can also specify behaviors associated with your data. For instance, in my diagram I want to see what are the objectives I have checked and the ones that still need to be worked on.
+I can describe a conditional style on my <code class="language-plaintext highlighter-rouge">Objective</code>:</p>
 
 <ul>
-  <li>red while is not yet completed,</li>
+  <li>red when it is not yet completed,</li>
   <li>green when all the key results are set to <code class="language-plaintext highlighter-rouge">Done</code>.</li>
 </ul>
 
@@ -187,8 +187,8 @@ I describe a conditional style on my <code class="language-plaintext highlighter
 
 <p><strong>Your studio is alive!</strong></p>
 
-<p>And what do you have to do next? Nothing! Just try your new dedicated tool! Sirius Web manages everything for you.
-Without doing anything to deploy, I can use my new diagram by creating a new <code class="language-plaintext highlighter-rouge">TodoList</code> and opening the associated representation.
+<p>What do you have to do next? Nothing! Just try your new dedicated tool! Sirius Web manages everything for you.
+Without anything to deploy, I can use my new diagram by creating a new <code class="language-plaintext highlighter-rouge">TodoList</code> and opening the associated representation.
 I can create new objectives and new key results, set their attributes and so on.</p>
 
 <p><img src="/img/siriusweb/studio.gif" alt="image" /></p>
@@ -202,10 +202,10 @@ I can create new objectives and new key results, set their attributes and so on.
 
 <p><strong>Give it a try!</strong></p>
 
-<p>You want to try it by yourself, this is possible, just create an account on our online demo: <a href="https://demo.obeostudio.com">https://demo.obeostudio.com</a>.
-You have any questions about Sirius Web or OCP, contact me!</p>
+<p>If you want to try it by yourself, just create an account on our online demo: <a href="https://demo.obeostudio.com">https://demo.obeostudio.com</a>.
+And if you have questions about Sirius Web or OCP, contact me!</p>
 
-<p>And as usual I am thankful to all our customers for their support of Sirius Web!</p>
+<p>As usual I am thankful to all our customers for their support of Sirius Web!</p>
 
 
                 <hr>
