@@ -2,7 +2,7 @@
 layout: post
 title: "Happy New 2022.01.0!"
 subtitle: "What's new in Sirius Web"
-date: 2022-02-04 10:00:00
+date: 2022-02-11 10:00:00
 author: "Mélanie Bats"
 header-img: "img/post-bg-04.jpg"
 tags: [planet]
