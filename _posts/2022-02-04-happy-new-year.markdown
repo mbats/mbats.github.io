@@ -62,7 +62,7 @@ She's out of sync<br/>
 <figcaption>—Devo, <cite><a href="https://youtu.be/ALanRqbNSvI?t=895">Out of sync</a></cite></figcaption>
 </figure>
 
-Since the [2021.10.0](https://docs.obeostudio.com/#_version_2021_10_0) release, it is possible to create so-called unsynchronized diagrams with Sirius Web. An unsynchronized diagram is a diagram which may not display all elements provided by the studio, but only the elements that the user selected.
+Since the [2021.10.0](https://docs.obeostudio.com/#_version_2021_10_0) release, it is possible to create so-called unsynchronized diagrams with Sirius Web. Where a synchronized diagram automatically computes the elements of the model displayed, an unsynchronized diagram allows the user to select the elements he wants (according to the rules defined by the diagram).
 We also added support for _“Delete from Diagram”_, to delete graphical elements without deleting the corresponding semantic element in unsynchronized diagrams.
 
 ![image](/img/2022.01.0/deletefromdiagram.png)
@@ -122,6 +122,6 @@ The Obeo team has started a new iteration to prepare 2022.03.0, during which we 
 
 A detailed release notes for [2022.01.0](https://docs.obeostudio.com/#_version_2022_01_0) is available in our online documentation: [http://docs.obeostudio.com](http://docs.obeostudio.com).
 
-As usual, all these changes are made available thanks to our loved customers sponsoring the Sirius Web open source project! Do not hesitate to join the party and become a Sirius Web supporter, it is as easy as sending me an email.
+As usual, all these changes are made available thanks to our loved customers sponsoring the Sirius Web open source project! Do not hesitate to join the party and become a Sirius Web supporter, it is as easy as sending me an email, or [contact the team](https://www.obeosoft.com/fr/contact).
 
 See you soon for the next Sirius Web and OCP ~~soundtrack~~ release!
