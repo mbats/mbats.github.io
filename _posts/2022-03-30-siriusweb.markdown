@@ -2,14 +2,14 @@
 layout: post
 title: "Meet Sirius in the browser"
 subtitle: "Your web modeling tools best friend"
-date: 2022-02-08 10:00:00
+date: 2022-03-30 10:00:00
 author: "Mélanie Bats"
-header-img: "img/post-bg-01.jpg"
+header-img: "img/post-bg-02.jpg"
 tags: [planet]
 ---
 
-TLDR; This post is for you if you want to build web-based graphical modeling tools.
-Eclipse Sirius is an open source project to create domain-specific modeling workbenches.
+_TLDR; This post is for you if you want to build web-based graphical modeling tools.
+[Eclipse Sirius](https://www.eclipse.org/sirius/sirius-web.html) is an open source project to create domain-specific modeling workbenches._
 
 At this point, if you are not aware of "modeling and domain specific blablabla", you might wonder _"What does it mean and why should I care?"_.
 
@@ -26,7 +26,7 @@ And you want to **represent** and **edit** them in a visual way: diagram, table,
 
 "Holy crap... what could I do ?"
 
-Come here... I have a secret to share with you: you should use Sirius!
+Come here... I have a secret to share with you: you should use [Eclipse Sirius](https://www.eclipse.org/sirius/sirius-web.html)!
 
 Sirius allows you to **represent your data**, **map them to graphical representations** and **take advantage of your data's semantic**!
 
@@ -34,12 +34,12 @@ Sirius allows you to **represent your data**, **map them to graphical representa
 
 Sirius has two flavors:
 
-- Sirius Desktop: to create modeling workbenches based on the Eclipse platform,
-- Sirius Web: to create cloud-ready modeling workbenches.
+- **Sirius Desktop**: to create modeling workbenches based on the Eclipse platform,
+- **Sirius Web**: to create cloud-ready modeling workbenches.
 
 ![image](/img/siriusweb/architecture.png)
 
-Furthermore, as we are very greedy, we provide the Obeo Cloud Platform (OCP) as Sirius Web topping. OCP is a set of Cloud-based products to easily build and deploy modeling studios to the web for enterprise use cases. We offer Obeo Studio to create graphical modeling solutions that can be used collaboratively from a web browser.
+Furthermore, as we are very greedy, we provide the [Obeo Cloud Platform (OCP)](https://www.obeosoft.com/en/products/obeo-cloud-platform) as Sirius Web topping. OCP is a set of Cloud-based products to easily build and deploy modeling studios to the web for enterprise use cases. We offer [Obeo Studio](https://www.obeosoft.com/en/products/obeo-studio) to create graphical modeling solutions that can be used collaboratively from a web browser.
 Obeo Studio is built as an open-core product relying on Sirius Web: it is a Sirius Web build extended with Enterprise features, to deploy on public, private clouds or on premise and including support and upgrade guarantees.
 One more option for you is to use the components from Sirius Web and OCP to integrate in your own application.
 
@@ -48,6 +48,8 @@ So you are asking yourself _"Ok, I got it but what can I do concretely?"_
 **Define your domain**
 
 The first thing to do is to describe your data. You can use Sirius Web to define your concepts and how they are related to each other.
+
+![image](/img/siriusweb/domain-start.png)
 
 For instance, I need a tool to represent all the things I have to do.
 
@@ -68,7 +70,7 @@ The next step is to decide how you want to represent your data: you have to crea
 - a graphical _node_ for each concept I have: `Objective` and `KeyResult`
 - an _edge_ `ObjectiveToKeyResult` to show which key results are associated with which objectives.
 
-![image](/img/siriusweb/view.png)
+![image](/img/siriusweb/view2.png)
 
 **Semantics forever!**
 
@@ -78,12 +80,12 @@ I can describe a conditional style on my `Objective`:
 - red when it is not yet completed,
 - green when all the key results are set to `Done`.
 
-![image](/img/siriusweb/studio.png)
+![image](/img/siriusweb/studio3.png)
 
 **Your studio is alive!**
 
 What do you have to do next? Nothing! Just try your new dedicated tool! Sirius Web manages everything for you.
-Without anything to deploy, I can use my new diagram by creating a new `TodoList` and opening the associated representation.
+Without anything to deploy, I can create a new project and use the Domain and View that I’ve just defined, to create a `Todolist`, containing KeyObjectives and Objectives, and create a synchronized graphical representation.
 I can create new objectives and new key results, set their attributes and so on.
 
 ![image](/img/siriusweb/studio.gif)
