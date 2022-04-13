@@ -1,0 +1,24 @@
+---
+layout: post
+title: "2022.5.0!"
+subtitle: "What's new ?"
+date: 2022-06-15 10:00:00
+author: "Mélanie Bats"
+header-img: "img/post-bg-02.jpg"
+tags: [planet]
+---
+
+Songs:
+
+https://medium.com/@aniboaz/ux-songs-37b697b71b31
+https://uxdesign.cc/the-heuristics-playlist-hits-to-celebrate-usability-838c8b606d2c
+
+Help : https://youtu.be/2Q_ZzBGPdqE
+
+It's Gonna Be May: https://youtu.be/GQMlWwIXg3M
+
+A detailed release notes for [2022.3.0](https://docs.obeostudio.com/#_version_2022_3_0) is available in our online documentation: [http://docs.obeostudio.com](http://docs.obeostudio.com).
+
+As usual, all these changes are made available thanks to our precious customers sponsoring the Sirius Web open source project! Do not hesitate to join the party and become a Sirius Web supporter, it is as easy as sending me an email, or [contact the team](https://www.obeosoft.com/fr/contact).
+
+See you soon for the next Sirius Web and OCP ~~soundtrack~~ release!

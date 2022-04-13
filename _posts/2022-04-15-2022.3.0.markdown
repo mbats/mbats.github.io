@@ -1,0 +1,154 @@
+---
+layout: post
+title: "That comes in spring: Sirius Web 2022.3.0!"
+subtitle: "What's new ?"
+date: 2022-04-15 10:00:00
+author: "Mélanie Bats"
+header-img: "img/post-bg-02.jpg"
+tags: [planet]
+---
+
+We planted the seed of the new [Eclipse Sirius Web](https://www.eclipse.org/sirius/sirius-web.html) and [OCP](https://www.obeosoft.com/en/products/obeo-cloud-platform)'s **2022.3.0 release** a few weeks ago and now the first buds appear!
+You are at the right place to discover the new Sirius capabilities (and poor you... the new fresh soundtrack coming along!).
+
+**Components diagrams**
+
+<figure>
+<blockquote cite="https://youtu.be/MrHxhQPOO2c">
+I can see clearly now the rain is gone<br/>
+I can see all the obstacles in my way<br/>
+Gone are the dark clouds that had me blind
+</blockquote>
+<figcaption>—Jimmy Cliff, <cite><a href="https://youtu.be/MrHxhQPOO2c">Bright sunshiny day</a></cite></figcaption>
+</figure>
+
+With Sirius Web, we aim to provide a smooth user experience, to smoothly edit, move, reconnect and layout diagrams. During this iteration, the team focused its efforts on removing all the obstacles to create and support component-like diagrams with ports.
+
+This release improves lots of small things to make it possible to create such diagrams:
+
+- The **label of an edge** can be displayed.
+- **Ports**, aka bordered nodes, were enhanced during the iteration, it is now possible to:
+
+- **Snap**: The user can move the border node only to the side of its parent node. The border node enters its parent node with 8px. The ELK automatic layout was adapted to have the same behavior as the manual layout.
+- **Display the label**: The border nodes' label is visible out of the node.
+- **Resize**: The resizing of the border nodes was improved.
+
+![Snap and resize port](/img/2022.3.0/snap-resize-port.gif)
+
+- Node **border support** was improved:
+
+  - Image nodes: Nodes which use images can now have a border with all the relevant properties: color, size, radius, and line style. This applies to modelers using the compatibility layer and the web-based diagram definitions.
+  - Web definition : It is now possible to configure all properties of a node’s border in web-based diagrams, including the border line style.
+    ![Border for node](/img/2022.3.0/border-node-definition-2.png)
+
+- **Explorer**:
+
+  - It is now possible to expand or collapse items in the explorer without selecting them by clicking directly on the expand/collapse arrow icon.
+  - When selecting an element or opening a representation (for example from its URL or from the onboard area), it is automatically made visible and selected in the explorer.
+
+![Explorer](/img/2022.3.0/explorer.gif)
+
+- Select representation opened from a tab.
+
+- Multiline labels are supported.
+
+![Multiline label](/img/2022.3.0/multilinelabel.gif)
+
+Notice that some more improvements will come in the next release mostly around bendpoints' support to better manage edges' layout.
+
+**Tables!**
+
+<figure>
+<blockquote cite="https://youtu.be/WvklCn1h9B0">
+Put all your weight on me<br/>
+And i'll be the stone that you need me to be<br/>
+</blockquote>
+<figcaption>—Jaymes Young, <cite><a href="https://youtu.be/WvklCn1h9B0">Stone</a></cite></figcaption>
+</figure>
+
+The laying of the first foundation stone is done. We introduced a new kind of representation to represent tables.
+
+<iframe width="560" height="315" src="https://youtu.be/DmFuZzAnOCQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+By default, this table component comes with:
+
+- alphabetical column ordering,
+- synchronization with Explorer/Details views,
+- pagination,
+- filter content,
+- multiple types of widgets for edition: text fields, lists, multi select lists...
+
+Some additional features will soon be ready and we are cooking something really cool for the next release about tables! Stay tuned!
+
+**That comes in spring ❤️**
+
+<figure>
+<blockquote cite="https://youtu.be/JhbBdgn4fb4">
+What is this thing<br/>
+That comes in spring<br/>
+That gives us all the itch?<br/>
+Oh, it’s love, it’s love, it’s love love love love love...<br/>
+</blockquote>
+<figcaption>—Charlie Chaplin, <cite><a href="https://youtu.be/JhbBdgn4fb4">Spring song</a></cite></figcaption>
+</figure>
+
+Spring is the season of love, love is around!
+And you know that love is not only great demonstrations but above all, lots of small attentions... hence we gave our love to many little things in Sirius Web during this iteration:
+
+💓 _Form_
+
+- The form representation now supports multiple elements as an input,
+- Support for displaying details on arbitrary element kinds,
+- Support for links in the form representation.
+
+💞 _Compatibility_
+
+We improved as well the compatibility layer which allows to reuse Sirius Desktop specification files aka `odesign`. We:
+
+- Provide a variable to detect which environment is used. The value of the variable will change to something specific for the integrating application (for example siriusWeb). This is only available for the diagram for now.
+- Add support for the Navigation model operation from Sirius RCP.
+- Add support for OperationAction. The actions are converted to regular tools available in the palette of the frontend.
+
+![Navigate](/img/2022.3.0/navigate.gif)
+
+💕 _Tools_
+
+The tools were enriched as we added support for:
+
+- tools preconditions,
+- and post selection.
+
+💝 _Export SVG_
+
+Finally, we added the ability to export diagrams as SVG images.
+
+![SVG](/img/2022.3.0/svg.gif)
+
+**Reduce, Reuse, Recycle!**
+
+<figure>
+<blockquote cite="https://youtu.be/AOvcW8l3RzE?t=7">
+Reduce, Reuse, Recycle.<br/>
+It's very easy to do.<br/>
+</blockquote>
+<figcaption>—The Kiboomers, <cite><a href="https://youtu.be/AOvcW8l3RzE?t=7">Reduce Reuse Recycle song</a></cite></figcaption>
+</figure>
+
+Sirius Web comes with a default application but above all it relies on many reusable components. As I explained in my previous post, Sirius Web depends on the [Sirius Components](https://github.com/eclipse-sirius/sirius-components). For a clearer status about what is part of these reusable components and what is part of the default sample application, we renamed the namespaces of the projects from `sirius-web-xxx` to `sirius-components-xxx`. The projects `sirius-web-api` and `sirius-web-core-api` have been merged into `sirius-components-core` since there was no difference in scope between both projects and neither of them was strictly limited to an API. Since we have validated that most of our projects can be reused outside of a Spring environment (i.e. an environment where Spring Frameworks is in charge of the ApplicationContext), we have removed the `-spring-` part from most of our project names.
+
+Other enhancements developed by the team during this iteration were around the **workbench**. We went one step further for the one who wants to reuse the Sirius Web workbench to build their own application. The integration of the details view in the workbench is not limited to semantic objects anymore. Now, any object can be used as the input of the details view and we provide the identifier of all the objects in the selection. This may include graphical elements such as nodes, edges, representations or anything selected in the explorer for example.
+
+Moreover, the workbench no longer hard-codes the views which are visible in the left and right side-panels. Instead, each application must explicitly configure its workbench using the new `WorkbenchViewContribution` element. The team uses the [Architecture Decision Records](https://github.com/eclipse-sirius/sirius-components/blob/master/doc/adrs/000_adopt_adrs.adoc) to document all the decisions made during the project life by the team. For example, for this one you can see [ADR-046](https://github.com/eclipse-sirius/sirius-components/blob/master/doc/adrs/046_make_the_workbench_panels_content_configurable.adoc) for more details.
+
+**Next**
+
+To conclude, what's on the table for the next release?
+
+- Easy Peasy **Tables definition** !
+- **User experience** continuous effort, mainly focused on the diagrams and the edge concept by finishing the work on the bendpoints' integration, by allowing reconnection...
+
+As usual, a detailed release notes for [2022.3.0](https://docs.obeostudio.com/#_version_2022_3_0) is available on our online documentation: [http://docs.obeostudio.com](http://docs.obeostudio.com).
+
+Again, all these changes are made available thanks to our precious' customers sponsoring the Sirius Web open source project! Do not hesitate to join the party and become a Sirius Web supporter, it is as easy as sending me an email, or [contact the team](https://www.obeosoft.com/fr/contact).
+
+See you soon for the next Sirius Web and OCP release!
