@@ -49,7 +49,6 @@ This release improves lots of small things to make it possible to create such di
 ![Explorer](/img/2022.3.0/explorer.gif)
 
 - Select representation opened from a tab.
-
 - Multiline labels are supported.
 
 ![Multiline label](/img/2022.3.0/multilinelabel.gif)
@@ -66,9 +65,9 @@ And i'll be the stone that you need me to be<br/>
 <figcaption>—Jaymes Young, <cite><a href="https://youtu.be/WvklCn1h9B0">Stone</a></cite></figcaption>
 </figure>
 
-The laying of the first foundation stone is done. We introduced a new kind of representation to represent tables.
+The laying of the first foundation stone is done. We introduced a new kind of representation to represent tables. For instance, this kind of table can be defined programmatically in order to display the childs of a model element.
 
-<iframe width="560" height="315" src="https://youtu.be/DmFuZzAnOCQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DmFuZzAnOCQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 By default, this table component comes with:
 
@@ -97,19 +96,24 @@ And you know that love is not only great demonstrations but above all, lots of s
 
 💓 _Form_
 
-- The form representation now supports multiple elements as an input,
-- Support for displaying details on arbitrary element kinds,
+- The form representation now supports multiple elements as an input which allows to implement multi selection features as below we can select multiple elements in the explorer which are visible in the details view as different tabs.
+  ![Multi selection](/img/2022.3.0/multiselection.gif)
+
+- Support for displaying details on arbitrary element kinds. This is the first step for instance to implement such feature existing in Sirius Desktop: select a diagram in the explorer to get its properties displayed in the details view:
+  ![Details view for representation](/img/2022.3.0/details.gif)
+
 - Support for links in the form representation.
+  ![Hyperlinks](/img/2022.3.0/hyperlink.gif)
 
 💞 _Compatibility_
 
 We improved as well the compatibility layer which allows to reuse Sirius Desktop specification files aka `odesign`. We:
 
 - Provide a variable to detect which environment is used. The value of the variable will change to something specific for the integrating application (for example siriusWeb). This is only available for the diagram for now.
-- Add support for the Navigation model operation from Sirius RCP.
+- Add support for the Navigation model operation from Sirius Desktop.
 - Add support for OperationAction. The actions are converted to regular tools available in the palette of the frontend.
 
-![Navigate](/img/2022.3.0/navigate.gif)
+![Navigate](/img/2022.3.0/navigate-text.gif)
 
 💕 _Tools_
 
