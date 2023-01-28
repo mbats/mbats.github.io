@@ -82,7 +82,8 @@ We enhance the way to [create your custom representations](https://docs.obeostud
 
 - We provide new arrow circle styles : Circle, FillCircle and CrossedCircle.
   ![Arrow Styles](/img/2023.1/arrow_styles.png)
-- We have support for completion in the View details for **Domain types** and **AQL expressions**. Any field in the property view which has a green background expects a Domain type and yellow background expects an interpreted expression. In these fields, auto-completion can be triggered by hitting <img src="https://github.com/mbats/sirius-blog/blob/master/keyboard/blog/images/computer_key_Ctrl_T.png?raw=true" alt="" border="0" />+<img src="https://github.com/mbats/sirius-blog/blob/master/keyboard/blog/images/computer_key_Space_bar_T.png?raw=true" alt="" border="0" />.
+- We have support for completion in the View details for **Domain types** and **AQL expressions**. Any field in the property view which has a green background expects a Domain type and yellow background expects an interpreted expression.
+<p>In these fields, auto-completion can be triggered by hitting <img src="https://github.com/mbats/sirius-blog/blob/master/keyboard/blog/images/computer_key_Ctrl_T.png?raw=true" alt="" border="0"/>+<img src="https://github.com/mbats/sirius-blog/blob/master/keyboard/blog/images/computer_key_Space_bar_T.png?raw=true" alt="" border="0"/>.</p>
   When hitting auto-completion on an empty expression, the first completion proposal will correspond to the features, services, etc. which are available on the current element.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8M-0aV6LsqA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
