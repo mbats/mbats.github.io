@@ -36,7 +36,7 @@ Sirius Web used to display all elements of a diagram but in a large diagram, the
 Since 2023.1, you can hide or fade a diagram element through the UI.
 If a diagram element is hidden, all contained nodes and connected edges have to be hidden too. After an element is hidden, in case of manual layout, the layout remains the same.
 If a diagram element is faded, there is no propagation to contained or connected diagram elements. Concerning faded graphic elements, they are still visible (from the user point of view) so the auto-layout will be applied.
-![Hide/Fade](img/2023.1/hide_fade.png)
+![Hide/Fade](/img/2023.1/hide_fade.png)
 
 ## Studio Maker
 
@@ -50,7 +50,7 @@ Don't shatter my image with the stones you throw
 </figure>
 
 Users can now upload their own images from a project’s new settings page. These images can be displayed in forms using the new image widget, or in View-based diagrams.
-![Images Settings](img/2023.1/images_settings.png)
+![Images Settings](/img/2023.1/images_settings.png)
 
 **List compartments!**
 
@@ -65,7 +65,7 @@ You might need it
 </figure>
 
 You loved the Sirius Desktop compartments? Now, it also exists in Sirius web. Starting from 2023.1, we support vertical compartments to display list elements. It's a first step we will continue to improve in the next releases.
-![Compartments](img/2023.1/list_compartment.png)
+![Compartments](/img/2023.1/list_compartment.png)
 
 **Circle of Edge and Completion!**
 
@@ -81,7 +81,7 @@ Through despair and hope
 We enhance the way to [create your custom representations](https://docs.obeostudio.com/2023.1.0/help_center.html#view_definition).
 
 - We provide new arrow circle styles : Circle, FillCircle and CrossedCircle.
-  ![Arrow Styles](img/2023.1/arrow_styles.png)
+  ![Arrow Styles](/img/2023.1/arrow_styles.png)
 - We have support for completion in the View details for **Domain types** and **AQL expressions**. Any field in the property view which has a green background expects a Domain type and yellow background expects an interpreted expression. In these fields, auto-completion can be triggered by hitting <img src="https://github.com/mbats/sirius-blog/blob/master/keyboard/blog/images/computer_key_Ctrl_T.png?raw=true" alt="" border="0" />+<img src="https://github.com/mbats/sirius-blog/blob/master/keyboard/blog/images/computer_key_Space_bar_T.png?raw=true" alt="" border="0" />.
   When hitting auto-completion on an empty expression, the first completion proposal will correspond to the features, services, etc. which are available on the current element.
 
@@ -100,18 +100,18 @@ See, I'd have all the money in the world
 
 We introduced with 2022.7 a WYSIWYG editor to simplify and speed up the process of [building a Form Description](https://docs.obeostudio.com/2023.1.0/help_center.html#form_description_editor).
 
-![Form Description Editor](img/2023.1/FormDescriptionEditor.png)
+![Form Description Editor](/img/2023.1/FormDescriptionEditor.png)
 
 We continue our work to enrich forms, with support for:
 - **style preview**: you can see the static styles directly in the form preview (for instance, on the previous screenshot the green and red buttons).
 - a basic **image widget**:
- ![Image Widget](img/2023.1/image_widget.png)
+ ![Image Widget](/img/2023.1/image_widget.png)
 
 - a **rich text edition widget**: The widget behaves in a similar way to the existing textfield and textarea widgets, except that the text value should be valid Markdown, and can be edited in a WYSIWYG way by the end user.
- ![Rich Text Widget](img/2023.1/rich_text.png)
+ ![Rich Text Widget](/img/2023.1/rich_text.png)
 - **groups** : A Group is used to represent a Section in a details view tab.
 - **toolbar actions**: A group can also define toolbar actions which will be used to create buttons in the toolbar of the group to let the end user execute some operations easily.
- ![Groups & Toolbar actions](img/2023.1/FormDescriptionEditorToolbar.gif)
+ ![Groups & Toolbar actions](/img/2023.1/FormDescriptionEditorToolbar.gif)
 
 ## What’s next
 
