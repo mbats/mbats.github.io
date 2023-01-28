@@ -1,0 +1,467 @@
+<mxfile host="65bd71144e">
+    <diagram id="_DstlkFWwFc9BOrIgoXT" name="Page-1">
+        <mxGraphModel dx="7508" dy="1515" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="116" value="2022.5.0" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;horizontal=0;dashed=1;dashPattern=1 4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="1780" width="2660" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="2022.7.0" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;horizontal=0;dashed=1;dashPattern=1 4;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="1900" width="2660" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="2022.x" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;horizontal=0;dashed=1;dashPattern=1 4;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="2020" width="2660" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="2022.3.0" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;horizontal=0;dashed=1;dashPattern=1 4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="1600" width="2660" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="2021.10.0" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;horizontal=0;dashed=1;dashPattern=1 4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="1180" width="2660" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="2021.06.0" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;horizontal=0;dashed=1;dashPattern=1 4;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="1060" width="2660" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="2020.10.0" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;horizontal=0;dashed=1;dashPattern=1 4;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="820" width="2660" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="2021.12.0" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;horizontal=0;dashed=1;dashPattern=1 4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="1300" width="2660" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="2022.01.0" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;horizontal=0;dashed=1;dashPattern=1 4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="1420" width="2660" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Application User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="-2635" y="480" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Studio Maker" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1390" y="480" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Application Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1675" y="480" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1130" y="480" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Persona" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="-3615" y="480" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-3530" y="560" as="sourcePoint"/>
+                        <mxPoint x="-1000" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="User Journey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="13" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Goals" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Activities" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Benefit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Product Features" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3660" y="820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Build an application dedicated to a domain" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="580" width="600" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Edit data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-2320" y="640" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Calendar versioning" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1120" y="1420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Magic connector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2210" y="1420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Unsynchronize diagram" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3040" y="1060" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Delete from diagram" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3040" y="1120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Fit to screen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3160" y="1420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Dynamic sizing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="1420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Border nodes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="1480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Text style on labels" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="1540" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Border line style" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="1780" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Expand/Collapse explorer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3400" y="1600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Multiline label" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2920" y="1600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Table editor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2680" y="1600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Multi inputs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2320" y="1600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Hyperlink" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2440" y="1180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Export SVG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1960" y="1780" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Extend standard application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="640" width="480" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Create a dedicated application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-1120" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Accelerate &lt;br&gt;edition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-2200" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="DnD from explorer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3040" y="1420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Use tables" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-1960" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="Use forms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-2080" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Visualize data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-3280" y="640" width="840" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Use forms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-2800" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Use diagrams" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-3280" y="700" width="480" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="Use tables" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-2680" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="Synchronize diagram" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-3280" y="820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="Represent up-to-date data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-3280" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Manage any data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-2320" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Use diagrams" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-2320" y="700" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="Export/Import data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-1960" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="Navigate data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-2440" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="Administrate application server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-1720" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-1240" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-1120" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="Project Template" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2440" y="1900" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="Bendpoints" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2210" y="1900" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="Reconnect" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2210" y="1960" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Define table" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2680" y="2020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="Inter model reference" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1840" y="2020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="Reuse mapping" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="2020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="Compartments" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2920" y="2020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="Style custo" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="2140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="Direct edit for edge centered labels" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2210" y="1300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="Extended SVG styles" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="2080" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="Link with editor (Disability)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2440" y="2020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="Form definition editor (Widget Reference /List)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1360" y="2020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="Keyboard shortcut" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2210" y="2080" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="Theia extension&lt;br&gt;(public)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1120" y="2020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="Contribute table" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-1480" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="Contribute form" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-1360" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="Contribute diagram" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Details View" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2320" y="820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="Representations View" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2440" y="1300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Clear diagram" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-3160" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="Incremental layout" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-3160" y="1180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Automatic layout" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-3160" y="940" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="Projects Browser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3400" y="940" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="Project Editor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3400" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="Project Explorer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2320" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="Diagram Editor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3280" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="Administrate application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-1720" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Use application dedicated to a specific domain" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-3520" y="580" width="1800" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="Authenticate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-3520" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="Users management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3520" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="Teams" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1840" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="Share data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-1840" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="Live Collaboration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1840" y="940" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="Webhooks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1120" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Free layout" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-3160" y="1060" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="Arrange all" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-3160" y="1120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="List Container" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-2920" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="Manage users" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1720" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="Workbench" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3400" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="Guide users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-2440" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="Rounded Corner" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-2920" y="1060" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="Animated feedback" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-3280" y="1060" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="Representation tabs" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-3400" y="1060" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="Form editors&lt;br&gt;(Text widget)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-2800" y="1060" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="Project editor onboarding" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-2440" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="Ready-to-use application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-3400" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="Style data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-2920" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="Manage projects" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-3400" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Represent only expected data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-3040" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="Connect with other applications" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-1120" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="Collaborate on data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-1840" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="Domain editor" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="1060" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="D3" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;sketch=0;glass=0;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="-2560" y="1060" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="Use other representations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-2560" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="GraphQL API for AQL queries" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1120" y="1180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="Synchronized diagram" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="1120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="Validation view" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-3400" y="1180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="Direct edit for edge labels" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2210" y="2020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" value="Tree" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-2560" y="1300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="External Java action" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;sketch=0;glass=0;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="1360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="No code representations definitions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="760" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="Download/Upload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1960" y="820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="Link with editor (Explorer/Diagram)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2440" y="1600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="Widget text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2800" y="1780" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="Form definition editor (text)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1360" y="1780" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" value="Form definition editor (checkbox, radio, charts,...)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1360" y="1900" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="Link with editor (Representation tab to Explorer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2440" y="1780" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="Blockly" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;sketch=0;glass=0;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="-2560" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="Textual representation based on Xtext" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;sketch=0;glass=0;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="-2560" y="1240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="Textual representation based on Langium" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;sketch=0;glass=0;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2560" y="1960" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="Semantic Browser" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-2440" y="1960" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="208" value="Table definition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1240" y="1600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="Diagram definition (Synchronized diagram)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1240" y="820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="Implement specific views with code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-1240" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="Form definition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1240" y="1060" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="Theia extension" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1120" y="1240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="216" value="Share via URL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1840" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="Diagram definition (Unsynchronized diagram)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1240" y="1120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="218" value="Unsynchronized diagram" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="1300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="Border nodes layout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-3160" y="1600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="Navigation model operation / Operation action" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1240" y="1660" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="221" value="Tools precondition / Post selection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1120" y="1600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" value="Details view on any objects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1120" y="1660" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" value="Workbench View Contribution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1120" y="1720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;html=1;startArrow=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-3530" y="570" as="sourcePoint"/>
+                        <mxPoint x="-3530" y="2200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" value="Priority" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];horizontal=0;" vertex="1" connectable="0" parent="24">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-5" y="60" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="228" value="Privacy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-3520" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="229" value="Visualize details" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-2800" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" value="Filter mass data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-2680" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="Get specific views" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-2560" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="Get specific widgets" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-2080" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="Mass data edition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-1960" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="Monitor application and users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-1720" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
