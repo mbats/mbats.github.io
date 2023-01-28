@@ -12,8 +12,8 @@ tags: [planet]
 Preparing the Sirius Web project’s objectives, I was wondering: what’s in store for this year? And, just for curiosity, I searched for the chinese zodiac fortune predictions for 2023:
 
 <blockquote>
-The year of the Water Rabbit is going to be a gentler year.
-We’ll have time to take a breather.
+The year of the Water Rabbit is going to be a gentler year.<br/>
+We’ll have time to take a breather.<br/>
 We’ve been in the tunnel for the last few years, and the light is getting bigger now.
 </blockquote>
 
@@ -43,7 +43,7 @@ If a diagram element is faded, there is no propagation to contained or connected
 **Provide your images at runtime!**
 <figure>
 <blockquote cite="https://www.youtube.com/watch?v=Z7sNWMvLLl4">
-Shatter my image with the stones you throw
+Shatter my image with the stones you throw<br/>
 Don't shatter my image with the stones you throw
 </blockquote>
 <figcaption>—Dolly Parton, <cite><a href="https://www.youtube.com/watch?v=Z7sNWMvLLl4">Shattered images</a></cite></figcaption>
@@ -56,9 +56,9 @@ Users can now upload their own images from a project’s new settings page. Thes
 
 <figure>
 <blockquote cite="https://www.youtube.com/watch?v=yw-Wmd3HT24">
-I redesign that heart of yours
-7 compartments plus one
-You might need it
+I redesign that heart of yours<br/>
+7 compartments plus one<br/>
+You might need it<br/>
 7 compartments plus two
 </blockquote>
 <figcaption>—Rainbirds, <cite><a href="https://www.youtube.com/watch?v=yw-Wmd3HT24">7 compartments</a></cite></figcaption>
@@ -71,8 +71,8 @@ You loved the Sirius Desktop compartments? Now, it also exists in Sirius web. St
 
 <figure>
 <blockquote cite="https://youtu.be/GibiNy4d4gc">
-It's the circle of life
-And it moves us all
+It's the circle of life<br/>
+And it moves us all<br/>
 Through despair and hope
 </blockquote>
 <figcaption>—The Lion King, <cite><a href="https://youtu.be/GibiNy4d4gc">Circle Of Life</a></cite></figcaption>
@@ -91,8 +91,8 @@ We enhance the way to [create your custom representations](https://docs.obeostud
 
 <figure>
 <blockquote cite="https://youtu.be/GibiNy4d4gc">
-If I was rich girl
-Na, na, na, na, na, na, na, na, na, na, na
+If I was rich girl<br/>
+Na, na, na, na, na, na, na, na, na, na, na<br/>
 See, I'd have all the money in the world
 </blockquote>
 <figcaption>—Gwen Stefani, <cite><a href="https://youtu.be/GibiNy4d4gc">Rich Girl</a></cite></figcaption>
