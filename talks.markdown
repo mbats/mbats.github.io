@@ -5,9 +5,17 @@ description: "This lists all the talks I gave and the papers I wrote."
 header-img: "img/about-bg.jpg"
 ---
 
+## 2022
+
+[Sirius Web 101: Create a Modeler With No Code](https://www.eclipsecon.org/2022/sessions/sirius-web-101-create-modeler-no-code) at EclipseCon, Ludwigsburg, Germany ([video](https://www.youtube.com/watch?v=p_tDEzGtS0o))
+
+[Sirius Project, Now and In the Future](https://www.siriuscon.org/#talk4) at SiriusCon ([video](https://i.ytimg.com/vi/VOH8Pi23vtQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnS7dZBDuysT_sU0FDcVLdTTWnPA))
+
+[S'il vous plaît... dessine-moi une appli !](https://mixitconf.org/en/2022/s-il-vous-plait-dessine-moi-une-appli-) at Mixit, Lyon, France ([video](https://mixitconf.org/en/2022/s-il-vous-plait-dessine-moi-une-appli-))
+
 ## 2021
 
-[Alice's Adventures in Sirius Web land](https://www.eclipsecon.org/2021/sessions/alices-adventures-sirius-web-land) at EclipseCon, ([slides](https://www.slideshare.net/melbats/eclipsecon21-alices-adventures-in-sirius-web-land), [video](https://youtu.be/rmFEUU3Qmo8?list=PLy7t4z5SYNaRXTpMGCTjbUtSwBnTtFa0U))
+[Alice's Adventures in Sirius Web land](https://www.eclipsecon.org/2021/sessions/alices-adventures-sirius-web-land) at EclipseCon ([slides](https://www.slideshare.net/melbats/eclipsecon21-alices-adventures-in-sirius-web-land), [video](https://youtu.be/rmFEUU3Qmo8?list=PLy7t4z5SYNaRXTpMGCTjbUtSwBnTtFa0U))
 
 [Sirius Web, simplifier l'édition graphique de données dans le web](https://www.opensource-experience.com/event/) at Open Source Experience, Paris, France ([slides](https://www.slideshare.net/melbats/sirius-web-simplifier-ldition-graphique-de-donnes-dans-le-web), [video](https://youtu.be/Ws6jkL1Kar8))
 
